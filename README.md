@@ -78,6 +78,8 @@ Click on the boxes to mark tasks as completed.
 |-----------------|-----|
 | LLM4REC         | [https://github.com/anord-wang/LLM4REC.git](https://github.com/anord-wang/LLM4REC.git) |
 
+
+
 ---
 
 ## References
@@ -85,3 +87,5 @@ Click on the boxes to mark tasks as completed.
 | Reference | URL |
 |-----------|-----|
 | LLM4Rec Awesome Papers | [https://github.com/WLiK/LLM4Rec-Awesome-Papers](https://github.com/WLiK/LLM4Rec-Awesome-Papers) |
+| llmrecsys | [https://llmrecsys.github](https://llmrecsys.github.io/) |
+
