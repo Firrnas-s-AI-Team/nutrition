@@ -1,10 +1,11 @@
-# nutrition
-
-
 # Nutrition App Pipeline
 
-## Pipline
+---
+
+## Pipeline Diagram
 ![Pipeline-V1](assets/pipev1.png)
+
+---
 
 ## Overview
 The Nutrition App is a comprehensive system designed to provide personalized meal recommendations based on user input. It calculates the expected weight loss over a specified period and allows users to customize meals while tracking calorie intake.
@@ -58,14 +59,29 @@ The Nutrition App is a comprehensive system designed to provide personalized mea
 - Allows users to modify meals.
 - Recalculates total daily calorie intake after changes.
 
+---
 
+## Progress Tracker
+Click on the boxes to mark tasks as completed.
 
-## Base Repos: 
-- https://github.com/anord-wang/LLM4REC.git
-- 
+- [ ] User Information Input
+- [ ] Data Processing
+- [ ] Meal Plan Generation
+- [ ] Weight Loss Estimation
+- [ ] Customization and Calorie Recalculation
 
+---
 
+## Base Repositories
 
+| Repository Name | URL |
+|-----------------|-----|
+| LLM4REC         | [https://github.com/anord-wang/LLM4REC.git](https://github.com/anord-wang/LLM4REC.git) |
 
-## Refernces
-- https://github.com/WLiK/LLM4Rec-Awesome-Papers
+---
+
+## References
+
+| Reference | URL |
+|-----------|-----|
+| LLM4Rec Awesome Papers | [https://github.com/WLiK/LLM4Rec-Awesome-Papers](https://github.com/WLiK/LLM4Rec-Awesome-Papers) |
