@@ -1,0 +1,3 @@
+[submodule "LLM4REC"]
+	path = LLM4REC
+	url = https://github.com/anord-wang/LLM4REC.git
