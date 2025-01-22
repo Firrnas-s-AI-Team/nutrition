@@ -182,3 +182,5 @@ helper.py
 ngrok-stable-linux-amd64.zip
 ngrok
 notebook30821a7c31.ipynb
+
+.DS_Store
