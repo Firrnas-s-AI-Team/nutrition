@@ -1,0 +1,65 @@
+@startuml
+skinparam NoteBackgroundColor #FFF5C3
+skinparam NoteBorderColor #FF9900
+skinparam DefaultFontSize 14
+
+start
+:User enters personal information;
+note right
+Includes age, gender, weight, height, activity level, and dietary preferences.
+end note
+
+:Validate user input;
+note right
+Ensures all fields are filled correctly and values are within expected ranges.
+end note
+
+:Calculate BMR and TDEE;
+note right
+BMR: Basal Metabolic Rate\nTDEE: Total Daily Energy Expenditure, used to estimate daily calorie needs.
+end note
+
+:Send data to LLM;
+note right
+Processed information is sent to a Large Language Model for generating recommendations.
+end note
+
+:Generate meal recommendations for the day;
+note right
+The LLM returns meals tailored to user preferences and caloric needs.
+end note
+
+:Estimate weight loss over a specific period;
+note right
+Based on caloric deficit, the app estimates potential weight loss over time.
+end note
+
+if (Does the user want to customize meals?) then (Yes)
+  :Allow user to modify meals;
+  note right
+  Users can swap or edit meals based on their preferences.
+  end note
+
+  :Recalculate calorie intake;
+  note right
+  Updates the total calorie count based on modified meals.
+  end note
+
+  :Estimate updated weight loss over a specific period;
+  note right
+  Adjusts the weight loss calculation to reflect the changes.
+  end note
+else (No)
+  :Save meal plan;
+  note right
+  The generated plan is saved for future use.
+  end note
+endif
+
+:Track progress and display results;
+note right
+Visualizes weight loss, caloric intake, and meal adherence over time.
+end note
+
+stop
+@enduml

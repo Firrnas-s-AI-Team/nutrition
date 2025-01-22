@@ -57,3 +57,15 @@ The Nutrition App is a comprehensive system designed to provide personalized mea
 ### 5. Customization and Calorie Recalculation
 - Allows users to modify meals.
 - Recalculates total daily calorie intake after changes.
+
+
+
+## Base Repos: 
+- https://github.com/anord-wang/LLM4REC.git
+- 
+
+
+
+
+## Refernces
+- https://github.com/WLiK/LLM4Rec-Awesome-Papers
