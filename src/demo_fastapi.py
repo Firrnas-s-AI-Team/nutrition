@@ -1,8 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import subprocess
-import json
-from typing import List, Optional
+from typing import List
 from datetime import datetime
 
 app = FastAPI()
@@ -116,7 +115,6 @@ Snack: [meal] ([calories] cal)
             meal_plan=meal_plan,
             timestamp=str(datetime.now())
         )
-
         return response
 
     except subprocess.CalledProcessError as e:
@@ -127,5 +125,4 @@ Snack: [meal] ([calories] cal)
 
 if __name__ == "__main__":
     import uvicorn
-
     uvicorn.run(app, host="0.0.0.0", port=8000)
