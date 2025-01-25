@@ -5,7 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-
+.venv
+*.xml
+*.iml
 # Distribution / packaging
 .Python
 build/
