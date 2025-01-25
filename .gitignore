@@ -187,4 +187,5 @@ ngrok
 notebook30821a7c31.ipynb
 
 .DS_Store
-.xml
+*.xml
+*.iml
