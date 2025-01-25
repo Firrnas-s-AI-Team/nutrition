@@ -240,7 +240,6 @@
 # if __name__ == "__main__":
 #     demo.launch()
 
-
 import gradio as gr
 import json
 import subprocess
@@ -248,7 +247,7 @@ from pathlib import Path
 import traceback
 from datetime import datetime
 
-DATA_FILE = 'datausers.json'
+DATA_FILE = 'C:\\Users\\ahmed\\PycharmProjects\\nutrition\\assets\\datausers.json'
 MODEL_NAME = "deepseek-r1:1.5b"
 
 
@@ -280,10 +279,8 @@ def save_user_profile(name, age, gender, weight, height, activity_level, goal,
             }
         }
     }
-
     with open(DATA_FILE, 'w', encoding='utf-8') as f:
         json.dump(user_data, f, indent=4)
-
     return "Profile saved successfully!"
 
 
@@ -291,7 +288,6 @@ def generate_plan():
     try:
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             user_data = json.load(f)
-
         bmi = calculate_bmi(user_data['user_profile']['weight'],
                             user_data['user_profile']['height'])
         water_intake = round((user_data['user_profile']['weight'] * 0.035), 2)
@@ -330,8 +326,7 @@ Requirements:
         chat_history = {
             "user_profile": user_data["user_profile"],
             "generated_plan": result.stdout,
-            "timestamp": str(datetime.now())
-        }
+            "timestamp": str(datetime.now())}
 
         history_file = 'chat_history.json'
         if Path(history_file).exists():
@@ -360,8 +355,7 @@ def chat_with_model(message, history):
             input=message,
             capture_output=True,
             text=True,
-            check=True
-        )
+            check=True)
         return result.stdout.strip()
     except Exception as e:
         return f"Error: {str(e)}"
@@ -379,14 +373,13 @@ with gr.Blocks(title="Nutrition Planning System") as demo:
                 height = gr.Number(label="Height (cm)")
                 activity = gr.Dropdown(
                     choices=["Sedentary", "Light", "Moderate", "Very Active"],
-                    label="Activity Level"
-                )
+                    label="Activity Level")
 
             with gr.Column():
                 goal = gr.Dropdown(
                     choices=["Weight Loss", "Maintenance", "Muscle Gain"],
-                    label="Goal"
-                )
+                    label="Goal")
+
                 target = gr.Number(label="Target Weight (kg)")
                 calories = gr.Number(label="Daily Calories")
                 meals = gr.Number(label="Meals per Day")
@@ -401,8 +394,7 @@ with gr.Blocks(title="Nutrition Planning System") as demo:
             save_user_profile,
             inputs=[name, age, gender, weight, height, activity, goal,
                     target, calories, meals, allergies, liked, disliked],
-            outputs=save_output
-        )
+            outputs=save_output)
 
     with gr.Tab("Generate Plan"):
         generate_btn = gr.Button("Generate Nutrition Plan")
