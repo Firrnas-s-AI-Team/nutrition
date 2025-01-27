@@ -5,7 +5,6 @@ from typing import List
 from datetime import datetime
 
 app = FastAPI()
-
 MODEL_NAME = "deepseek-r1:1.5b"
 
 
@@ -43,7 +42,6 @@ def calculate_bmi(weight: float, height: float) -> float:
 def format_meal_plan(plan_text: str) -> List[dict]:
     days = []
     current_day = None
-
     for line in plan_text.split('\n'):
         if 'Day' in line:
             if current_day:
@@ -54,12 +52,10 @@ def format_meal_plan(plan_text: str) -> List[dict]:
                 meal_type, meal_content = line.split(':', 1)
                 current_day['meals'].append({
                     'type': meal_type.strip(),
-                    'content': meal_content.strip()
-                })
+                    'content': meal_content.strip()})
 
     if current_day:
         days.append(current_day)
-
     return days
 
 
@@ -68,7 +64,6 @@ async def generate_nutrition_plan(user: UserProfile):
     try:
         bmi = calculate_bmi(user.weight, user.height)
         water_intake = round(user.weight * 0.035, 2)
-
         prompt = f"""Create a 7-day meal plan for {user.name}:
 Profile:
 - Age: {user.age}
@@ -99,22 +94,19 @@ Snack: [meal] ([calories] cal)
             input=prompt,
             capture_output=True,
             text=True,
-            check=True
-        )
-
+            check=True)
         meal_plan = format_meal_plan(result.stdout)
-
         response = NutritionPlan(
+
             profile_summary={
                 "name": user.name,
                 "bmi": bmi,
                 "water_intake": water_intake,
                 "daily_calories": user.daily_calorie_target,
-                "goal": user.goal
-            },
+                "goal": user.goal},
+
             meal_plan=meal_plan,
-            timestamp=str(datetime.now())
-        )
+            timestamp=str(datetime.now()))
         return response
 
     except subprocess.CalledProcessError as e:
@@ -126,3 +118,4 @@ Snack: [meal] ([calories] cal)
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
