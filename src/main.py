@@ -10,6 +10,14 @@ from BMR import (
     adjust_macronutrient_ratios
 )
 import json
+from langchain.chains import LLMChain
+from langchain_core.prompts import (
+    ChatPromptTemplate,
+    HumanMessagePromptTemplate,
+    MessagesPlaceholder,
+)
+from langchain_core.messages import SystemMessage
+from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 
 from dotenv import load_dotenv
@@ -36,6 +44,7 @@ class ReplaceMealRequest(BaseModel):
 
 class ChatRequest(BaseModel):
     user_input: str
+    session_id: str
 
 # Initialize the Language Model (LLM)
 def initialize_llm():
@@ -207,6 +216,13 @@ async def generate_meal_plan_api():
         raise HTTPException(status_code=500, detail=f"Failed to generate valid JSON meal plan. Error: {e}")
     
 
+session_memories = {}
+
+def get_memory(session_id: str):
+    if session_id not in session_memories:
+        session_memories[session_id] = ConversationBufferWindowMemory(k=5, memory_key="chat_history", return_messages=True)
+    return session_memories[session_id]
+
 # API endpoint to replace a meal
 @app.post("/replace_meal")
 async def replace_meal_api(request: ReplaceMealRequest):
@@ -227,25 +243,32 @@ async def chat_api(request: ChatRequest):
     with open(OUTPUT_FILE, 'r') as file:
         current_meal_plan = file.read()
     llm = initialize_llm()
-    prompt = f'''
-You are an expert nutrition assistant. Your task is to help the user with their nutrition-related queries and provide personalized recommendations based on their current meal plan and dietary preferences.
+    system_prompt = 'You are a friendly nutrition assistant. that helps users with their nutririon and plans'
+    
+    # Get or create memory for the session
+    memory = get_memory(request.session_id)
+    
+    # Construct the prompt template
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            SystemMessage(content=system_prompt),
+            MessagesPlaceholder(variable_name="chat_history"),
+            HumanMessagePromptTemplate.from_template("{human_input}"),
+        ]
+    )
 
-### User Query:
-{request.user_input}
 
-### Current Meal Plan:
-{current_meal_plan[0:2000]}
+    # Create a conversation chain
+    conversation = LLMChain(
+        llm=llm,
+        prompt=prompt,
+        verbose=False,
+        memory=memory,
+    )
 
-### Instructions:
-1. **Understand the Query**: Carefully analyze the user's query and identify their specific needs (e.g., meal replacement, calorie adjustment, nutrient optimization, etc.).
-2. **Review the Meal Plan**: Examine the current meal plan and ensure it aligns with the user's dietary preferences, restrictions, and nutritional goals.
-3. **Provide Recommendations**:
-   - If the user wants to modify a meal, suggest a replacement that fits their preferences and nutritional requirements.
-   - If the user has a general question, provide a detailed and accurate response.
-   - If the user wants to optimize their meal plan, suggest adjustments to improve balance (e.g., more protein, fewer carbs, etc.).
-'''
-    ai_msg = llm.invoke(prompt)
-    return {"response": ai_msg.content}
+    # Generate the chatbot's response
+    response = conversation.predict(human_input=request.user_input)
+    return {"response": response}
 
 # Run the FastAPI app
 if __name__ == "__main__":
