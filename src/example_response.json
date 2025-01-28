@@ -1,0 +1,138 @@
+{
+    "target_calories_per_day": "",
+    "target_water_intake_liters": "",
+    "BMI": "",
+    "days": [
+      {
+        "day": "",
+        "meals": [
+          {
+            "meal_name": "",
+            "items": [
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              },
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              }
+            ],
+            "total_calories": "",
+            "description": "",
+            "ingredients": [
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "meal_name": "",
+            "items": [
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              }
+            ],
+            "total_calories": "",
+            "description": "",
+            "ingredients": [
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "meal_name": "",
+            "items": [
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              }
+            ],
+            "total_calories": "",
+            "description": "",
+            "ingredients": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      },
+      {
+        "day": "",
+        "meals": [
+          {
+            "meal_name": "",
+            "items": [
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              }
+            ],
+            "total_calories": "",
+            "description": "",
+            "ingredients": [
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "meal_name": "",
+            "items": [
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              }
+            ],
+            "total_calories": "",
+            "description": "",
+            "ingredients": [
+              "",
+              "",
+              ""
+            ]
+          },
+          {
+            "meal_name": "",
+            "items": [
+              {
+                "name": "",
+                "calories": "",
+                "protein_grams": "",
+                "carbs_grams": "",
+                "fats_grams": ""
+              }
+            ],
+            "total_calories": "",
+            "description": "",
+            "ingredients": [
+              "",
+              "",
+              ""
+            ]
+          }
+        ]
+      }
+    ]
+  }

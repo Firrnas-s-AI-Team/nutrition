@@ -1,0 +1,52 @@
+BMR = 1440.25 calories
+Calories per day = 2484.43 calories
+
+Number of Meals per Day = 5
+
+Recommended Meals:
+
+Meal_1:
+  - Eggs: 115.41g (178.88 calories, 15.00g protein, 1.27g carb, 12.69g fats)
+  - Broccoli: 409.20g (139.13 calories, 11.46g protein, 28.64g carb, 1.64g fats)
+  Total Calories: 318.01
+  Total Protein: 26.46g
+  Total Carbs: 29.91g
+  Total Fats: 14.33g
+
+Meal_2:
+  - Chicken Breast: 108.41g (178.88 calories, 33.61g protein, 0.00g carb, 3.90g fats)
+  - Broccoli: 409.20g (139.13 calories, 11.46g protein, 28.64g carb, 1.64g fats)
+  Total Calories: 318.01
+  Total Protein: 45.07g
+  Total Carbs: 28.64g
+  Total Fats: 5.54g
+
+Meal_3:
+  - Tofu: 235.37g (178.88 calories, 18.83g protein, 4.47g carb, 11.30g fats)
+  - Oatmeal: 204.60g (139.13 calories, 4.91g protein, 24.55g carb, 2.86g fats)
+  Total Calories: 318.01
+  Total Protein: 23.74g
+  Total Carbs: 29.02g
+  Total Fats: 14.16g
+
+Meal_4:
+  - Salmon: 86.00g (178.88 calories, 17.20g protein, 0.00g carb, 11.18g fats)
+  - Sweet Potato: 161.78g (139.13 calories, 2.59g protein, 32.36g carb, 0.16g fats)
+  Total Calories: 318.01
+  Total Protein: 19.79g
+  Total Carbs: 32.36g
+  Total Fats: 11.34g
+
+Meal_5:
+  - Tofu: 235.37g (178.88 calories, 18.83g protein, 4.47g carb, 11.30g fats)
+  - Oatmeal: 204.60g (139.13 calories, 4.91g protein, 24.55g carb, 2.86g fats)
+  Total Calories: 318.01
+  Total Protein: 23.74g
+  Total Carbs: 29.02g
+  Total Fats: 14.16g
+
+Total for the day:
+  Total Calories: 1590.04
+  Total Protein: 138.79g
+  Total Carbs: 148.96g
+  Total Fats: 59.54g
