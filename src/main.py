@@ -12,6 +12,10 @@ from BMR import (
 import json
 from langchain_groq import ChatGroq
 
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
 # Initialize FastAPI app
 app = FastAPI()
 
@@ -44,7 +48,7 @@ def initialize_llm():
     llm = ChatGroq(
         temperature=0.2,
         model_name="llama-3.1-8b-instant",
-        api_key='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'
+        api_key=os.getenv("GROQ_API")
     )
     return llm
 
@@ -220,15 +224,25 @@ async def chat_api(request: ChatRequest):
     """
     API for interactive chat with the user.
     """
+    with open(OUTPUT_FILE, 'r') as file:
+        current_meal_plan = file.read()
     llm = initialize_llm()
-    prompt = f'''User: {request.user_input}
+    prompt = f'''
+You are an expert nutrition assistant. Your task is to help the user with their nutrition-related queries and provide personalized recommendations based on their current meal plan and dietary preferences.
 
-You are an expert nutrition assistant. Provide a helpful response to the user's query or request. If the user wants to modify a meal, provide the updated meal details in JSON format.
+### User Query:
+{request.user_input}
 
-**JSON Only**: If the response includes meal details, return solely the JSON structure without any additional text or explanations.
+### Current Meal Plan:
+{current_meal_plan[0:2000]}
 
-Output:
-Respond to the user's query or provide the updated meal details in JSON format if applicable.
+### Instructions:
+1. **Understand the Query**: Carefully analyze the user's query and identify their specific needs (e.g., meal replacement, calorie adjustment, nutrient optimization, etc.).
+2. **Review the Meal Plan**: Examine the current meal plan and ensure it aligns with the user's dietary preferences, restrictions, and nutritional goals.
+3. **Provide Recommendations**:
+   - If the user wants to modify a meal, suggest a replacement that fits their preferences and nutritional requirements.
+   - If the user has a general question, provide a detailed and accurate response.
+   - If the user wants to optimize their meal plan, suggest adjustments to improve balance (e.g., more protein, fewer carbs, etc.).
 '''
     ai_msg = llm.invoke(prompt)
     return {"response": ai_msg.content}
