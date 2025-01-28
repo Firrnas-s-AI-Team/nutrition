@@ -1,0 +1,696 @@
+{
+  "target_calories_per_day": 1500,
+  "target_water_intake_liters": 2.5,
+  "BMI": 22.5,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Almond-Free Milk",
+              "calories": 250,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 4
+            },
+            {
+              "name": "Sliced Avocado",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 350,
+          "description": "Start the day with a nutritious breakfast.",
+          "ingredients": [
+            "Rolled oats",
+            "Banana",
+            "Almond-free milk",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 95,
+          "description": "A refreshing snack to keep you going.",
+          "ingredients": [
+            "Apple"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad with Grilled Vegetables",
+              "calories": 70,
+              "protein_grams": 5,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 210,
+          "description": "A healthy and satisfying lunch.",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Grilled vegetables"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein_grams": 5,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "A crunchy and protein-rich snack.",
+          "ingredients": [
+            "Carrots",
+            "Hummus"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Salmon-Free Cod",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 4
+            },
+            {
+              "name": "Roasted Sweet Potatoes",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 290,
+          "description": "A delicious and nutritious dinner.",
+          "ingredients": [
+            "Cod",
+            "Sweet potatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt with Berries and Granola",
+              "calories": 200,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 200,
+          "description": "A protein-rich breakfast.",
+          "ingredients": [
+            "Greek yogurt",
+            "Berries",
+            "Granola"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": 16,
+              "protein_grams": 1,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 16,
+          "description": "A refreshing snack.",
+          "ingredients": [
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Avocado Wrap",
+              "calories": 350,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "A satisfying and filling lunch.",
+          "ingredients": [
+            "Turkey breast",
+            "Avocado",
+            "Whole wheat wrap"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg-Free Alternative",
+              "calories": 70,
+              "protein_grams": 10,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 70,
+          "description": "A protein-rich snack.",
+          "ingredients": [
+            "Egg-free alternative"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Broccoli",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 180,
+          "description": "A healthy and delicious dinner.",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie with Banana, Spinach-Free Greens, and Almond-Free Milk",
+              "calories": 250,
+              "protein_grams": 15,
+              "carbs_grams": 40,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 250,
+          "description": "A nutritious and filling breakfast.",
+          "ingredients": [
+            "Banana",
+            "Spinach-free greens",
+            "Almond-free milk"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Rice Cakes with Almond-Free Butter",
+              "calories": 120,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 120,
+          "description": "A satisfying snack.",
+          "ingredients": [
+            "Rice cakes",
+            "Almond-free butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens Salad",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 200,
+          "description": "A healthy and delicious lunch.",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese with Cucumber Slices",
+              "calories": 100,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 100,
+          "description": "A protein-rich snack.",
+          "ingredients": [
+            "Cottage cheese",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Roasted Asparagus",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 180,
+          "description": "A healthy and delicious dinner.",
+          "ingredients": [
+            "Cod",
+            "Asparagus"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast with Scrambled Egg-Free Alternative",
+              "calories": 250,
+              "protein_grams": 15,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 250,
+          "description": "A nutritious and filling breakfast.",
+          "ingredients": [
+            "Avocado",
+            "Egg-free alternative"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg-Free Alternative",
+              "calories": 70,
+              "protein_grams": 10,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 70,
+          "description": "A protein-rich snack.",
+          "ingredients": [
+            "Egg-free alternative"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Cheese Wrap",
+              "calories": 350,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "A satisfying and filling lunch.",
+          "ingredients": [
+            "Turkey breast",
+            "Cheese",
+            "Whole wheat wrap"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond-Free Butter",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 120,
+          "description": "A satisfying snack.",
+          "ingredients": [
+            "Apple",
+            "Almond-free butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Bell Peppers",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 200,
+          "description": "A healthy and delicious dinner.",
+          "ingredients": [
+            "Chicken breast",
+            "Bell peppers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette with Egg-Free Alternative and Vegetables",
+              "calories": 250,
+              "protein_grams": 20,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 250,
+          "description": "A nutritious and filling breakfast.",
+          "ingredients": [
+            "Egg-free alternative",
+            "Vegetables"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese with Cucumber Slices",
+              "calories": 100,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 100,
+          "description": "A protein-rich snack.",
+          "ingredients": [
+            "Cottage cheese",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens Salad",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 200,
+          "description": "A healthy and delicious lunch.",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Rice Cakes with Almond-Free Butter",
+              "calories": 120,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 120,
+          "description": "A satisfying snack.",
+          "ingredients": [
+            "Rice cakes",
+            "Almond-free butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Roasted Asparagus",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 180,
+          "description": "A healthy and delicious dinner.",
+          "ingredients": [
+            "Cod",
+            "Asparagus"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast with Scrambled Egg-Free Alternative",
+              "calories": 250,
+              "protein_grams": 15,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 250,
+          "description": "A nutritious and filling breakfast.",
+          "ingredients": [
+            "Avocado",
+            "Egg-free alternative"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg-Free Alternative",
+              "calories": 70,
+              "protein_grams": 10,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 70,
+          "description": "A protein-rich snack.",
+          "ingredients": [
+            "Egg-free alternative"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Cheese Wrap",
+              "calories": 350,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "A satisfying and filling lunch.",
+          "ingredients": [
+            "Turkey breast",
+            "Cheese",
+            "Whole wheat wrap"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond-Free Butter",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 120,
+          "description": "A satisfying snack.",
+          "ingredients": [
+            "Apple",
+            "Almond-free butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Bell Peppers",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 200,
+          "description": "A healthy and delicious dinner.",
+          "ingredients": [
+            "Chicken breast",
+            "Bell peppers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette with Egg-Free Alternative and Vegetables",
+              "calories": 250,
+              "protein_grams": 20,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 250,
+          "description": "A nutritious and filling breakfast.",
+          "ingredients": [
+            "Egg-free alternative",
+            "Vegetables"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese with Cucumber Slices",
+              "calories": 100,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 100,
+          "description": "A protein-rich snack.",
+          "ingredients": [
+            "Cottage cheese",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens Salad",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 200,
+          "description": "A healthy and delicious lunch.",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Rice Cakes with Almond-Free Butter",
+              "calories": 120,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 120,
+          "description": "A satisfying snack.",
+          "ingredients": [
+            "Rice cakes",
+            "Almond-free butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Roasted Asparagus",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 180,
+          "description": "A healthy and delicious dinner.",
+          "ingredients": [
+            "Cod",
+            "Asparagus"
+          ]
+        }
+      ]
+    }
+  ]
+}

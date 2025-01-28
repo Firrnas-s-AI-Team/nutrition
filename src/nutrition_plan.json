@@ -1,4 +1,3 @@
-#json:
 {
   "target_calories_per_day": 1500,
   "target_water_intake_liters": 2.5,
@@ -15,27 +14,27 @@
               "calories": 250,
               "protein_grams": 5,
               "carbs_grams": 40,
-              "fats_grams": 10
+              "fats_grams": 4
             },
             {
-              "name": "Sliced Avocado",
-              "calories": 100,
-              "protein_grams": 1,
-              "carbs_grams": 6,
-              "fats_grams": 10
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
             }
           ],
-          "total_calories": 350,
-          "description": "Start the day with a nutritious breakfast.",
+          "total_calories": 330,
+          "description": "Start the day with a filling and nutritious breakfast",
           "ingredients": [
             "Rolled oats",
             "Banana",
             "Almond milk",
-            "Avocado"
+            "Tofu"
           ]
         },
         {
-          "meal_name": "Mid-morning Snack",
+          "meal_name": "Mid-Morning Snack",
           "items": [
             {
               "name": "Apple Slices",
@@ -46,7 +45,7 @@
             }
           ],
           "total_calories": 95,
-          "description": "A refreshing snack to keep you going.",
+          "description": "A quick and healthy snack to keep you going",
           "ingredients": [
             "Apple"
           ]
@@ -63,18 +62,25 @@
             },
             {
               "name": "Mixed Greens Salad",
-              "calories": 70,
-              "protein_grams": 3,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
             }
           ],
-          "total_calories": 210,
-          "description": "A healthy and balanced lunch.",
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Vegetables"
+            "Whole wheat bread"
           ]
         },
         {
@@ -89,7 +95,7 @@
             }
           ],
           "total_calories": 100,
-          "description": "A satisfying snack to keep you going.",
+          "description": "A healthy and tasty snack",
           "ingredients": [
             "Carrots",
             "Hummus"
@@ -99,7 +105,7 @@
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Salmon (Alternative to Chicken Breast)",
+              "name": "Baked Salmon Alternative (Cod)",
               "calories": 180,
               "protein_grams": 35,
               "carbs_grams": 0,
@@ -111,13 +117,21 @@
               "protein_grams": 2,
               "carbs_grams": 10,
               "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 4
             }
           ],
-          "total_calories": 230,
-          "description": "A healthy and balanced dinner.",
+          "total_calories": 380,
+          "description": "A nutritious and filling dinner",
           "ingredients": [
-            "Salmon",
-            "Vegetables"
+            "Cod",
+            "Roasted vegetables",
+            "Quinoa"
           ]
         }
       ]
@@ -129,86 +143,102 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Greek Yogurt with Berries",
-              "calories": 150,
-              "protein_grams": 15,
+              "name": "Greek Yogurt with Berries and Granola",
+              "calories": 200,
+              "protein_grams": 20,
               "carbs_grams": 30,
               "fats_grams": 0
             },
             {
-              "name": "Sliced Peaches",
-              "calories": 60,
-              "protein_grams": 1,
-              "carbs_grams": 15,
-              "fats_grams": 0.5
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
             }
           ],
-          "total_calories": 210,
-          "description": "Start the day with a nutritious breakfast.",
+          "total_calories": 280,
+          "description": "A protein-packed breakfast",
           "ingredients": [
             "Greek yogurt",
             "Berries",
-            "Peaches"
+            "Granola",
+            "Tofu"
           ]
         },
         {
-          "meal_name": "Mid-morning Snack",
+          "meal_name": "Mid-Morning Snack",
           "items": [
             {
-              "name": "Hard-boiled Egg (Alternative to Apple Slices)",
-              "calories": 78,
-              "protein_grams": 6,
-              "carbs_grams": 1,
-              "fats_grams": 5
+              "name": "Cucumber Slices",
+              "calories": 16,
+              "protein_grams": 0.5,
+              "carbs_grams": 4,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 78,
-          "description": "A protein-rich snack to keep you going.",
+          "total_calories": 16,
+          "description": "A refreshing and healthy snack",
           "ingredients": [
-            "Egg"
+            "Cucumber"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Turkey and Avocado Wrap",
-              "calories": 350,
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
               "protein_grams": 30,
-              "carbs_grams": 40,
-              "fats_grams": 15
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
             }
           ],
-          "total_calories": 350,
-          "description": "A healthy and balanced lunch.",
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
           "ingredients": [
             "Turkey breast",
-            "Avocado",
-            "Whole wheat wrap"
+            "Mixed greens",
+            "Whole wheat bread"
           ]
         },
         {
           "meal_name": "Afternoon Snack",
           "items": [
             {
-              "name": "Cucumber Slices",
-              "calories": 16,
-              "protein_grams": 1,
-              "carbs_grams": 4,
-              "fats_grams": 0
+              "name": "Rice Cakes with Almond Butter",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 20,
+              "fats_grams": 8
             }
           ],
-          "total_calories": 16,
-          "description": "A refreshing snack to keep you going.",
+          "total_calories": 150,
+          "description": "A tasty and satisfying snack",
           "ingredients": [
-            "Cucumber"
+            "Rice cakes",
+            "Almond butter"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
+              "name": "Baked Chicken Breast",
               "calories": 140,
               "protein_grams": 30,
               "carbs_grams": 0,
@@ -220,13 +250,21 @@
               "protein_grams": 2,
               "carbs_grams": 25,
               "fats_grams": 0
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 250,
-          "description": "A healthy and balanced dinner.",
+          "total_calories": 305,
+          "description": "A nutritious and filling dinner",
           "ingredients": [
             "Chicken breast",
-            "Sweet potatoes"
+            "Roasted sweet potatoes",
+            "Green beans"
           ]
         }
       ]
@@ -238,30 +276,30 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Smoothie Bowl",
-              "calories": 200,
-              "protein_grams": 20,
+              "name": "Avocado Toast",
+              "calories": 220,
+              "protein_grams": 4,
               "carbs_grams": 30,
               "fats_grams": 10
             },
             {
-              "name": "Sliced Almonds (Alternative to Avocado)",
-              "calories": 160,
-              "protein_grams": 6,
-              "carbs_grams": 6,
-              "fats_grams": 14
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
             }
           ],
-          "total_calories": 360,
-          "description": "Start the day with a nutritious breakfast.",
+          "total_calories": 300,
+          "description": "A healthy and filling breakfast",
           "ingredients": [
-            "Frozen berries",
-            "Greek yogurt",
-            "Almonds"
+            "Avocado",
+            "Whole wheat bread",
+            "Tofu"
           ]
         },
         {
-          "meal_name": "Mid-morning Snack",
+          "meal_name": "Mid-Morning Snack",
           "items": [
             {
               "name": "Carrot Sticks with Hummus",
@@ -272,7 +310,7 @@
             }
           ],
           "total_calories": 100,
-          "description": "A satisfying snack to keep you going.",
+          "description": "A healthy and tasty snack",
           "ingredients": [
             "Carrots",
             "Hummus"
@@ -290,18 +328,25 @@
             },
             {
               "name": "Mixed Greens Salad",
-              "calories": 70,
-              "protein_grams": 3,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
             }
           ],
-          "total_calories": 210,
-          "description": "A healthy and balanced lunch.",
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Vegetables"
+            "Whole wheat bread"
           ]
         },
         {
@@ -316,7 +361,7 @@
             }
           ],
           "total_calories": 95,
-          "description": "A refreshing snack to keep you going.",
+          "description": "A quick and healthy snack",
           "ingredients": [
             "Apple"
           ]
@@ -325,25 +370,33 @@
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Salmon (Alternative to Chicken Breast)",
+              "name": "Baked Salmon Alternative (Cod)",
               "calories": 180,
               "protein_grams": 35,
               "carbs_grams": 0,
               "fats_grams": 10
             },
             {
-              "name": "Roasted Asparagus",
-              "calories": 25,
-              "protein_grams": 3,
-              "carbs_grams": 5,
+              "name": "Roasted Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
               "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 4
             }
           ],
-          "total_calories": 205,
-          "description": "A healthy and balanced dinner.",
+          "total_calories": 380,
+          "description": "A nutritious and filling dinner",
           "ingredients": [
-            "Salmon",
-            "Asparagus"
+            "Cod",
+            "Roasted vegetables",
+            "Quinoa"
           ]
         }
       ]
@@ -355,153 +408,44 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Scrambled Eggs (Alternative to Greek Yogurt)",
-              "calories": 140,
-              "protein_grams": 12,
-              "carbs_grams": 1,
-              "fats_grams": 10
+              "name": "Oatmeal with Banana and Almond Milk",
+              "calories": 250,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 4
             },
             {
-              "name": "Sliced Tomatoes",
-              "calories": 20,
-              "protein_grams": 1,
-              "carbs_grams": 5,
-              "fats_grams": 0
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
             }
           ],
-          "total_calories": 160,
-          "description": "Start the day with a nutritious breakfast.",
+          "total_calories": 330,
+          "description": "Start the day with a filling and nutritious breakfast",
           "ingredients": [
-            "Eggs",
-            "Tomatoes"
+            "Rolled oats",
+            "Banana",
+            "Almond milk",
+            "Tofu"
           ]
         },
         {
-          "meal_name": "Mid-morning Snack",
+          "meal_name": "Mid-Morning Snack",
           "items": [
             {
               "name": "Cucumber Slices",
               "calories": 16,
-              "protein_grams": 1,
+              "protein_grams": 0.5,
               "carbs_grams": 4,
               "fats_grams": 0
             }
           ],
           "total_calories": 16,
-          "description": "A refreshing snack to keep you going.",
+          "description": "A refreshing and healthy snack",
           "ingredients": [
             "Cucumber"
-          ]
-        },
-        {
-          "meal_name": "Lunch",
-          "items": [
-            {
-              "name": "Turkey and Avocado Wrap",
-              "calories": 350,
-              "protein_grams": 30,
-              "carbs_grams": 40,
-              "fats_grams": 15
-            }
-          ],
-          "total_calories": 350,
-          "description": "A healthy and balanced lunch.",
-          "ingredients": [
-            "Turkey breast",
-            "Avocado",
-            "Whole wheat wrap"
-          ]
-        },
-        {
-          "meal_name": "Afternoon Snack",
-          "items": [
-            {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
-              "protein_grams": 5,
-              "carbs_grams": 10,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 100,
-          "description": "A satisfying snack to keep you going.",
-          "ingredients": [
-            "Carrots",
-            "Hummus"
-          ]
-        },
-        {
-          "meal_name": "Dinner",
-          "items": [
-            {
-              "name": "Grilled Chicken Breast",
-              "calories": 140,
-              "protein_grams": 30,
-              "carbs_grams": 0,
-              "fats_grams": 3
-            },
-            {
-              "name": "Roasted Broccoli",
-              "calories": 55,
-              "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 0
-            }
-          ],
-          "total_calories": 195,
-          "description": "A healthy and balanced dinner.",
-          "ingredients": [
-            "Chicken breast",
-            "Broccoli"
-          ]
-        }
-      ]
-    },
-    {
-      "day": "Friday",
-      "meals": [
-        {
-          "meal_name": "Breakfast",
-          "items": [
-            {
-              "name": "Oatmeal with Banana and Almond Milk",
-              "calories": 250,
-              "protein_grams": 5,
-              "carbs_grams": 40,
-              "fats_grams": 10
-            },
-            {
-              "name": "Sliced Avocado",
-              "calories": 100,
-              "protein_grams": 1,
-              "carbs_grams": 6,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 350,
-          "description": "Start the day with a nutritious breakfast.",
-          "ingredients": [
-            "Rolled oats",
-            "Banana",
-            "Almond milk",
-            "Avocado"
-          ]
-        },
-        {
-          "meal_name": "Mid-morning Snack",
-          "items": [
-            {
-              "name": "Apple Slices",
-              "calories": 95,
-              "protein_grams": 0.3,
-              "carbs_grams": 25,
-              "fats_grams": 0.5
-            }
-          ],
-          "total_calories": 95,
-          "description": "A refreshing snack to keep you going.",
-          "ingredients": [
-            "Apple"
           ]
         },
         {
@@ -516,152 +460,50 @@
             },
             {
               "name": "Mixed Greens Salad",
-              "calories": 70,
-              "protein_grams": 3,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
             }
           ],
-          "total_calories": 210,
-          "description": "A healthy and balanced lunch.",
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Vegetables"
+            "Whole wheat bread"
           ]
         },
         {
           "meal_name": "Afternoon Snack",
           "items": [
             {
-              "name": "Cucumber Slices",
-              "calories": 16,
-              "protein_grams": 1,
-              "carbs_grams": 4,
-              "fats_grams": 0
-            }
-          ],
-          "total_calories": 16,
-          "description": "A refreshing snack to keep you going.",
-          "ingredients": [
-            "Cucumber"
-          ]
-        },
-        {
-          "meal_name": "Dinner",
-          "items": [
-            {
-              "name": "Baked Salmon (Alternative to Chicken Breast)",
-              "calories": 180,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 10
-            },
-            {
-              "name": "Roasted Asparagus",
-              "calories": 25,
-              "protein_grams": 3,
-              "carbs_grams": 5,
-              "fats_grams": 0
-            }
-          ],
-          "total_calories": 205,
-          "description": "A healthy and balanced dinner.",
-          "ingredients": [
-            "Salmon",
-            "Asparagus"
-          ]
-        }
-      ]
-    },
-    {
-      "day": "Saturday",
-      "meals": [
-        {
-          "meal_name": "Breakfast",
-          "items": [
-            {
-              "name": "Greek Yogurt with Berries",
+              "name": "Rice Cakes with Almond Butter",
               "calories": 150,
-              "protein_grams": 15,
-              "carbs_grams": 30,
-              "fats_grams": 0
-            },
-            {
-              "name": "Sliced Peaches",
-              "calories": 60,
-              "protein_grams": 1,
-              "carbs_grams": 15,
-              "fats_grams": 0.5
+              "protein_grams": 4,
+              "carbs_grams": 20,
+              "fats_grams": 8
             }
           ],
-          "total_calories": 210,
-          "description": "Start the day with a nutritious breakfast.",
+          "total_calories": 150,
+          "description": "A tasty and satisfying snack",
           "ingredients": [
-            "Greek yogurt",
-            "Berries",
-            "Peaches"
-          ]
-        },
-        {
-          "meal_name": "Mid-morning Snack",
-          "items": [
-            {
-              "name": "Hard-boiled Egg (Alternative to Apple Slices)",
-              "calories": 78,
-              "protein_grams": 6,
-              "carbs_grams": 1,
-              "fats_grams": 5
-            }
-          ],
-          "total_calories": 78,
-          "description": "A protein-rich snack to keep you going.",
-          "ingredients": [
-            "Egg"
-          ]
-        },
-        {
-          "meal_name": "Lunch",
-          "items": [
-            {
-              "name": "Turkey and Avocado Wrap",
-              "calories": 350,
-              "protein_grams": 30,
-              "carbs_grams": 40,
-              "fats_grams": 15
-            }
-          ],
-          "total_calories": 350,
-          "description": "A healthy and balanced lunch.",
-          "ingredients": [
-            "Turkey breast",
-            "Avocado",
-            "Whole wheat wrap"
-          ]
-        },
-        {
-          "meal_name": "Afternoon Snack",
-          "items": [
-            {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
-              "protein_grams": 5,
-              "carbs_grams": 10,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 100,
-          "description": "A satisfying snack to keep you going.",
-          "ingredients": [
-            "Carrots",
-            "Hummus"
+            "Rice cakes",
+            "Almond butter"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
+              "name": "Baked Chicken Breast",
               "calories": 140,
               "protein_grams": 30,
               "carbs_grams": 0,
@@ -673,48 +515,108 @@
               "protein_grams": 2,
               "carbs_grams": 25,
               "fats_grams": 0
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 250,
-          "description": "A healthy and balanced dinner.",
+          "total_calories": 305,
+          "description": "A nutritious and filling dinner",
           "ingredients": [
             "Chicken breast",
-            "Sweet potatoes"
+            "Roasted sweet potatoes",
+            "Green beans"
           ]
         }
       ]
     },
     {
-      "day": "Sunday",
+      "day": "Friday",
       "meals": [
         {
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Smoothie Bowl",
+              "name": "Greek Yogurt with Berries and Granola",
               "calories": 200,
               "protein_grams": 20,
               "carbs_grams": 30,
-              "fats_grams": 10
+              "fats_grams": 0
             },
             {
-              "name": "Sliced Almonds (Alternative to Avocado)",
-              "calories": 160,
-              "protein_grams": 6,
-              "carbs_grams": 6,
-              "fats_grams": 14
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
             }
           ],
-          "total_calories": 360,
-          "description": "Start the day with a nutritious breakfast.",
+          "total_calories": 280,
+          "description": "A protein-packed breakfast",
           "ingredients": [
-            "Frozen berries",
             "Greek yogurt",
-            "Almonds"
+            "Berries",
+            "Granola",
+            "Tofu"
           ]
         },
         {
-          "meal_name": "Mid-morning Snack",
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein_grams": 5,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "A healthy and tasty snack",
+          "ingredients": [
+            "Carrots",
+            "Hummus"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
+          "ingredients": [
+            "Turkey breast",
+            "Mixed greens",
+            "Whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
           "items": [
             {
               "name": "Apple Slices",
@@ -725,9 +627,90 @@
             }
           ],
           "total_calories": 95,
-          "description": "A refreshing snack to keep you going.",
+          "description": "A quick and healthy snack",
           "ingredients": [
             "Apple"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Salmon Alternative (Cod)",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 380,
+          "description": "A nutritious and filling dinner",
+          "ingredients": [
+            "Cod",
+            "Roasted vegetables",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast",
+              "calories": 220,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            },
+            {
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 300,
+          "description": "A healthy and filling breakfast",
+          "ingredients": [
+            "Avocado",
+            "Whole wheat bread",
+            "Tofu"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": 16,
+              "protein_grams": 0.5,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 16,
+          "description": "A refreshing and healthy snack",
+          "ingredients": [
+            "Cucumber"
           ]
         },
         {
@@ -742,60 +725,209 @@
             },
             {
               "name": "Mixed Greens Salad",
-              "calories": 70,
-              "protein_grams": 3,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
             }
           ],
-          "total_calories": 210,
-          "description": "A healthy and balanced lunch.",
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Vegetables"
+            "Whole wheat bread"
           ]
         },
         {
           "meal_name": "Afternoon Snack",
           "items": [
             {
-              "name": "Cucumber Slices",
-              "calories": 16,
-              "protein_grams": 1,
-              "carbs_grams": 4,
-              "fats_grams": 0
+              "name": "Rice Cakes with Almond Butter",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 20,
+              "fats_grams": 8
             }
           ],
-          "total_calories": 16,
-          "description": "A refreshing snack to keep you going.",
+          "total_calories": 150,
+          "description": "A tasty and satisfying snack",
           "ingredients": [
-            "Cucumber"
+            "Rice cakes",
+            "Almond butter"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Salmon (Alternative to Chicken Breast)",
+              "name": "Baked Salmon Alternative (Cod)",
               "calories": 180,
               "protein_grams": 35,
               "carbs_grams": 0,
               "fats_grams": 10
             },
             {
-              "name": "Roasted Asparagus",
-              "calories": 25,
-              "protein_grams": 3,
-              "carbs_grams": 5,
+              "name": "Roasted Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
               "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 4
             }
           ],
-          "total_calories": 205,
-          "description": "A healthy and balanced dinner.",
+          "total_calories": 380,
+          "description": "A nutritious and filling dinner",
           "ingredients": [
-            "Salmon",
-            "Asparagus"
+            "Cod",
+            "Roasted vegetables",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Almond Milk",
+              "calories": 250,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 4
+            },
+            {
+              "name": "1 Hard Boiled Egg Alternative (Tofu)",
+              "calories": 80,
+              "protein_grams": 5,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 330,
+          "description": "Start the day with a filling and nutritious breakfast",
+          "ingredients": [
+            "Rolled oats",
+            "Banana",
+            "Almond milk",
+            "Tofu"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein_grams": 5,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "A healthy and tasty snack",
+          "ingredients": [
+            "Carrots",
+            "Hummus"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whole Wheat Bread",
+              "calories": 89,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 249,
+          "description": "A balanced and satisfying lunch",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0.3,
+              "carbs_grams": 25,
+              "fats_grams": 0.5
+            }
+          ],
+          "total_calories": 95,
+          "description": "A quick and healthy snack",
+          "ingredients": [
+            "Apple"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Salmon Alternative (Cod)",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 380,
+          "description": "A nutritious and filling dinner",
+          "ingredients": [
+            "Cod",
+            "Roasted vegetables",
+            "Quinoa"
           ]
         }
       ]
