@@ -42,7 +42,6 @@ def calculate_water_intake(weight):
 
 def require_json(f):
     """Decorator to require JSON content type"""
-
     @wraps(f)
     def decorated_function(*args, **kwargs):
         if not request.is_json:
