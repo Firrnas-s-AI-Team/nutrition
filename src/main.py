@@ -33,7 +33,7 @@ async def generate_meal_plan_api():
 async def replace_meal_api(request: ReplaceMealRequest):
     llm = initialize_llm()
     new_meal_info = meal_replacer(llm, request.new_meal_text)
-    return {"new_meal": json.loads(new_meal_info)}
+    return {"new_meal": new_meal_info}
 
 @app.post("/chat")
 async def chat_api(request: ChatRequest):
