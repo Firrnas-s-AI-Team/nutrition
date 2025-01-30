@@ -33,7 +33,7 @@ async def generate_meal_plan_api():
 async def replace_meal_api(request: ReplaceMealRequest):
     llm = initialize_llm()
     new_meal_info = meal_replacer(llm, request.new_meal_text)
-    return {"new_meal": new_meal_info}
+    return {"new_meal": json.loads(new_meal_info)}
 
 @app.post("/chat")
 async def chat_api(request: ChatRequest):
@@ -48,4 +48,4 @@ async def chat_api(request: ChatRequest):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="localhost", port=8000)
