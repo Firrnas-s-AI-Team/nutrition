@@ -5,6 +5,62 @@ class Meal(BaseModel):
     meal_name: str
     items: List[Dict[str, str]]
 
+class FoodPreferences(BaseModel):
+    liked_foods: List[str]
+    disliked_foods: List[str]
+    allergies: List[str]
+
+class DietaryRestrictions(BaseModel):
+    avoid: List[str]
+    must_include: List[str]
+
+class FlavorPreferences(BaseModel):
+    spicy: bool
+    sweet: bool
+    savory: bool
+
+class UserProfile(BaseModel):
+    name: str
+    age: int
+    gender: str
+    weight: float
+    height: float
+    waist: Optional[float]
+    neck: Optional[float]
+    hip: Optional[float]
+    activity_level: str
+    goal: str
+    target_weight: float
+    meals_per_day: int
+    medical_conditions: List[str]
+    daily_calorie_target: float
+    food_preferences: FoodPreferences
+    dietary_restrictions: DietaryRestrictions
+    flavor_preferences: FlavorPreferences
+
+class MealDetails(BaseModel):
+    items: List[str] = []
+    total_calories: float = 0
+    macronutrients: dict = {}
+    personalization_notes: str = ""
+
+class NutritionPlan(BaseModel):
+    daily_details: str
+    meal_breakdown: dict
+    daily_total: dict
+
+class PersonalizationGuidelines(BaseModel):
+    preference_accommodation: str
+    alternative_meal_strategy: str
+    feedback_mechanism: str
+
+class DataUser(BaseModel):
+    user_profile: UserProfile
+    nutrition_plan: NutritionPlan
+    personalization_guidelines: PersonalizationGuidelines
+
+
+
 class ReplaceMealRequest(BaseModel):
     new_meal_text: str
 

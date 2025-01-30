@@ -1,8 +1,8 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Body
 from fastapi.responses import JSONResponse
 import json
 
-from models.schemas import ReplaceMealRequest, ChatRequest, ChatResponse
+from models.schemas import ReplaceMealRequest, ChatRequest, ChatResponse, DataUser
 from services.llm_service import initialize_llm, prepare_llm_messages
 from services.meal_service import generate_meal_plan, meal_replacer
 from services.chat_service import initialize_chat_chain, get_memory, get_chat_history
@@ -11,10 +11,11 @@ from config import settings
 
 app = FastAPI()
 
-@app.get("/generate_meal_plan")
-async def generate_meal_plan_api():
+@app.post("/generate_meal_plan")
+async def generate_meal_plan_api(data_user: DataUser = Body(...)):
     llm = initialize_llm()
-    datauser_text = read_file_as_text(settings.INPUT_FILE)
+    # Convert the Pydantic model to JSON string
+    datauser_text = data_user.json()
     example_response_text = read_file_as_text(settings.EXAMPLE_RESPONSE_FILE)
     
     messages = prepare_llm_messages(datauser_text, example_response_text)
