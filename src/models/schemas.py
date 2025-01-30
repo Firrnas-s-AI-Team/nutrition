@@ -6,7 +6,6 @@ class Meal(BaseModel):
     items: List[Dict[str, str]]
 
 class ReplaceMealRequest(BaseModel):
-    original_meal: str
     new_meal_text: str
 
 class ChatRequest(BaseModel):

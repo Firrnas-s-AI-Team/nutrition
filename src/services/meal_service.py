@@ -13,21 +13,18 @@ def generate_meal_plan(llm, messages):
     
     return str(ai_msg)
 
-def meal_replacer(llm, meal, meal_text):
-    prompt = f'''For the given meal:
-{meal}
-
-I want to replace it with the following meal from the user:
+def meal_replacer(llm, meal_text):
+    prompt = f'''
+Calculate the total calories for the following meal provided by the user:
 {meal_text}
 
-Please provide me the new meal information details.
+Return only the total number of calories in JSON format like this:
 
-return only the number of calories  in json like this:
-{{
-    "calories":"new value"
-}}
-Output:
-Return the new number of calories only in json
+{
+    "calories": "total_calories"
+}
+# Output:
+Return the total calories in JSON format.
 '''
     ai_msg = llm.invoke(prompt)
     return ai_msg.content
