@@ -2,10 +2,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 import json
 
-from models.schemas import ReplaceMealRequest, ChatRequest
+from models.schemas import ReplaceMealRequest, ChatRequest, ChatResponse
 from services.llm_service import initialize_llm, prepare_llm_messages
 from services.meal_service import generate_meal_plan, meal_replacer
-from services.chat_service import initialize_chat_chain
+from services.chat_service import initialize_chat_chain, get_memory, get_chat_history
 from utils.file_utils import read_file_as_text
 from config import settings
 
@@ -41,10 +41,21 @@ async def chat_api(request: ChatRequest):
         current_meal_plan = file.read()
     
     llm = initialize_llm()
-    conversation = initialize_chat_chain(llm, request.session_id, current_meal_plan)
-    response = conversation.predict(human_input=request.user_input)
+    conversation = initialize_chat_chain(
+        llm, 
+        request.session_id, 
+        current_meal_plan,
+        request.chat_history
+    )
     
-    return {"response": response}
+    response = conversation.predict(human_input=request.user_input)
+    memory = get_memory(request.session_id)
+    chat_history = get_chat_history(memory)
+    
+    return ChatResponse(
+        response=response,
+        chat_history=chat_history
+    )
 
 if __name__ == "__main__":
     import uvicorn
