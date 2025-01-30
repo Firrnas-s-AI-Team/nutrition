@@ -22,24 +22,12 @@ I want to replace it with the following meal from the user:
 
 Please provide me the new meal information details.
 
-**JSON Only**: Return solely the JSON structure without any additional text or explanations.
-
-Example JSON Template:
+return only the number of calories  in json like this:
 {{
-    "meal_name": "",
-    "items": [
-        {{
-            "name": "",
-            "calories": value in kcal,
-            "protein_grams": value in g,
-            "carbs_grams": value in g,
-            "fats_grams": value in g
-        }}
-    ]
+    "calories":"new value"
 }}
-    
 Output:
-Return the new meal information as JSON following the structure.
+Return the new number of calories only in json
 '''
     ai_msg = llm.invoke(prompt)
     return ai_msg.content
