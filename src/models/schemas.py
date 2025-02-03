@@ -25,18 +25,14 @@ class UserProfile(BaseModel):
     gender: str
     weight: float
     height: float
-    waist: Optional[float]
-    neck: Optional[float]
-    hip: Optional[float]
     activity_level: str
     goal: str
     target_weight: float
     meals_per_day: int
     medical_conditions: List[str]
-    daily_calorie_target: float
-    food_preferences: FoodPreferences
-    dietary_restrictions: DietaryRestrictions
-    flavor_preferences: FlavorPreferences
+    allergies: List[str]
+    dietary_preferences: List[str]
+    inbody_test_file: Optional[str] = None  # رابط ملف اختبار InBody
 
 class MealDetails(BaseModel):
     items: List[str] = []
@@ -56,8 +52,6 @@ class PersonalizationGuidelines(BaseModel):
 
 class DataUser(BaseModel):
     user_profile: UserProfile
-    nutrition_plan: NutritionPlan
-    personalization_guidelines: PersonalizationGuidelines
 
 
 

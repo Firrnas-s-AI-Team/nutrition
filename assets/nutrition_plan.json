@@ -1,7 +1,7 @@
 {
-  "target_calories_per_day": 2000,
+  "target_calories_per_day": 1800,
   "target_water_intake_liters": 2.5,
-  "BMI": 25.0,
+  "BMI": 25.5,
   "days": [
     {
       "day": "Monday",
@@ -17,19 +17,21 @@
               "fats_grams": 4
             },
             {
-              "name": "Scrambled Eggs",
-              "calories": 140,
-              "protein_grams": 12,
-              "carbs_grams": 0,
+              "name": "Alternative: Scrambled Eggs with Spinach and Whole Wheat Toast",
+              "calories": 200,
+              "protein_grams": 18,
+              "carbs_grams": 10,
               "fats_grams": 10
             }
           ],
-          "total_calories": 390,
-          "description": "Start the day with a balanced breakfast",
+          "total_calories": 450,
+          "description": "Start the day with a healthy breakfast to keep you full and energized.",
           "ingredients": [
             "Rolled oats",
             "Banana",
             "Almond milk",
+            "Spinach",
+            "Whole wheat bread",
             "Eggs"
           ]
         },
@@ -37,51 +39,57 @@
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
-              "calories": 140,
-              "protein_grams": 30,
-              "carbs_grams": 0,
-              "fats_grams": 3
+              "name": "Grilled Chicken Breast with Quinoa and Steamed Vegetables",
+              "calories": 350,
+              "protein_grams": 35,
+              "carbs_grams": 20,
+              "fats_grams": 10
             },
             {
-              "name": "Mixed Greens Salad with Avocado",
-              "calories": 100,
-              "protein_grams": 2,
-              "carbs_grams": 10,
+              "name": "Alternative: Lentil Soup with Whole Wheat Bread",
+              "calories": 300,
+              "protein_grams": 15,
+              "carbs_grams": 40,
               "fats_grams": 10
             }
           ],
-          "total_calories": 240,
-          "description": "Keep it light for lunch",
+          "total_calories": 650,
+          "description": "A balanced lunch to keep you going throughout the day.",
           "ingredients": [
             "Chicken breast",
-            "Mixed greens",
-            "Avocado"
+            "Quinoa",
+            "Steamed vegetables",
+            "Lentils",
+            "Whole wheat bread"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Salmon",
-              "calories": 180,
+              "name": "Baked Salmon with Roasted Sweet Potatoes and Green Beans",
+              "calories": 400,
               "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 10
+              "carbs_grams": 30,
+              "fats_grams": 15
             },
             {
-              "name": "Roasted Broccoli",
-              "calories": 55,
-              "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 0
+              "name": "Alternative: Grilled Turkey Burger with Avocado and Sweet Potato Fries",
+              "calories": 500,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 20
             }
           ],
-          "total_calories": 235,
-          "description": "Finish the day with a healthy dinner",
+          "total_calories": 900,
+          "description": "A satisfying dinner to end the day.",
           "ingredients": [
             "Salmon",
-            "Broccoli"
+            "Sweet potatoes",
+            "Green beans",
+            "Turkey burger",
+            "Avocado",
+            "Sweet potato fries"
           ]
         }
       ]
@@ -97,66 +105,10 @@
               "calories": 200,
               "protein_grams": 15,
               "carbs_grams": 30,
-              "fats_grams": 0
-            },
-            {
-              "name": "Whole Wheat Toast with Avocado",
-              "calories": 150,
-              "protein_grams": 2,
-              "carbs_grams": 20,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 350,
-          "description": "Start the day with a balanced breakfast",
-          "ingredients": [
-            "Greek yogurt",
-            "Berries",
-            "Granola",
-            "Whole wheat bread",
-            "Avocado"
-          ]
-        },
-        {
-          "meal_name": "Lunch",
-          "items": [
-            {
-              "name": "Turkey and Avocado Wrap",
-              "calories": 350,
-              "protein_grams": 25,
-              "carbs_grams": 30,
-              "fats_grams": 15
-            },
-            {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
-              "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 450,
-          "description": "Keep it light for lunch",
-          "ingredients": [
-            "Turkey breast",
-            "Avocado",
-            "Whole wheat wrap",
-            "Carrots",
-            "Hummus"
-          ]
-        },
-        {
-          "meal_name": "Dinner",
-          "items": [
-            {
-              "name": "Grilled Chicken Breast with Roasted Vegetables",
-              "calories": 200,
-              "protein_grams": 35,
-              "carbs_grams": 10,
               "fats_grams": 10
             },
             {
-              "name": "Quinoa and Black Bean Bowl",
+              "name": "Alternative: Smoothie Bowl with Banana and Almond Milk",
               "calories": 250,
               "protein_grams": 10,
               "carbs_grams": 40,
@@ -164,12 +116,71 @@
             }
           ],
           "total_calories": 450,
-          "description": "Finish the day with a healthy dinner",
+          "description": "A refreshing breakfast to start the day.",
+          "ingredients": [
+            "Greek yogurt",
+            "Berries",
+            "Granola",
+            "Banana",
+            "Almond milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Chicken Caesar Salad",
+              "calories": 300,
+              "protein_grams": 30,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            },
+            {
+              "name": "Alternative: Turkey and Avocado Wrap",
+              "calories": 400,
+              "protein_grams": 25,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 700,
+          "description": "A light and refreshing lunch.",
           "ingredients": [
             "Chicken breast",
-            "Mixed vegetables",
+            "Caesar dressing",
+            "Romaine lettuce",
+            "Turkey breast",
+            "Avocado",
+            "Whole wheat wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Broccoli and Quinoa",
+              "calories": 350,
+              "protein_grams": 35,
+              "carbs_grams": 20,
+              "fats_grams": 10
+            },
+            {
+              "name": "Alternative: Baked Cod with Sweet Potato and Green Beans",
+              "calories": 400,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 750,
+          "description": "A balanced dinner to end the day.",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli",
             "Quinoa",
-            "Black beans"
+            "Cod",
+            "Sweet potatoes",
+            "Green beans"
           ]
         }
       ]
@@ -181,81 +192,84 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Smoothie Bowl with Banana and Almond Milk",
+              "name": "Avocado Toast with Scrambled Eggs",
               "calories": 250,
-              "protein_grams": 5,
-              "carbs_grams": 40,
-              "fats_grams": 4
+              "protein_grams": 18,
+              "carbs_grams": 20,
+              "fats_grams": 15
             },
             {
-              "name": "Whole Wheat Toast with Scrambled Eggs",
-              "calories": 150,
-              "protein_grams": 12,
-              "carbs_grams": 20,
+              "name": "Alternative: Overnight Oats with Banana and Almond Milk",
+              "calories": 200,
+              "protein_grams": 10,
+              "carbs_grams": 30,
               "fats_grams": 10
             }
           ],
-          "total_calories": 400,
-          "description": "Start the day with a balanced breakfast",
+          "total_calories": 450,
+          "description": "A satisfying breakfast to start the day.",
           "ingredients": [
-            "Banana",
-            "Almond milk",
+            "Avocado",
             "Whole wheat bread",
-            "Eggs"
+            "Eggs",
+            "Banana",
+            "Almond milk"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Caesar Salad",
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Wrap",
               "calories": 300,
-              "protein_grams": 35,
-              "carbs_grams": 10,
-              "fats_grams": 15
-            },
-            {
-              "name": "Whole Wheat Crackers with Hummus",
-              "calories": 150,
-              "protein_grams": 2,
+              "protein_grams": 30,
               "carbs_grams": 20,
               "fats_grams": 10
+            },
+            {
+              "name": "Alternative: Turkey and Cheese Sandwich",
+              "calories": 400,
+              "protein_grams": 25,
+              "carbs_grams": 40,
+              "fats_grams": 15
             }
           ],
-          "total_calories": 450,
-          "description": "Keep it light for lunch",
+          "total_calories": 700,
+          "description": "A light and refreshing lunch.",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Whole wheat crackers",
-            "Hummus"
+            "Whole wheat wrap",
+            "Turkey breast",
+            "Cheese"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Cod with Roasted Asparagus",
-              "calories": 180,
+              "name": "Baked Salmon with Roasted Asparagus and Quinoa",
+              "calories": 400,
               "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 10
+              "carbs_grams": 20,
+              "fats_grams": 15
             },
             {
-              "name": "Quinoa and Black Bean Bowl",
-              "calories": 250,
-              "protein_grams": 10,
+              "name": "Alternative: Grilled Turkey Burger with Sweet Potato Fries",
+              "calories": 500,
+              "protein_grams": 30,
               "carbs_grams": 40,
-              "fats_grams": 10
+              "fats_grams": 20
             }
           ],
-          "total_calories": 430,
-          "description": "Finish the day with a healthy dinner",
+          "total_calories": 900,
+          "description": "A satisfying dinner to end the day.",
           "ingredients": [
-            "Cod",
+            "Salmon",
             "Asparagus",
             "Quinoa",
-            "Black beans"
+            "Turkey burger",
+            "Sweet potato fries"
           ]
         }
       ]
@@ -267,70 +281,14 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Greek Yogurt with Berries and Granola",
+              "name": "Greek Yogurt with Honey and Almonds",
               "calories": 200,
               "protein_grams": 15,
               "carbs_grams": 30,
-              "fats_grams": 0
-            },
-            {
-              "name": "Whole Wheat Toast with Avocado",
-              "calories": 150,
-              "protein_grams": 2,
-              "carbs_grams": 20,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 350,
-          "description": "Start the day with a balanced breakfast",
-          "ingredients": [
-            "Greek yogurt",
-            "Berries",
-            "Granola",
-            "Whole wheat bread",
-            "Avocado"
-          ]
-        },
-        {
-          "meal_name": "Lunch",
-          "items": [
-            {
-              "name": "Turkey and Avocado Wrap",
-              "calories": 350,
-              "protein_grams": 25,
-              "carbs_grams": 30,
-              "fats_grams": 15
-            },
-            {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
-              "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 450,
-          "description": "Keep it light for lunch",
-          "ingredients": [
-            "Turkey breast",
-            "Avocado",
-            "Whole wheat wrap",
-            "Carrots",
-            "Hummus"
-          ]
-        },
-        {
-          "meal_name": "Dinner",
-          "items": [
-            {
-              "name": "Grilled Chicken Breast with Roasted Vegetables",
-              "calories": 200,
-              "protein_grams": 35,
-              "carbs_grams": 10,
               "fats_grams": 10
             },
             {
-              "name": "Quinoa and Black Bean Bowl",
+              "name": "Alternative: Smoothie with Banana and Almond Milk",
               "calories": 250,
               "protein_grams": 10,
               "carbs_grams": 40,
@@ -338,12 +296,71 @@
             }
           ],
           "total_calories": 450,
-          "description": "Finish the day with a healthy dinner",
+          "description": "A refreshing breakfast to start the day.",
+          "ingredients": [
+            "Greek yogurt",
+            "Honey",
+            "Almonds",
+            "Banana",
+            "Almond milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Chicken Caesar Salad",
+              "calories": 300,
+              "protein_grams": 30,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            },
+            {
+              "name": "Alternative: Turkey and Avocado Wrap",
+              "calories": 400,
+              "protein_grams": 25,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 700,
+          "description": "A light and refreshing lunch.",
           "ingredients": [
             "Chicken breast",
-            "Mixed vegetables",
+            "Caesar dressing",
+            "Romaine lettuce",
+            "Turkey breast",
+            "Avocado",
+            "Whole wheat wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Broccoli and Quinoa",
+              "calories": 350,
+              "protein_grams": 35,
+              "carbs_grams": 20,
+              "fats_grams": 10
+            },
+            {
+              "name": "Alternative: Baked Cod with Sweet Potato and Green Beans",
+              "calories": 400,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 750,
+          "description": "A balanced dinner to end the day.",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli",
             "Quinoa",
-            "Black beans"
+            "Cod",
+            "Sweet potatoes",
+            "Green beans"
           ]
         }
       ]
@@ -355,81 +372,84 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Smoothie Bowl with Banana and Almond Milk",
+              "name": "Avocado Toast with Scrambled Eggs",
               "calories": 250,
-              "protein_grams": 5,
-              "carbs_grams": 40,
-              "fats_grams": 4
+              "protein_grams": 18,
+              "carbs_grams": 20,
+              "fats_grams": 15
             },
             {
-              "name": "Whole Wheat Toast with Scrambled Eggs",
-              "calories": 150,
-              "protein_grams": 12,
-              "carbs_grams": 20,
+              "name": "Alternative: Overnight Oats with Banana and Almond Milk",
+              "calories": 200,
+              "protein_grams": 10,
+              "carbs_grams": 30,
               "fats_grams": 10
             }
           ],
-          "total_calories": 400,
-          "description": "Start the day with a balanced breakfast",
+          "total_calories": 450,
+          "description": "A satisfying breakfast to start the day.",
           "ingredients": [
-            "Banana",
-            "Almond milk",
+            "Avocado",
             "Whole wheat bread",
-            "Eggs"
+            "Eggs",
+            "Banana",
+            "Almond milk"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Caesar Salad",
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Wrap",
               "calories": 300,
-              "protein_grams": 35,
-              "carbs_grams": 10,
-              "fats_grams": 15
-            },
-            {
-              "name": "Whole Wheat Crackers with Hummus",
-              "calories": 150,
-              "protein_grams": 2,
+              "protein_grams": 30,
               "carbs_grams": 20,
               "fats_grams": 10
+            },
+            {
+              "name": "Alternative: Turkey and Cheese Sandwich",
+              "calories": 400,
+              "protein_grams": 25,
+              "carbs_grams": 40,
+              "fats_grams": 15
             }
           ],
-          "total_calories": 450,
-          "description": "Keep it light for lunch",
+          "total_calories": 700,
+          "description": "A light and refreshing lunch.",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Whole wheat crackers",
-            "Hummus"
+            "Whole wheat wrap",
+            "Turkey breast",
+            "Cheese"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Cod with Roasted Asparagus",
-              "calories": 180,
+              "name": "Baked Salmon with Roasted Asparagus and Quinoa",
+              "calories": 400,
               "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 10
+              "carbs_grams": 20,
+              "fats_grams": 15
             },
             {
-              "name": "Quinoa and Black Bean Bowl",
-              "calories": 250,
-              "protein_grams": 10,
+              "name": "Alternative: Grilled Turkey Burger with Sweet Potato Fries",
+              "calories": 500,
+              "protein_grams": 30,
               "carbs_grams": 40,
-              "fats_grams": 10
+              "fats_grams": 20
             }
           ],
-          "total_calories": 430,
-          "description": "Finish the day with a healthy dinner",
+          "total_calories": 900,
+          "description": "A satisfying dinner to end the day.",
           "ingredients": [
-            "Cod",
+            "Salmon",
             "Asparagus",
             "Quinoa",
-            "Black beans"
+            "Turkey burger",
+            "Sweet potato fries"
           ]
         }
       ]
@@ -445,66 +465,10 @@
               "calories": 200,
               "protein_grams": 15,
               "carbs_grams": 30,
-              "fats_grams": 0
-            },
-            {
-              "name": "Whole Wheat Toast with Avocado",
-              "calories": 150,
-              "protein_grams": 2,
-              "carbs_grams": 20,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 350,
-          "description": "Start the day with a balanced breakfast",
-          "ingredients": [
-            "Greek yogurt",
-            "Berries",
-            "Granola",
-            "Whole wheat bread",
-            "Avocado"
-          ]
-        },
-        {
-          "meal_name": "Lunch",
-          "items": [
-            {
-              "name": "Turkey and Avocado Wrap",
-              "calories": 350,
-              "protein_grams": 25,
-              "carbs_grams": 30,
-              "fats_grams": 15
-            },
-            {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
-              "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 10
-            }
-          ],
-          "total_calories": 450,
-          "description": "Keep it light for lunch",
-          "ingredients": [
-            "Turkey breast",
-            "Avocado",
-            "Whole wheat wrap",
-            "Carrots",
-            "Hummus"
-          ]
-        },
-        {
-          "meal_name": "Dinner",
-          "items": [
-            {
-              "name": "Grilled Chicken Breast with Roasted Vegetables",
-              "calories": 200,
-              "protein_grams": 35,
-              "carbs_grams": 10,
               "fats_grams": 10
             },
             {
-              "name": "Quinoa and Black Bean Bowl",
+              "name": "Alternative: Smoothie Bowl with Banana and Almond Milk",
               "calories": 250,
               "protein_grams": 10,
               "carbs_grams": 40,
@@ -512,12 +476,71 @@
             }
           ],
           "total_calories": 450,
-          "description": "Finish the day with a healthy dinner",
+          "description": "A refreshing breakfast to start the day.",
+          "ingredients": [
+            "Greek yogurt",
+            "Berries",
+            "Granola",
+            "Banana",
+            "Almond milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Chicken Caesar Salad",
+              "calories": 300,
+              "protein_grams": 30,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            },
+            {
+              "name": "Alternative: Turkey and Avocado Wrap",
+              "calories": 400,
+              "protein_grams": 25,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 700,
+          "description": "A light and refreshing lunch.",
           "ingredients": [
             "Chicken breast",
-            "Mixed vegetables",
+            "Caesar dressing",
+            "Romaine lettuce",
+            "Turkey breast",
+            "Avocado",
+            "Whole wheat wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Broccoli and Quinoa",
+              "calories": 350,
+              "protein_grams": 35,
+              "carbs_grams": 20,
+              "fats_grams": 10
+            },
+            {
+              "name": "Alternative: Baked Cod with Sweet Potato and Green Beans",
+              "calories": 400,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 750,
+          "description": "A balanced dinner to end the day.",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli",
             "Quinoa",
-            "Black beans"
+            "Cod",
+            "Sweet potatoes",
+            "Green beans"
           ]
         }
       ]
@@ -529,81 +552,84 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Smoothie Bowl with Banana and Almond Milk",
+              "name": "Avocado Toast with Scrambled Eggs",
               "calories": 250,
-              "protein_grams": 5,
-              "carbs_grams": 40,
-              "fats_grams": 4
+              "protein_grams": 18,
+              "carbs_grams": 20,
+              "fats_grams": 15
             },
             {
-              "name": "Whole Wheat Toast with Scrambled Eggs",
-              "calories": 150,
-              "protein_grams": 12,
-              "carbs_grams": 20,
+              "name": "Alternative: Overnight Oats with Banana and Almond Milk",
+              "calories": 200,
+              "protein_grams": 10,
+              "carbs_grams": 30,
               "fats_grams": 10
             }
           ],
-          "total_calories": 400,
-          "description": "Start the day with a balanced breakfast",
+          "total_calories": 450,
+          "description": "A satisfying breakfast to start the day.",
           "ingredients": [
-            "Banana",
-            "Almond milk",
+            "Avocado",
             "Whole wheat bread",
-            "Eggs"
+            "Eggs",
+            "Banana",
+            "Almond milk"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Caesar Salad",
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Wrap",
               "calories": 300,
-              "protein_grams": 35,
-              "carbs_grams": 10,
-              "fats_grams": 15
-            },
-            {
-              "name": "Whole Wheat Crackers with Hummus",
-              "calories": 150,
-              "protein_grams": 2,
+              "protein_grams": 30,
               "carbs_grams": 20,
               "fats_grams": 10
+            },
+            {
+              "name": "Alternative: Turkey and Cheese Sandwich",
+              "calories": 400,
+              "protein_grams": 25,
+              "carbs_grams": 40,
+              "fats_grams": 15
             }
           ],
-          "total_calories": 450,
-          "description": "Keep it light for lunch",
+          "total_calories": 700,
+          "description": "A light and refreshing lunch.",
           "ingredients": [
             "Chicken breast",
             "Mixed greens",
-            "Whole wheat crackers",
-            "Hummus"
+            "Whole wheat wrap",
+            "Turkey breast",
+            "Cheese"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Baked Cod with Roasted Asparagus",
-              "calories": 180,
+              "name": "Baked Salmon with Roasted Asparagus and Quinoa",
+              "calories": 400,
               "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 10
+              "carbs_grams": 20,
+              "fats_grams": 15
             },
             {
-              "name": "Quinoa and Black Bean Bowl",
-              "calories": 250,
-              "protein_grams": 10,
+              "name": "Alternative: Grilled Turkey Burger with Sweet Potato Fries",
+              "calories": 500,
+              "protein_grams": 30,
               "carbs_grams": 40,
-              "fats_grams": 10
+              "fats_grams": 20
             }
           ],
-          "total_calories": 430,
-          "description": "Finish the day with a healthy dinner",
+          "total_calories": 900,
+          "description": "A satisfying dinner to end the day.",
           "ingredients": [
-            "Cod",
+            "Salmon",
             "Asparagus",
             "Quinoa",
-            "Black beans"
+            "Turkey burger",
+            "Sweet potato fries"
           ]
         }
       ]
