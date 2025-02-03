@@ -32,7 +32,6 @@ class UserProfile(BaseModel):
     medical_conditions: List[str]
     allergies: List[str]
     dietary_preferences: List[str]
-    inbody_test_file: Optional[str] = None  # رابط ملف اختبار InBody
 
 class MealDetails(BaseModel):
     items: List[str] = []
