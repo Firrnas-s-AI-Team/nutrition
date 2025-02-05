@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Jack Martinez",
+      "age": 65,
+      "gender": "male",
+      "weight": 80.7,
+      "height": 182.2,
+      "activity_level": "sedentary",
+      "goal": "weight_loss",
+      "target_weight": 71.3,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Gluten-free"
+      ]
+    }
+  }

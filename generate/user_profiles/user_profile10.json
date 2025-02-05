@@ -1,0 +1,21 @@
+{
+    "user_profile": {
+      "name": "Oliver Lee",
+      "age": 63,
+      "gender": "female",
+      "weight": 67.6,
+      "height": 169.2,
+      "activity_level": "moderately_active",
+      "goal": "weight_loss",
+      "target_weight": 61.5,
+      "meals_per_day": 4,
+      "medical_conditions": [
+        "Hypertension",
+        "High Cholesterol"
+      ],
+      "allergies": [],
+      "dietary_preferences": [
+        "Mediterranean"
+      ]
+    }
+  }

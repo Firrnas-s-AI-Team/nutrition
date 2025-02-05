@@ -1,0 +1,22 @@
+{
+    "user_profile": {
+      "name": "Mia Smith",
+      "age": 51,
+      "gender": "male",
+      "weight": 67.1,
+      "height": 169.3,
+      "activity_level": "moderately_active",
+      "goal": "maintenance",
+      "target_weight": 67.1,
+      "meals_per_day": 4,
+      "medical_conditions": [
+        "Celiac Disease"
+      ],
+      "allergies": [
+        "Peanuts"
+      ],
+      "dietary_preferences": [
+        "Pescatarian"
+      ]
+    }
+  }

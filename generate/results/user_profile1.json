@@ -1,0 +1,61 @@
+```json
+{
+  "Correctness": {
+    "score": 0,
+    "explanation": "The meal plan does not consistently adhere to the user's low-carb dietary preference.",
+    "violations": [
+      "**Saturday - Snack:** Rice cakes with almond butter and banana contain a significant amount of carbohydrates (30g), which is not aligned with a low-carb diet.",
+      "**Friday - Breakfast:** Avocado toast with poached eggs contains whole wheat bread, contributing to a higher carbohydrate content.",
+      "**Wednesday - Lunch:** Chicken Caesar salad with croutons contains croutons, which are high in carbohydrates.",
+      "**Saturday - Lunch:** Chicken breast with roasted vegetables and quinoa contains quinoa, which is a carbohydrate-rich food."
+    ],
+    "table": "| Day      | Meal    | Item                                  | Issue                                                                 |\n|----------|---------|---------------------------------------|-----------------------------------------------------------------------|\n| Saturday | Snack   | Rice Cakes with Almond Butter and Banana | High carbohydrate content (30g)                                         |\n| Friday   | Breakfast | Avocado toast with poached eggs        | Contains whole wheat bread, contributing to higher carbohydrate content |\n| Wednesday| Lunch   | Chicken Caesar salad with croutons      | Contains croutons, which are high in carbohydrates                       |\n| Saturday | Lunch   | Chicken breast with roasted vegetables and quinoa | Contains quinoa, which is a carbohydrate-rich food.                       |"
+  },
+  "Completeness": {
+    "score": 1,
+    "explanation": "The meal plan includes the specified number of meals per day, provides macronutrient tracking, and includes descriptions and ingredient lists for all meals.",
+    "strengths": [
+      "The plan includes 4 meals per day, as specified in the user profile.",
+      "Each meal provides a description and a list of ingredients.",
+      "Macronutrients (protein, carbs, fats) are tracked for each meal."
+    ]
+  },
+  "Conciseness": {
+    "score": 4,
+    "explanation": "The meal plan is generally concise, with clear meal descriptions and focused information. There is minimal redundancy.",
+    "strengths": [
+      "Meal descriptions are clear and focused on key information.",
+      "The plan avoids redundant or irrelevant details."
+    ]
+  },
+  "Helpfulness": {
+    "score": 3,
+    "explanation": "The meal plan provides a reasonable structure for maintenance, but could be more tailored to the user's low-carb preference. Some meal alternatives could be more practical for a low-carb diet.",
+    "strengths": [
+      "The plan provides a structured approach to meal planning.",
+      "The plan includes a variety of protein sources."
+    ],
+    "weaknesses": [
+      "The plan does not consistently emphasize low-carb alternatives.",
+      "Some meals contain ingredients that are not ideal for a low-carb diet."
+    ]
+  },
+  "Honesty": {
+    "score": 5,
+    "explanation": "The calorie and macronutrient values appear realistic and consistent with the ingredient lists.",
+    "strengths": [
+      "Calorie and macronutrient values are realistic.",
+      "Ingredient lists match meal descriptions."
+    ]
+  },
+  "Harmlessness": {
+    "score": 5,
+    "explanation": "The meal plan avoids ingredients that could worsen common medical conditions and does not promote extreme diets. It appears safe and balanced.",
+    "strengths": [
+      "The plan avoids potentially harmful ingredients.",
+      "The plan is balanced and medically appropriate.",
+      "There is no biased language or promotion of extreme diets."
+    ]
+  }
+}
+```

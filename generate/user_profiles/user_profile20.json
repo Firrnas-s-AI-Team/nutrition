@@ -1,0 +1,21 @@
+{
+    "user_profile": {
+      "name": "Noah Rodriguez",
+      "age": 62,
+      "gender": "male",
+      "weight": 61.6,
+      "height": 166.2,
+      "activity_level": "moderately_active",
+      "goal": "muscle_gain",
+      "target_weight": 65.7,
+      "meals_per_day": 5,
+      "medical_conditions": [
+        "Sleep Apnea"
+      ],
+      "allergies": [],
+      "dietary_preferences": [
+        "Kosher",
+        "Paleo"
+      ]
+    }
+  }

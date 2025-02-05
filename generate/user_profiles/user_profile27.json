@@ -1,0 +1,19 @@
+{
+    "user_profile": {
+      "name": "Lucas Jackson",
+      "age": 44,
+      "gender": "male",
+      "weight": 59.1,
+      "height": 168.6,
+      "activity_level": "moderately_active",
+      "goal": "weight_gain",
+      "target_weight": 64.8,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Pescatarian",
+        "Keto"
+      ]
+    }
+  }

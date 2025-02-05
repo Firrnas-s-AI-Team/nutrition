@@ -1,0 +1,22 @@
+{
+    "user_profile": {
+      "name": "Henry Hernandez",
+      "age": 35,
+      "gender": "female",
+      "weight": 54.3,
+      "height": 161.7,
+      "activity_level": "lightly_active",
+      "goal": "maintenance",
+      "target_weight": 54.3,
+      "meals_per_day": 3,
+      "medical_conditions": [
+        "High Cholesterol"
+      ],
+      "allergies": [
+        "Milk"
+      ],
+      "dietary_preferences": [
+        "Vegan"
+      ]
+    }
+  }

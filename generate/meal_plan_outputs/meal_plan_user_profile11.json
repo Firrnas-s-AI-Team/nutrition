@@ -1,0 +1,740 @@
+{
+  "target_calories_per_day": 1500,
+  "target_water_intake_liters": 2.5,
+  "BMI": 24.8,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 8,
+              "fats_grams": 12
+            },
+            {
+              "name": "Poached Eggs",
+              "calories": 70,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 230,
+          "description": "Avocado and poached eggs on a bed of spinach",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Spinach"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 170,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 330,
+          "description": "Grilled chicken breast with mixed greens and almonds",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cauliflower Rice",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled salmon with roasted broccoli and cauliflower rice",
+          "ingredients": [
+            "Salmon",
+            "Broccoli",
+            "Cauliflower"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk",
+              "calories": 140,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 14
+            },
+            {
+              "name": "Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Walnuts",
+              "calories": 180,
+              "protein_grams": 4,
+              "carbs_grams": 4,
+              "fats_grams": 18
+            }
+          ],
+          "total_calories": 380,
+          "description": "Coconut milk with berries and walnuts",
+          "ingredients": [
+            "Coconut Milk",
+            "Berries",
+            "Walnuts"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey Lettuce Wraps",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 3
+            },
+            {
+              "name": "Cucumber",
+              "calories": 16,
+              "protein_grams": 1,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            },
+            {
+              "name": "Tomato",
+              "calories": 22,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 178,
+          "description": "Turkey lettuce wraps with cucumber and tomato",
+          "ingredients": [
+            "Turkey Breast",
+            "Lettuce",
+            "Cucumber",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Mushrooms",
+              "calories": 15,
+              "protein_grams": 1,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 240,
+          "description": "Grilled steak with roasted asparagus and mushrooms",
+          "ingredients": [
+            "Steak",
+            "Asparagus",
+            "Mushrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach Omelette",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 2,
+              "fats_grams": 10
+            },
+            {
+              "name": "Smoked Salmon",
+              "calories": 100,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 8,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 380,
+          "description": "Spinach omelette with smoked salmon and avocado",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Smoked Salmon",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 170,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 330,
+          "description": "Grilled chicken breast with mixed greens and almonds",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thighs",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Bell Peppers",
+              "calories": 49,
+              "protein_grams": 1,
+              "carbs_grams": 12,
+              "fats_grams": 0
+            },
+            {
+              "name": "Zucchini",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 214,
+          "description": "Baked chicken thighs with roasted bell peppers and zucchini",
+          "ingredients": [
+            "Chicken Thighs",
+            "Bell Peppers",
+            "Zucchini"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk",
+              "calories": 140,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 14
+            },
+            {
+              "name": "Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Walnuts",
+              "calories": 180,
+              "protein_grams": 4,
+              "carbs_grams": 4,
+              "fats_grams": 18
+            }
+          ],
+          "total_calories": 380,
+          "description": "Coconut milk with berries and walnuts",
+          "ingredients": [
+            "Coconut Milk",
+            "Berries",
+            "Walnuts"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey Lettuce Wraps",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 3
+            },
+            {
+              "name": "Cucumber",
+              "calories": 16,
+              "protein_grams": 1,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            },
+            {
+              "name": "Tomato",
+              "calories": 22,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 178,
+          "description": "Turkey lettuce wraps with cucumber and tomato",
+          "ingredients": [
+            "Turkey Breast",
+            "Lettuce",
+            "Cucumber",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Mushrooms",
+              "calories": 15,
+              "protein_grams": 1,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 160,
+          "description": "Grilled shrimp with roasted asparagus and mushrooms",
+          "ingredients": [
+            "Shrimp",
+            "Asparagus",
+            "Mushrooms"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 8,
+              "fats_grams": 12
+            },
+            {
+              "name": "Poached Eggs",
+              "calories": 70,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 230,
+          "description": "Avocado and poached eggs on a bed of spinach",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Spinach"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 170,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 330,
+          "description": "Grilled chicken breast with mixed greens and almonds",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cauliflower Rice",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "Grilled steak with roasted broccoli and cauliflower rice",
+          "ingredients": [
+            "Steak",
+            "Broccoli",
+            "Cauliflower"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach Omelette",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 2,
+              "fats_grams": 10
+            },
+            {
+              "name": "Smoked Salmon",
+              "calories": 100,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 8,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 380,
+          "description": "Spinach omelette with smoked salmon and avocado",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Smoked Salmon",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey Lettuce Wraps",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 3
+            },
+            {
+              "name": "Cucumber",
+              "calories": 16,
+              "protein_grams": 1,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            },
+            {
+              "name": "Tomato",
+              "calories": 22,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 178,
+          "description": "Turkey lettuce wraps with cucumber and tomato",
+          "ingredients": [
+            "Turkey Breast",
+            "Lettuce",
+            "Cucumber",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thighs",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Bell Peppers",
+              "calories": 49,
+              "protein_grams": 1,
+              "carbs_grams": 12,
+              "fats_grams": 0
+            },
+            {
+              "name": "Zucchini",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 214,
+          "description": "Baked chicken thighs with roasted bell peppers and zucchini",
+          "ingredients": [
+            "Chicken Thighs",
+            "Bell Peppers",
+            "Zucchini"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk",
+              "calories": 140,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 14
+            },
+            {
+              "name": "Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Walnuts",
+              "calories": 180,
+              "protein_grams": 4,
+              "carbs_grams": 4,
+              "fats_grams": 18
+            }
+          ],
+          "total_calories": 380,
+          "description": "Coconut milk with berries and walnuts",
+          "ingredients": [
+            "Coconut Milk",
+            "Berries",
+            "Walnuts"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 170,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 330,
+          "description": "Grilled chicken breast with mixed greens and almonds",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cauliflower Rice",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled salmon with roasted broccoli and cauliflower rice",
+          "ingredients": [
+            "Salmon",
+            "Broccoli",
+            "Cauliflower"
+          ]
+        }
+      ]
+    }
+  ]
+}

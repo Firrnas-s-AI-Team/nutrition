@@ -1,0 +1,23 @@
+{
+    "user_profile": {
+      "name": "Sophia Wilson",
+      "age": 26,
+      "gender": "female",
+      "weight": 55.3,
+      "height": 162.0,
+      "activity_level": "lightly_active",
+      "goal": "weight_loss",
+      "target_weight": 52.4,
+      "meals_per_day": 4,
+      "medical_conditions": [
+        "Anemia",
+        "Type 2 Diabetes"
+      ],
+      "allergies": [
+        "Gluten"
+      ],
+      "dietary_preferences": [
+        "Mediterranean"
+      ]
+    }
+  }

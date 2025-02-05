@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Emma Chen",
+      "age": 55,
+      "gender": "female",
+      "weight": 54.5,
+      "height": 155.3,
+      "activity_level": "lightly_active",
+      "goal": "weight_gain",
+      "target_weight": 57.3,
+      "meals_per_day": 5,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Halal"
+      ]
+    }
+  }

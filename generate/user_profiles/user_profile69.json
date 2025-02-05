@@ -1,0 +1,19 @@
+{
+    "user_profile": {
+      "name": "Oliver Davis",
+      "age": 33,
+      "gender": "female",
+      "weight": 62.6,
+      "height": 170.3,
+      "activity_level": "extremely_active",
+      "goal": "muscle_gain",
+      "target_weight": 67.5,
+      "meals_per_day": 3,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Vegetarian",
+        "Keto"
+      ]
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "user_profile": {
+      "name": "Amelia Moore",
+      "age": 65,
+      "gender": "female",
+      "weight": 53.9,
+      "height": 161.4,
+      "activity_level": "moderately_active",
+      "goal": "weight_loss",
+      "target_weight": 50.6,
+      "meals_per_day": 4,
+      "medical_conditions": [
+        "Type 2 Diabetes"
+      ],
+      "allergies": [],
+      "dietary_preferences": [
+        "Keto",
+        "Mediterranean"
+      ]
+    }
+  }

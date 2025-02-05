@@ -1,0 +1,20 @@
+{
+    "user_profile": {
+      "name": "Fatima Lopez",
+      "age": 24,
+      "gender": "male",
+      "weight": 67.2,
+      "height": 169.1,
+      "activity_level": "sedentary",
+      "goal": "maintenance",
+      "target_weight": 67.2,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [
+        "Sesame"
+      ],
+      "dietary_preferences": [
+        "Low-carb"
+      ]
+    }
+  }

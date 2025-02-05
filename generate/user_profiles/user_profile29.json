@@ -1,0 +1,19 @@
+{
+    "user_profile": {
+      "name": "Sophia Davis",
+      "age": 45,
+      "gender": "female",
+      "weight": 46.8,
+      "height": 156.3,
+      "activity_level": "lightly_active",
+      "goal": "weight_gain",
+      "target_weight": 50.9,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Vegan",
+        "Gluten-free"
+      ]
+    }
+  }

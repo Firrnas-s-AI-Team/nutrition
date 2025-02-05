@@ -1,0 +1,939 @@
+{
+  "target_calories_per_day": "1900",
+  "target_water_intake_liters": "3.5",
+  "BMI": "22.5",
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado",
+              "calories": "160",
+              "protein_grams": "3",
+              "carbs_grams": "8",
+              "fats_grams": "14"
+            },
+            {
+              "name": "Banana",
+              "calories": "105",
+              "protein_grams": "1",
+              "carbs_grams": "26",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "265",
+          "description": "Mash avocado and spread on a banana for a filling breakfast",
+          "ingredients": [
+            "Avocado",
+            "Banana",
+            "Salt"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Apple",
+              "calories": "95",
+              "protein_grams": "0",
+              "carbs_grams": "25",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "95",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Apple"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": "260",
+              "protein_grams": "37",
+              "carbs_grams": "0",
+              "fats_grams": "6"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "280",
+          "description": "Grilled chicken breast with a mixed greens salad",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks",
+              "calories": "45",
+              "protein_grams": "1",
+              "carbs_grams": "10",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "45",
+          "description": "Crunchy and healthy snack",
+          "ingredients": [
+            "Carrots"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": "180",
+              "protein_grams": "35",
+              "carbs_grams": "0",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Roasted Vegetables",
+              "calories": "50",
+              "protein_grams": "2",
+              "carbs_grams": "10",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "230",
+          "description": "Grilled salmon with roasted vegetables",
+          "ingredients": [
+            "Salmon",
+            "Mixed Vegetables",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Almond Milk",
+              "calories": "30",
+              "protein_grams": "1",
+              "carbs_grams": "6",
+              "fats_grams": "2"
+            }
+          ],
+          "total_calories": "30",
+          "description": "A light and refreshing snack before bed",
+          "ingredients": [
+            "Almond Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk",
+              "calories": "55",
+              "protein_grams": "1",
+              "carbs_grams": "6",
+              "fats_grams": "5"
+            },
+            {
+              "name": "Berries",
+              "calories": "60",
+              "protein_grams": "1",
+              "carbs_grams": "15",
+              "fats_grams": "1"
+            }
+          ],
+          "total_calories": "115",
+          "description": "A refreshing and healthy breakfast",
+          "ingredients": [
+            "Coconut Milk",
+            "Berries"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": "16",
+              "protein_grams": "1",
+              "carbs_grams": "4",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "16",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": "140",
+              "protein_grams": "30",
+              "carbs_grams": "0",
+              "fats_grams": "3"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "160",
+          "description": "Grilled turkey breast with a mixed greens salad",
+          "ingredients": [
+            "Turkey Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Celery Sticks",
+              "calories": "6",
+              "protein_grams": "0",
+              "carbs_grams": "2",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "6",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Celery"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": "120",
+              "protein_grams": "20",
+              "carbs_grams": "0",
+              "fats_grams": "2"
+            },
+            {
+              "name": "Roasted Sweet Potatoes",
+              "calories": "110",
+              "protein_grams": "2",
+              "carbs_grams": "25",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "230",
+          "description": "Grilled shrimp with roasted sweet potatoes",
+          "ingredients": [
+            "Shrimp",
+            "Sweet Potatoes",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Coconut Water",
+              "calories": "45",
+              "protein_grams": "1",
+              "carbs_grams": "11",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "45",
+          "description": "A refreshing and healthy snack before bed",
+          "ingredients": [
+            "Coconut Water"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach",
+              "calories": "20",
+              "protein_grams": "3",
+              "carbs_grams": "3",
+              "fats_grams": "0"
+            },
+            {
+              "name": "Mushrooms",
+              "calories": "15",
+              "protein_grams": "1",
+              "carbs_grams": "3",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "35",
+          "description": "A healthy and filling breakfast",
+          "ingredients": [
+            "Spinach",
+            "Mushrooms"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Bell Pepper Slices",
+              "calories": "49",
+              "protein_grams": "1",
+              "carbs_grams": "12",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "49",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Bell Pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": "260",
+              "protein_grams": "37",
+              "carbs_grams": "0",
+              "fats_grams": "6"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "280",
+          "description": "Grilled chicken breast with a mixed greens salad",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Tomato Slices",
+              "calories": "22",
+              "protein_grams": "1",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "22",
+          "description": "A healthy and refreshing snack",
+          "ingredients": [
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": "200",
+              "protein_grams": "35",
+              "carbs_grams": "0",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": "55",
+              "protein_grams": "2",
+              "carbs_grams": "11",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "255",
+          "description": "Grilled steak with roasted broccoli",
+          "ingredients": [
+            "Steak",
+            "Broccoli",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": "16",
+              "protein_grams": "1",
+              "carbs_grams": "4",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "16",
+          "description": "A refreshing and healthy snack before bed",
+          "ingredients": [
+            "Cucumber"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado",
+              "calories": "160",
+              "protein_grams": "3",
+              "carbs_grams": "8",
+              "fats_grams": "14"
+            },
+            {
+              "name": "Tomato",
+              "calories": "22",
+              "protein_grams": "1",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "182",
+          "description": "A healthy and filling breakfast",
+          "ingredients": [
+            "Avocado",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks",
+              "calories": "45",
+              "protein_grams": "1",
+              "carbs_grams": "10",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "45",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Carrots"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": "260",
+              "protein_grams": "37",
+              "carbs_grams": "0",
+              "fats_grams": "6"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "280",
+          "description": "Grilled chicken breast with a mixed greens salad",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": "95",
+              "protein_grams": "0",
+              "carbs_grams": "25",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "95",
+          "description": "A healthy and refreshing snack",
+          "ingredients": [
+            "Apple"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": "180",
+              "protein_grams": "35",
+              "carbs_grams": "0",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": "25",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "205",
+          "description": "Grilled salmon with roasted asparagus",
+          "ingredients": [
+            "Salmon",
+            "Asparagus",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Almond Milk",
+              "calories": "30",
+              "protein_grams": "1",
+              "carbs_grams": "6",
+              "fats_grams": "2"
+            }
+          ],
+          "total_calories": "30",
+          "description": "A light and refreshing snack before bed",
+          "ingredients": [
+            "Almond Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk",
+              "calories": "55",
+              "protein_grams": "1",
+              "carbs_grams": "6",
+              "fats_grams": "5"
+            },
+            {
+              "name": "Berries",
+              "calories": "60",
+              "protein_grams": "1",
+              "carbs_grams": "15",
+              "fats_grams": "1"
+            }
+          ],
+          "total_calories": "115",
+          "description": "A refreshing and healthy breakfast",
+          "ingredients": [
+            "Coconut Milk",
+            "Berries"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": "16",
+              "protein_grams": "1",
+              "carbs_grams": "4",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "16",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": "140",
+              "protein_grams": "30",
+              "carbs_grams": "0",
+              "fats_grams": "3"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "160",
+          "description": "Grilled turkey breast with a mixed greens salad",
+          "ingredients": [
+            "Turkey Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Celery Sticks",
+              "calories": "6",
+              "protein_grams": "0",
+              "carbs_grams": "2",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "6",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Celery"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": "120",
+              "protein_grams": "20",
+              "carbs_grams": "0",
+              "fats_grams": "2"
+            },
+            {
+              "name": "Roasted Bell Peppers",
+              "calories": "49",
+              "protein_grams": "1",
+              "carbs_grams": "12",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "169",
+          "description": "Grilled shrimp with roasted bell peppers",
+          "ingredients": [
+            "Shrimp",
+            "Bell Peppers",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Coconut Water",
+              "calories": "45",
+              "protein_grams": "1",
+              "carbs_grams": "11",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "45",
+          "description": "A refreshing and healthy snack before bed",
+          "ingredients": [
+            "Coconut Water"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach",
+              "calories": "20",
+              "protein_grams": "3",
+              "carbs_grams": "3",
+              "fats_grams": "0"
+            },
+            {
+              "name": "Mushrooms",
+              "calories": "15",
+              "protein_grams": "1",
+              "carbs_grams": "3",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "35",
+          "description": "A healthy and filling breakfast",
+          "ingredients": [
+            "Spinach",
+            "Mushrooms"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": "95",
+              "protein_grams": "0",
+              "carbs_grams": "25",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "95",
+          "description": "A healthy and refreshing snack",
+          "ingredients": [
+            "Apple"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": "260",
+              "protein_grams": "37",
+              "carbs_grams": "0",
+              "fats_grams": "6"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "280",
+          "description": "Grilled chicken breast with a mixed greens salad",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks",
+              "calories": "45",
+              "protein_grams": "1",
+              "carbs_grams": "10",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "45",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Carrots"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": "200",
+              "protein_grams": "35",
+              "carbs_grams": "0",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": "55",
+              "protein_grams": "2",
+              "carbs_grams": "11",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "255",
+          "description": "Grilled steak with roasted broccoli",
+          "ingredients": [
+            "Steak",
+            "Broccoli",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Almond Milk",
+              "calories": "30",
+              "protein_grams": "1",
+              "carbs_grams": "6",
+              "fats_grams": "2"
+            }
+          ],
+          "total_calories": "30",
+          "description": "A light and refreshing snack before bed",
+          "ingredients": [
+            "Almond Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado",
+              "calories": "160",
+              "protein_grams": "3",
+              "carbs_grams": "8",
+              "fats_grams": "14"
+            },
+            {
+              "name": "Banana",
+              "calories": "105",
+              "protein_grams": "1",
+              "carbs_grams": "26",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "265",
+          "description": "A healthy and filling breakfast",
+          "ingredients": [
+            "Avocado",
+            "Banana"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Tomato Slices",
+              "calories": "22",
+              "protein_grams": "1",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "22",
+          "description": "A healthy and refreshing snack",
+          "ingredients": [
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": "260",
+              "protein_grams": "37",
+              "carbs_grams": "0",
+              "fats_grams": "6"
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": "20",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "280",
+          "description": "Grilled chicken breast with a mixed greens salad",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": "16",
+              "protein_grams": "1",
+              "carbs_grams": "4",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "16",
+          "description": "A crunchy and healthy snack",
+          "ingredients": [
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": "180",
+              "protein_grams": "35",
+              "carbs_grams": "0",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": "25",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "205",
+          "description": "Grilled salmon with roasted asparagus",
+          "ingredients": [
+            "Salmon",
+            "Asparagus",
+            "Olive Oil"
+          ]
+        },
+        {
+          "meal_name": "Before Bedtime Snack",
+          "items": [
+            {
+              "name": "Coconut Water",
+              "calories": "45",
+              "protein_grams": "1",
+              "carbs_grams": "11",
+              "fats_grams": "0"
+            }
+          ],
+          "total_calories": "45",
+          "description": "A refreshing and healthy snack before bed",
+          "ingredients": [
+            "Coconut Water"
+          ]
+        }
+      ]
+    }
+  ]
+}

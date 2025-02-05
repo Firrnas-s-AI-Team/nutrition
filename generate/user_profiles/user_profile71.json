@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Muhammad Khan",
+      "age": 54,
+      "gender": "female",
+      "weight": 68.2,
+      "height": 173.5,
+      "activity_level": "sedentary",
+      "goal": "weight_gain",
+      "target_weight": 74.6,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Vegetarian"
+      ]
+    }
+  }

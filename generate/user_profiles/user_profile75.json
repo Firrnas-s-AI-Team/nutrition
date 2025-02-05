@@ -1,0 +1,24 @@
+{
+    "user_profile": {
+      "name": "Oliver Gonzalez",
+      "age": 20,
+      "gender": "female",
+      "weight": 61.4,
+      "height": 164.8,
+      "activity_level": "moderately_active",
+      "goal": "weight_loss",
+      "target_weight": 55.2,
+      "meals_per_day": 3,
+      "medical_conditions": [
+        "Hypertension"
+      ],
+      "allergies": [
+        "Milk",
+        "Eggs"
+      ],
+      "dietary_preferences": [
+        "Mediterranean",
+        "Vegan"
+      ]
+    }
+  }

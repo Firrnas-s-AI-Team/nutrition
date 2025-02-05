@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Ali Williams",
+      "age": 41,
+      "gender": "male",
+      "weight": 72.6,
+      "height": 174.8,
+      "activity_level": "sedentary",
+      "goal": "maintenance",
+      "target_weight": 72.6,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Low-carb"
+      ]
+    }
+  }

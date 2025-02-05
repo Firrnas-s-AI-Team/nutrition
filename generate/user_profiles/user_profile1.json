@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Amelia Johnson",
+      "age": 47,
+      "gender": "male",
+      "weight": 58.3,
+      "height": 166.2,
+      "activity_level": "moderately_active",
+      "goal": "maintenance",
+      "target_weight": 58.3,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Low-carb"
+      ]
+    }
+  }

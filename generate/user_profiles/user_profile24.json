@@ -1,0 +1,20 @@
+{
+    "user_profile": {
+      "name": "Henry Lee",
+      "age": 19,
+      "gender": "male",
+      "weight": 70.8,
+      "height": 170.8,
+      "activity_level": "extremely_active",
+      "goal": "weight_loss",
+      "target_weight": 65.2,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [
+        "Gluten"
+      ],
+      "dietary_preferences": [
+        "Mediterranean"
+      ]
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "user_profile": {
+      "name": "Emma Lee",
+      "age": 49,
+      "gender": "male",
+      "weight": 77.6,
+      "height": 183.5,
+      "activity_level": "very_active",
+      "goal": "muscle_gain",
+      "target_weight": 85.4,
+      "meals_per_day": 5,
+      "medical_conditions": [
+        "GERD"
+      ],
+      "allergies": [
+        "Gluten"
+      ],
+      "dietary_preferences": [
+        "Gluten-free",
+        "Kosher"
+      ]
+    }
+  }

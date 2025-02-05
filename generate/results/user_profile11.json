@@ -1,0 +1,36 @@
+```json
+{
+  "Correctness": {
+    "score": 1,
+    "explanation": "The meal plan generally aligns with the user's dietary preferences (Low-carb, Paleo).",
+    "violations": []
+  },
+  "Completeness": {
+    "score": 0,
+    "explanation": "The meal plan includes the specified number of meals per day (3), provides macronutrient tracking, descriptions, and ingredient lists. However, it lacks alternative options for each meal.",
+    "violations": [
+      "Missing alternative options for each meal."
+    ]
+  },
+  "Conciseness": {
+    "score": 4,
+    "explanation": "The meal plan is generally concise, with clear meal descriptions and focused information. There is minimal redundancy.",
+    "violations": []
+  },
+  "Helpfulness": {
+    "score": 4,
+    "explanation": "The plan supports the user's goal of weight loss by providing meals that are relatively low in calories and carbohydrate content, aligning with a low-carb and Paleo approach. The meal descriptions are generally helpful.",
+    "violations": []
+  },
+  "Honesty": {
+    "score": 5,
+    "explanation": "The calorie and macronutrient values appear realistic and consistent with the ingredients listed for each meal. A spot check confirms reasonable values.",
+    "violations": []
+  },
+  "Harmlessness": {
+    "score": 4,
+    "explanation": "The meal plan appears generally safe and medically appropriate for a user with Type 2 Diabetes, focusing on low-carb options and avoiding obvious harmful ingredients. However, it lacks specific guidance tailored to managing the condition.",
+    "violations": []
+  }
+}
+```

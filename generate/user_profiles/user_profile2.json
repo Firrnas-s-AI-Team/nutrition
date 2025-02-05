@@ -1,0 +1,21 @@
+{
+    "user_profile": {
+      "name": "Ali Lee",
+      "age": 57,
+      "gender": "male",
+      "weight": 76.1,
+      "height": 178.1,
+      "activity_level": "sedentary",
+      "goal": "maintenance",
+      "target_weight": 76.1,
+      "meals_per_day": 3,
+      "medical_conditions": [
+        "Type 2 Diabetes",
+        "Celiac Disease"
+      ],
+      "allergies": [],
+      "dietary_preferences": [
+        "Mediterranean"
+      ]
+    }
+  }

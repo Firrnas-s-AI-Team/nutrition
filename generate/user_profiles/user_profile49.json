@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Jack Garcia",
+      "age": 46,
+      "gender": "female",
+      "weight": 59.6,
+      "height": 167.5,
+      "activity_level": "lightly_active",
+      "goal": "weight_loss",
+      "target_weight": 53.8,
+      "meals_per_day": 3,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Pescatarian"
+      ]
+    }
+  }

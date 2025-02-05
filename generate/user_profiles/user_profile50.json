@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Fatima Smith",
+      "age": 56,
+      "gender": "male",
+      "weight": 85.0,
+      "height": 188.6,
+      "activity_level": "extremely_active",
+      "goal": "maintenance",
+      "target_weight": 85.0,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Paleo"
+      ]
+    }
+  }

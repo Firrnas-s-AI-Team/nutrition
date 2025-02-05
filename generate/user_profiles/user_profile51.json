@@ -1,0 +1,22 @@
+{
+    "user_profile": {
+      "name": "James Thomas",
+      "age": 42,
+      "gender": "male",
+      "weight": 80.3,
+      "height": 183.6,
+      "activity_level": "lightly_active",
+      "goal": "weight_loss",
+      "target_weight": 68.9,
+      "meals_per_day": 4,
+      "medical_conditions": [
+        "IBS"
+      ],
+      "allergies": [
+        "Shellfish"
+      ],
+      "dietary_preferences": [
+        "Paleo"
+      ]
+    }
+  }

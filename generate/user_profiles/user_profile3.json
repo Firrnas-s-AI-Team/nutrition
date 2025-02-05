@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Emma Hernandez",
+      "age": 31,
+      "gender": "male",
+      "weight": 65.6,
+      "height": 166.2,
+      "activity_level": "lightly_active",
+      "goal": "muscle_gain",
+      "target_weight": 69.2,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Keto"
+      ]
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "user_profile": {
+      "name": "Harper Williams",
+      "age": 60,
+      "gender": "female",
+      "weight": 74.6,
+      "height": 178.6,
+      "activity_level": "lightly_active",
+      "goal": "muscle_gain",
+      "target_weight": 80.2,
+      "meals_per_day": 5,
+      "medical_conditions": [
+        "Hypertension",
+        "Arthritis"
+      ],
+      "allergies": [
+        "Eggs"
+      ],
+      "dietary_preferences": [
+        "Paleo"
+      ]
+    }
+  }

@@ -1,0 +1,927 @@
+{
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 3.5,
+  "BMI": 22.3,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grass-fed beef sausage",
+              "calories": 250,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 18
+            },
+            {
+              "name": "Spinach omelette",
+              "calories": 150,
+              "protein_grams": 12,
+              "carbs_grams": 2,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 400,
+          "description": "Start the day with a protein-packed breakfast",
+          "ingredients": [
+            "Grass-fed beef sausage",
+            "Eggs",
+            "Spinach"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Apple slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "A healthy snack to keep you going",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Roasted vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 310,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed vegetables"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Hard-boiled egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 1,
+              "fats_grams": 5
+            },
+            {
+              "name": "Celery sticks",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 88,
+          "description": "A protein-rich snack to curb hunger",
+          "ingredients": [
+            "Eggs",
+            "Celery"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled salmon",
+              "calories": 210,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 12
+            },
+            {
+              "name": "Sweet potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 320,
+          "description": "A balanced dinner with protein and complex carbs",
+          "ingredients": [
+            "Salmon",
+            "Sweet potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado omelette",
+              "calories": 220,
+              "protein_grams": 14,
+              "carbs_grams": 4,
+              "fats_grams": 16
+            },
+            {
+              "name": "Tomato slices",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 240,
+          "description": "A healthy breakfast with healthy fats",
+          "ingredients": [
+            "Eggs",
+            "Avocado",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Cucumber slices",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Smoked salmon",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 130,
+          "description": "A refreshing snack with protein",
+          "ingredients": [
+            "Cucumber",
+            "Smoked salmon"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 25,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Guacamole",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 125,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Carrots",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled steak",
+              "calories": 300,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 20
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 355,
+          "description": "A balanced dinner with protein and veggies",
+          "ingredients": [
+            "Steak",
+            "Broccoli"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach and mushroom omelette",
+              "calories": 200,
+              "protein_grams": 14,
+              "carbs_grams": 4,
+              "fats_grams": 12
+            },
+            {
+              "name": "Tomato slices",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 220,
+          "description": "A healthy breakfast with veggies",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Mushrooms",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Cucumber slices",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Turkey slices",
+              "calories": 100,
+              "protein_grams": 15,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 110,
+          "description": "A refreshing snack with protein",
+          "ingredients": [
+            "Cucumber",
+            "Turkey breast"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 25,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 125,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Carrots",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled pork chop",
+              "calories": 250,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Roasted Brussels sprouts",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 305,
+          "description": "A balanced dinner with protein and veggies",
+          "ingredients": [
+            "Pork chop",
+            "Brussels sprouts"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado toast",
+              "calories": 250,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 16
+            },
+            {
+              "name": "Poached eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "A healthy breakfast with healthy fats",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Apple slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 25,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Guacamole",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 125,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Carrots",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 145,
+          "description": "A balanced dinner with protein and veggies",
+          "ingredients": [
+            "Shrimp",
+            "Asparagus"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach and mushroom omelette",
+              "calories": 200,
+              "protein_grams": 14,
+              "carbs_grams": 4,
+              "fats_grams": 12
+            },
+            {
+              "name": "Tomato slices",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 220,
+          "description": "A healthy breakfast with veggies",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Mushrooms",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Cucumber slices",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Smoked salmon",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 4
+            }
+          ],
+          "total_calories": 130,
+          "description": "A refreshing snack with protein",
+          "ingredients": [
+            "Cucumber",
+            "Smoked salmon"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 25,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 125,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Carrots",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled pork chop",
+              "calories": 250,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Roasted Brussels sprouts",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 305,
+          "description": "A balanced dinner with protein and veggies",
+          "ingredients": [
+            "Pork chop",
+            "Brussels sprouts"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado toast",
+              "calories": 250,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 16
+            },
+            {
+              "name": "Poached eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "A healthy breakfast with healthy fats",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Apple slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 25,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Guacamole",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 125,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Carrots",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled steak",
+              "calories": 300,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 20
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 355,
+          "description": "A balanced dinner with protein and veggies",
+          "ingredients": [
+            "Steak",
+            "Broccoli"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Spinach and mushroom omelette",
+              "calories": 200,
+              "protein_grams": 14,
+              "carbs_grams": 4,
+              "fats_grams": 12
+            },
+            {
+              "name": "Tomato slices",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 220,
+          "description": "A healthy breakfast with veggies",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Mushrooms",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Mid-morning Snack",
+          "items": [
+            {
+              "name": "Cucumber slices",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Turkey slices",
+              "calories": 100,
+              "protein_grams": 15,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 110,
+          "description": "A refreshing snack with protein",
+          "ingredients": [
+            "Cucumber",
+            "Turkey breast"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 280,
+          "description": "A balanced lunch with protein and veggies",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Mid-afternoon Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 25,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 125,
+          "description": "A healthy snack with healthy fats",
+          "ingredients": [
+            "Carrots",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled salmon",
+              "calories": 210,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 12
+            },
+            {
+              "name": "Roasted asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 235,
+          "description": "A balanced dinner with protein and veggies",
+          "ingredients": [
+            "Salmon",
+            "Asparagus"
+          ]
+        }
+      ]
+    }
+  ]
+}

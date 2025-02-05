@@ -1,0 +1,19 @@
+{
+    "user_profile": {
+      "name": "Ava Smith",
+      "age": 42,
+      "gender": "female",
+      "weight": 75.3,
+      "height": 177.2,
+      "activity_level": "extremely_active",
+      "goal": "weight_loss",
+      "target_weight": 68.1,
+      "meals_per_day": 3,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Keto",
+        "Kosher"
+      ]
+    }
+  }

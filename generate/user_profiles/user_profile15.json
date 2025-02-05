@@ -1,0 +1,20 @@
+{
+    "user_profile": {
+      "name": "Henry Hernandez",
+      "age": 59,
+      "gender": "female",
+      "weight": 60.7,
+      "height": 161.0,
+      "activity_level": "lightly_active",
+      "goal": "maintenance",
+      "target_weight": 60.7,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [
+        "Soy"
+      ],
+      "dietary_preferences": [
+        "Halal"
+      ]
+    }
+  }

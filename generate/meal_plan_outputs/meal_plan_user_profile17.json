@@ -1,0 +1,664 @@
+{
+  "target_calories_per_day": 1900,
+  "target_water_intake_liters": 3.5,
+  "BMI": 20.3,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Gluten-Free Toast",
+              "calories": 89,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 2
+            },
+            {
+              "name": "Fresh Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 289,
+          "description": "Start your day with a protein-packed breakfast",
+          "ingredients": [
+            "Eggs",
+            "Gluten-Free Bread",
+            "Fresh Berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            },
+            {
+              "name": "Steamed Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 340,
+          "description": "A balanced lunch with protein, complex carbs, and veggies",
+          "ingredients": [
+            "Chicken Breast",
+            "Quinoa",
+            "Mixed Vegetables"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Sweet Potatoes",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 345,
+          "description": "A nutritious dinner with omega-3 rich salmon and complex carbs",
+          "ingredients": [
+            "Salmon Fillet",
+            "Sweet Potatoes",
+            "Green Beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Banana",
+              "calories": 90,
+              "protein_grams": 1,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 160,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 350,
+          "description": "A protein-rich breakfast with healthy fats and complex carbs",
+          "ingredients": [
+            "Greek Yogurt",
+            "Banana",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Avocado Wrap",
+              "calories": 350,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 350,
+          "description": "A satisfying lunch with lean protein, healthy fats, and complex carbs",
+          "ingredients": [
+            "Turkey Breast",
+            "Avocado",
+            "Gluten-Free Wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted Carrots",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 335,
+          "description": "A balanced dinner with lean protein, complex carbs, and veggies",
+          "ingredients": [
+            "Chicken Breast",
+            "Carrots",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl",
+              "calories": 200,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 200,
+          "description": "A nutritious breakfast with a mix of protein, complex carbs, and healthy fats",
+          "ingredients": [
+            "Frozen Berries",
+            "Greek Yogurt",
+            "Almond Milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic Vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "A light and refreshing lunch with lean protein and complex carbs",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Balsamic Vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod",
+              "calories": 120,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 295,
+          "description": "A balanced dinner with lean protein, complex carbs, and veggies",
+          "ingredients": [
+            "Cod Fillet",
+            "Asparagus",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast",
+              "calories": 250,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            },
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "A nutritious breakfast with healthy fats and complex carbs",
+          "ingredients": [
+            "Avocado",
+            "Gluten-Free Bread",
+            "Eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Cheese Wrap",
+              "calories": 350,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 350,
+          "description": "A satisfying lunch with lean protein, complex carbs, and healthy fats",
+          "ingredients": [
+            "Turkey Breast",
+            "Cheese",
+            "Gluten-Free Wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted Bell Peppers",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 315,
+          "description": "A balanced dinner with lean protein, complex carbs, and veggies",
+          "ingredients": [
+            "Shrimp",
+            "Bell Peppers",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette",
+              "calories": 180,
+              "protein_grams": 18,
+              "carbs_grams": 0,
+              "fats_grams": 12
+            },
+            {
+              "name": "Gluten-Free Toast",
+              "calories": 89,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 269,
+          "description": "A protein-packed breakfast with complex carbs",
+          "ingredients": [
+            "Eggs",
+            "Gluten-Free Bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic Vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "A light and refreshing lunch with lean protein and complex carbs",
+          "ingredients": [
+            "Chicken Breast",
+            "Mixed Greens",
+            "Balsamic Vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thigh",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 345,
+          "description": "A balanced dinner with lean protein, complex carbs, and veggies",
+          "ingredients": [
+            "Chicken Thigh",
+            "Broccoli",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Banana",
+              "calories": 90,
+              "protein_grams": 1,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 160,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 350,
+          "description": "A protein-rich breakfast with healthy fats and complex carbs",
+          "ingredients": [
+            "Greek Yogurt",
+            "Banana",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Avocado Wrap",
+              "calories": 350,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 350,
+          "description": "A satisfying lunch with lean protein, complex carbs, and healthy fats",
+          "ingredients": [
+            "Turkey Breast",
+            "Avocado",
+            "Gluten-Free Wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Sweet Potatoes",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 345,
+          "description": "A nutritious dinner with omega-3 rich salmon and complex carbs",
+          "ingredients": [
+            "Salmon Fillet",
+            "Sweet Potatoes",
+            "Green Beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Gluten-Free Toast",
+              "calories": 89,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 2
+            },
+            {
+              "name": "Fresh Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 289,
+          "description": "A protein-packed breakfast with complex carbs",
+          "ingredients": [
+            "Eggs",
+            "Gluten-Free Bread",
+            "Fresh Berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            },
+            {
+              "name": "Steamed Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 340,
+          "description": "A balanced lunch with lean protein, complex carbs, and veggies",
+          "ingredients": [
+            "Chicken Breast",
+            "Quinoa",
+            "Mixed Vegetables"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thigh",
+              "calories": 140,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Carrots",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 335,
+          "description": "A balanced dinner with lean protein, complex carbs, and veggies",
+          "ingredients": [
+            "Chicken Thigh",
+            "Carrots",
+            "Quinoa"
+          ]
+        }
+      ]
+    }
+  ]
+}

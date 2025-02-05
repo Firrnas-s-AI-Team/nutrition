@@ -1,0 +1,20 @@
+{
+    "user_profile": {
+      "name": "Noah Lopez",
+      "age": 25,
+      "gender": "female",
+      "weight": 72.4,
+      "height": 174.3,
+      "activity_level": "sedentary",
+      "goal": "muscle_gain",
+      "target_weight": 77.0,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [
+        "Gluten"
+      ],
+      "dietary_preferences": [
+        "Vegan"
+      ]
+    }
+  }

@@ -1,0 +1,24 @@
+{
+    "user_profile": {
+      "name": "Muhammad Lopez",
+      "age": 65,
+      "gender": "male",
+      "weight": 72.8,
+      "height": 172.0,
+      "activity_level": "lightly_active",
+      "goal": "maintenance",
+      "target_weight": 72.8,
+      "meals_per_day": 5,
+      "medical_conditions": [
+        "Anemia",
+        "Asthma",
+        "High Cholesterol"
+      ],
+      "allergies": [
+        "Soy"
+      ],
+      "dietary_preferences": [
+        "Pescatarian"
+      ]
+    }
+  }

@@ -1,0 +1,23 @@
+{
+    "user_profile": {
+      "name": "Fatima Rodriguez",
+      "age": 59,
+      "gender": "female",
+      "weight": 59.5,
+      "height": 167.3,
+      "activity_level": "very_active",
+      "goal": "weight_loss",
+      "target_weight": 51.8,
+      "meals_per_day": 5,
+      "medical_conditions": [
+        "Arthritis"
+      ],
+      "allergies": [
+        "Soy",
+        "Peanuts"
+      ],
+      "dietary_preferences": [
+        "Gluten-free"
+      ]
+    }
+  }

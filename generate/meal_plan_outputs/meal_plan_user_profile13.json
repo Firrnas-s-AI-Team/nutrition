@@ -1,0 +1,910 @@
+{
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 3.5,
+  "BMI": 20.2,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Avocado",
+              "calories": 110,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 270,
+          "description": "Grilled chicken breast with avocado and spinach",
+          "ingredients": [
+            "Chicken breast",
+            "Avocado",
+            "Spinach"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 300,
+          "description": "Grilled salmon with mixed greens and almonds",
+          "ingredients": [
+            "Salmon",
+            "Mixed greens",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 365,
+          "description": "Grilled steak with roasted broccoli and sweet potato",
+          "ingredients": [
+            "Steak",
+            "Broccoli",
+            "Sweet potato"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Apple with almond butter",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Avocado",
+              "calories": 110,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 270,
+          "description": "Scrambled eggs with spinach and avocado",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Walnuts",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens and walnuts",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Walnuts"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Zucchini",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Bell Peppers",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 190,
+          "description": "Grilled shrimp with zucchini and bell peppers",
+          "ingredients": [
+            "Shrimp",
+            "Zucchini",
+            "Bell peppers"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Guacamole",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 145,
+          "description": "Carrot sticks with guacamole",
+          "ingredients": [
+            "Carrots",
+            "Guacamole"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Avocado",
+              "calories": 110,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            },
+            {
+              "name": "Tomato",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 270,
+          "description": "Grilled chicken breast with avocado and tomato",
+          "ingredients": [
+            "Chicken breast",
+            "Avocado",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cucumber",
+              "calories": 10,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 170,
+          "description": "Grilled turkey breast with mixed greens and cucumber",
+          "ingredients": [
+            "Turkey breast",
+            "Mixed greens",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Bell Peppers",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 270,
+          "description": "Grilled steak with roasted asparagus and bell peppers",
+          "ingredients": [
+            "Steak",
+            "Asparagus",
+            "Bell peppers"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 98,
+          "description": "Hard-boiled egg with cherry tomatoes",
+          "ingredients": [
+            "Eggs",
+            "Cherry tomatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast",
+              "calories": 150,
+              "protein_grams": 3,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            },
+            {
+              "name": "Poached Eggs",
+              "calories": 70,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 240,
+          "description": "Avocado toast with poached eggs and spinach",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Spinach"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cucumber",
+              "calories": 10,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 170,
+          "description": "Grilled chicken breast with mixed greens and cucumber",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 345,
+          "description": "Grilled salmon with roasted broccoli and sweet potato",
+          "ingredients": [
+            "Salmon",
+            "Broccoli",
+            "Sweet potato"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Apple with almond butter",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Avocado",
+              "calories": 110,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            },
+            {
+              "name": "Tomato",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 270,
+          "description": "Grilled chicken breast with avocado and tomato",
+          "ingredients": [
+            "Chicken breast",
+            "Avocado",
+            "Tomato"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cucumber",
+              "calories": 10,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 170,
+          "description": "Grilled turkey breast with mixed greens and cucumber",
+          "ingredients": [
+            "Turkey breast",
+            "Mixed greens",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Bell Peppers",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 270,
+          "description": "Grilled steak with roasted asparagus and bell peppers",
+          "ingredients": [
+            "Steak",
+            "Asparagus",
+            "Bell peppers"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 98,
+          "description": "Hard-boiled egg with cherry tomatoes",
+          "ingredients": [
+            "Eggs",
+            "Cherry tomatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Avocado",
+              "calories": 110,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 270,
+          "description": "Scrambled eggs with spinach and avocado",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Walnuts",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens and walnuts",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Walnuts"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Zucchini",
+              "calories": 25,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Bell Peppers",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 190,
+          "description": "Grilled shrimp with zucchini and bell peppers",
+          "ingredients": [
+            "Shrimp",
+            "Zucchini",
+            "Bell peppers"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Guacamole",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 145,
+          "description": "Carrot sticks with guacamole",
+          "ingredients": [
+            "Carrots",
+            "Guacamole"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Avocado",
+              "calories": 110,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 270,
+          "description": "Grilled chicken breast with avocado and spinach",
+          "ingredients": [
+            "Chicken breast",
+            "Avocado",
+            "Spinach"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled turkey breast with mixed greens and almonds",
+          "ingredients": [
+            "Turkey breast",
+            "Mixed greens",
+            "Almonds"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 365,
+          "description": "Grilled steak with roasted broccoli and sweet potato",
+          "ingredients": [
+            "Steak",
+            "Broccoli",
+            "Sweet potato"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Apple with almond butter",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        }
+      ]
+    }
+  ]
+}

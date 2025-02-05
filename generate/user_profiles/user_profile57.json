@@ -1,0 +1,18 @@
+{
+    "user_profile": {
+      "name": "Muhammad Garcia",
+      "age": 53,
+      "gender": "female",
+      "weight": 64.6,
+      "height": 166.3,
+      "activity_level": "very_active",
+      "goal": "weight_loss",
+      "target_weight": 55.7,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [],
+      "dietary_preferences": [
+        "Gluten-free"
+      ]
+    }
+  }

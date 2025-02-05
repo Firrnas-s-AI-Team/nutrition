@@ -1,0 +1,912 @@
+{
+  "target_calories_per_day": 1900,
+  "target_water_intake_liters": 2.5,
+  "BMI": 24.3,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free oatmeal",
+              "calories": 250,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 4
+            },
+            {
+              "name": "Sliced banana",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond milk",
+              "calories": 30,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 380,
+          "description": "Gluten-free oatmeal with sliced banana and almond milk",
+          "ingredients": [
+            "Gluten-free oats",
+            "Banana",
+            "Almond milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Apple slices with almond butter",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 380,
+          "description": "Grilled salmon with roasted vegetables and quinoa",
+          "ingredients": [
+            "Salmon",
+            "Mixed vegetables",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free toast",
+              "calories": 80,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 240,
+          "description": "Scrambled eggs with spinach and gluten-free toast",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Gluten-free bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled turkey breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled turkey breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Turkey breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Hummas",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 145,
+          "description": "Carrot sticks with hummas",
+          "ingredients": [
+            "Carrots",
+            "Chickpeas",
+            "Tahini"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted sweet potatoes",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Green beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 295,
+          "description": "Grilled chicken breast with roasted sweet potatoes and green beans",
+          "ingredients": [
+            "Chicken breast",
+            "Sweet potatoes",
+            "Green beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free pancakes",
+              "calories": 200,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 8
+            },
+            {
+              "name": "Fresh berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 360,
+          "description": "Gluten-free pancakes with fresh berries and almond butter",
+          "ingredients": [
+            "Gluten-free flour",
+            "Berries",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Rice cakes",
+              "calories": 80,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 180,
+          "description": "Rice cakes with almond butter",
+          "ingredients": [
+            "Rice cakes",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 295,
+          "description": "Grilled shrimp with roasted asparagus and quinoa",
+          "ingredients": [
+            "Shrimp",
+            "Asparagus",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free waffles",
+              "calories": 200,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 8
+            },
+            {
+              "name": "Fresh strawberries",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 12,
+              "fats_grams": 0
+            },
+            {
+              "name": "Whipped cream",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 350,
+          "description": "Gluten-free waffles with fresh strawberries and whipped cream",
+          "ingredients": [
+            "Gluten-free flour",
+            "Strawberries",
+            "Whipped cream"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cottage cheese",
+              "calories": 100,
+              "protein_grams": 11,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced cucumber",
+              "calories": 10,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 110,
+          "description": "Cottage cheese with sliced cucumber",
+          "ingredients": [
+            "Cottage cheese",
+            "Cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Brown rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 305,
+          "description": "Grilled chicken breast with roasted broccoli and brown rice",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli",
+            "Brown rice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free oatmeal",
+              "calories": 250,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 4
+            },
+            {
+              "name": "Sliced banana",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond milk",
+              "calories": 30,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 380,
+          "description": "Gluten-free oatmeal with sliced banana and almond milk",
+          "ingredients": [
+            "Gluten-free oats",
+            "Banana",
+            "Almond milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Apple slices with almond butter",
+          "ingredients": [
+            "Apple",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 380,
+          "description": "Grilled salmon with roasted vegetables and quinoa",
+          "ingredients": [
+            "Salmon",
+            "Mixed vegetables",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free toast",
+              "calories": 80,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 240,
+          "description": "Scrambled eggs with spinach and gluten-free toast",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Gluten-free bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot sticks",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Hummas",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 145,
+          "description": "Carrot sticks with hummas",
+          "ingredients": [
+            "Carrots",
+            "Chickpeas",
+            "Tahini"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 295,
+          "description": "Grilled shrimp with roasted asparagus and quinoa",
+          "ingredients": [
+            "Shrimp",
+            "Asparagus",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free pancakes",
+              "calories": 200,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 8
+            },
+            {
+              "name": "Fresh berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 360,
+          "description": "Gluten-free pancakes with fresh berries and almond butter",
+          "ingredients": [
+            "Gluten-free flour",
+            "Berries",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Gluten-free vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and gluten-free vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Gluten-free vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Rice cakes",
+              "calories": 80,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Almond butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 180,
+          "description": "Rice cakes with almond butter",
+          "ingredients": [
+            "Rice cakes",
+            "Almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Brown rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 305,
+          "description": "Grilled chicken breast with roasted broccoli and brown rice",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli",
+            "Brown rice"
+          ]
+        }
+      ]
+    }
+  ]
+}
