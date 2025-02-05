@@ -1,0 +1,126 @@
+food_item,calories_per_100_gm,carb_per_100_gm,protein_per_100_gm,fats_per_100_gm,type_category,meal_category
+Almonds,576,21.0,21.0,49.0,fats,snack
+Apples,52,14.0,0.3,0.2,carb,snack
+Avocado,160,9.0,2.0,15.0,fats,snack
+Banana,89,23.0,1.1,0.3,carb,breakfast
+Beef Steak,271,0.0,25.0,19.0,protein,dinner
+Black Beans,341,62.0,21.0,1.4,carb,lunch
+Blueberries,57,14.5,0.7,0.3,carb,snack
+Broccoli,34,7.0,2.8,0.4,carb,lunch
+Brown Rice,123,25.6,2.7,1.0,carb,lunch
+Carrots,41,10.0,0.9,0.2,carb,snack
+Cashews,553,30.0,18.0,44.0,fats,snack
+Cheddar Cheese,403,1.3,25.0,33.0,fats,snack
+Chia Seeds,486,42.1,16.5,30.7,fats,snack
+Chicken Breast,165,0.0,31.0,3.6,protein,lunch
+Chickpeas,364,61.0,19.0,6.0,carb,lunch
+Cottage Cheese,98,3.4,11.1,4.3,protein,breakfast
+Cucumber,16,3.6,0.7,0.1,carb,snack
+Eggplant,25,5.9,1.0,0.2,carb,lunch
+Feta Cheese,264,4.1,14.2,21.3,fats,snack
+Greek Yogurt,59,3.6,10.0,0.4,protein,breakfast
+Green Peas,81,14.5,5.4,0.4,carb,lunch
+Kale,49,8.8,4.3,0.9,carb,lunch
+Lamb,294,0.0,25.0,21.0,protein,dinner
+Lentils,116,20.1,9.0,0.4,carb,lunch
+Macadamia Nuts,718,14.0,7.9,76.0,fats,snack
+Mango,60,15.0,0.8,0.4,carb,snack
+Mozzarella Cheese,280,3.1,28.0,17.0,fats,snack
+Mushrooms,22,3.3,3.1,0.3,carb,lunch
+Oatmeal,68,12.0,2.4,1.4,carb,breakfast
+Olives,115,6.3,0.8,10.7,fats,snack
+Oranges,47,12.0,0.9,0.1,carb,snack
+Peanut Butter,588,20.0,25.0,50.0,fats,snack
+Pecans,691,14.0,9.2,72.0,fats,snack
+Pineapple,50,13.1,0.5,0.1,carb,snack
+Pistachios,562,28.0,20.0,45.0,fats,snack
+Pumpkin Seeds,559,10.7,30.2,49.1,fats,snack
+Quinoa,120,21.3,4.1,1.9,carb,lunch
+Raspberries,52,11.9,1.2,0.7,carb,snack
+Salmon,208,0.0,20.0,13.0,protein,dinner
+Sardines,208,0.0,25.0,11.5,protein,lunch
+Spinach,23,3.6,2.9,0.4,carb,lunch
+Strawberries,32,7.7,0.7,0.3,carb,snack
+Sweet Potato,86,20.1,1.6,0.1,carb,lunch
+Tofu,76,1.9,8.1,4.8,protein,lunch
+Tomatoes,18,3.9,0.9,0.2,carb,lunch
+Tuna,132,0.0,28.0,1.0,protein,lunch
+Walnuts,654,13.7,15.2,65.2,fats,snack
+Zucchini,17,3.1,1.2,0.3,carb,lunch
+Acorn Squash,40,10.0,1.0,0.1,carb,lunch
+Artichoke,47,11.0,3.3,0.2,carb,lunch
+Asparagus,20,3.9,2.2,0.1,carb,lunch
+Bok Choy,13,2.2,1.5,0.2,carb,lunch
+Butternut Squash,45,12.0,1.0,0.1,carb,lunch
+Cabbage,25,5.8,1.3,0.1,carb,lunch
+Cauliflower,25,4.9,1.9,0.3,carb,lunch
+Cherries,50,12.0,1.0,0.3,carb,snack
+Collard Greens,32,7.1,3.0,0.6,carb,lunch
+Cranberries,46,12.2,0.4,0.1,carb,snack
+Dates,282,75.0,2.5,0.4,carb,snack
+Edamame,121,8.9,11.9,5.2,protein,lunch
+Figs,74,19.2,0.8,0.3,carb,snack
+Goji Berries,349,77.1,14.3,0.4,carb,snack
+Grapefruit,42,10.7,0.8,0.1,carb,snack
+Grapes,69,18.1,0.7,0.2,carb,snack
+Acorn Squash,40,10.0,1.0,0.1,carb,lunch
+Artichoke,47,11.0,3.3,0.2,carb,lunch
+Asparagus,20,3.9,2.2,0.1,carb,lunch
+Bok Choy,13,2.2,1.5,0.2,carb,lunch
+Butternut Squash,45,12.0,1.0,0.1,carb,lunch
+Cabbage,25,5.8,1.3,0.1,carb,lunch
+Cauliflower,25,4.9,1.9,0.3,carb,lunch
+Cherries,50,12.0,1.0,0.3,carb,snack
+Collard Greens,32,7.1,3.0,0.6,carb,lunch
+Cranberries,46,12.2,0.4,0.1,carb,snack
+Dates,282,75.0,2.5,0.4,carb,snack
+Edamame,121,8.9,11.9,5.2,protein,lunch
+Figs,74,19.2,0.8,0.3,carb,snack
+Goji Berries,349,77.1,14.3,0.4,carb,snack
+Grapefruit,42,10.7,0.8,0.1,carb,snack
+Grapes,69,18.1,0.7,0.2,carb,snack
+Guava,68,14.3,2.6,0.9,carb,snack
+Honeydew Melon,36,9.1,0.5,0.1,carb,snack
+Jackfruit,95,23.0,1.7,0.6,carb,snack
+Jalapeno Peppers,29,6.5,0.9,0.4,carb,lunch
+Jicama,38,8.8,0.7,0.1,carb,snack
+Kiwifruit,61,14.7,1.1,0.5,carb,snack
+Leeks,61,14.2,1.5,0.3,carb,lunch
+Lychee,66,16.5,0.8,0.4,carb,snack
+Mandarin Oranges,53,13.3,0.8,0.3,carb,snack
+Mulberries,43,9.8,1.4,0.4,carb,snack
+Nectarines,44,10.6,1.1,0.3,carb,snack
+Okra,33,7.5,1.9,0.2,carb,lunch
+Papaya,43,10.8,0.5,0.3,carb,snack
+Passion Fruit,97,23.4,2.2,0.4,carb,snack
+Persimmons,81,18.6,0.6,0.3,carb,snack
+Pomegranate,83,18.7,1.7,1.2,carb,snack
+Prickly Pear,41,9.6,0.7,0.5,carb,snack
+Rhubarb,21,4.5,0.9,0.2,carb,lunch
+Starfruit,31,6.7,1.0,0.3,carb,snack
+Tangerines,53,13.3,0.8,0.3,carb,snack
+Turnips,28,6.4,0.9,0.1,carb,lunch
+Watercress,11,1.3,2.3,0.1,carb,lunch
+Arugula,25,3.7,2.6,0.7,carb,lunch
+Beet Greens,22,4.3,2.2,0.1,carb,lunch
+Dandelion Greens,45,9.2,2.7,0.7,carb,lunch
+Mustard Greens,27,4.7,2.9,0.4,carb,lunch
+Swiss Chard,19,3.7,1.8,0.2,carb,lunch
+Bamboo Shoots,27,5.2,2.6,0.3,carb,lunch
+Bean Sprouts,31,5.9,3.0,0.2,carb,lunch
+Broccolini,35,6.6,2.4,0.5,carb,lunch
+Chayote,19,4.5,0.8,0.1,carb,lunch
+Fennel,31,7.3,1.2,0.2,carb,lunch
+Kohlrabi,27,6.2,1.7,0.1,carb,lunch
+Lotus Root,74,17.2,2.6,0.1,carb,lunch
+Napa Cabbage,16,3.2,1.2,0.2,carb,lunch
+Radicchio,23,4.5,1.4,0.2,carb,lunch
+Rutabaga,37,8.6,1.2,0.2,carb,lunch
+Snow Peas,42,7.5,2.8,0.2,carb,lunch
+Spaghetti Squash,31,6.9,0.6,0.6,carb,lunch
+Sugar Snap Peas,42,7.5,2.8,0.2,carb,lunch
+Taro,112,26.5,1.5,0.2,carb,lunch
+Water Chestnuts,97,23.9,1.4,0.1,carb,lunch
+Yam,118,27.9,1.5,0.2,carb,lunch
+Plantains,122,31.9,1.3,0.4,carb,lunch
+Breadfruit,103,27.2,1.1,0.2,carb,lunch
