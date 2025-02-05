@@ -22,7 +22,7 @@ async def generate_meal_plan_api(data_user: DataUser = Body(...)):
     
     messages = prepare_llm_messages(datauser_text, example_response_text)
     nutrition_plan = generate_meal_plan(llm, messages)
-    nutrition_plan = str(nutrition_plan)
+    # nutrition_plan = str(nutrition_plan)
     plan_json = evaluate_and_modify_meal_plan(datauser_text,nutrition_plan)
     try:
         plan_json = json_repair.loads(plan_json)
