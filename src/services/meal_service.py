@@ -1,7 +1,6 @@
 import json
 from config import settings
 from services.llm_service import initialize_llm
-
 def generate_meal_plan(llm, messages):
     ai_msg = llm.invoke(messages)
     idx = ai_msg.content.find("{")  

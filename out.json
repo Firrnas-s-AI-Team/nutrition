@@ -1,0 +1,497 @@
+{
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 2.5,
+  "BMI": 28.2,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Oat Milk",
+              "calories": 450,
+              "protein_grams": 12,
+              "carbs_grams": 65,
+              "fats_grams": 18
+            },
+            {
+              "name": "Walnuts",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 550,
+          "description": "Steel-cut oats cooked with oat milk, topped with sliced banana and walnuts",
+          "ingredients": ["oats", "banana", "oat milk", "walnuts"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Wrap",
+              "calories": 650,
+              "protein_grams": 22,
+              "carbs_grams": 85,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 650,
+          "description": "Whole wheat wrap filled with roasted vegetables, hummus, and mixed greens",
+          "ingredients": ["whole wheat wrap", "roasted vegetables", "hummus", "mixed greens"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Quinoa and Black Bean Bowl",
+              "calories": 750,
+              "protein_grams": 27,
+              "carbs_grams": 105,
+              "fats_grams": 27
+            }
+          ],
+          "total_calories": 750,
+          "description": "Cooked quinoa and black beans, topped with roasted sweet potatoes and avocado",
+          "ingredients": ["quinoa", "black beans", "sweet potatoes", "avocado"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 170,
+              "protein_grams": 4,
+              "carbs_grams": 22,
+              "fats_grams": 9
+            }
+          ],
+          "total_calories": 170,
+          "description": "Sliced apple with almond butter spread",
+          "ingredients": ["apple", "almond butter"]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Tofu Scramble",
+              "calories": 350,
+              "protein_grams": 22,
+              "carbs_grams": 12,
+              "fats_grams": 17
+            },
+            {
+              "name": "Whole Wheat Toast",
+              "calories": 110,
+              "protein_grams": 3,
+              "carbs_grams": 22,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 460,
+          "description": "Tofu scramble with sautéed spinach and whole wheat toast",
+          "ingredients": ["tofu", "spinach", "whole wheat bread"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Lentil Soup",
+              "calories": 550,
+              "protein_grams": 22,
+              "carbs_grams": 65,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 550,
+          "description": "Lentil soup with whole wheat bread and a side salad",
+          "ingredients": ["lentils", "vegetables", "whole wheat bread"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Vegetable Skewers",
+              "calories": 450,
+              "protein_grams": 11,
+              "carbs_grams": 22,
+              "fats_grams": 11
+            },
+            {
+              "name": "Quinoa and Black Beans",
+              "calories": 550,
+              "protein_grams": 22,
+              "carbs_grams": 65,
+              "fats_grams": 16
+            }
+          ],
+          "total_calories": 1000,
+          "description": "Grilled vegetable skewers with quinoa and black beans",
+          "ingredients": ["vegetables", "quinoa", "black beans"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks with Hummus",
+              "calories": 110,
+              "protein_grams": 3,
+              "carbs_grams": 11,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 110,
+          "description": "Carrot sticks with hummus dip",
+          "ingredients": ["carrots", "hummus"]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl",
+              "calories": 550,
+              "protein_grams": 22,
+              "carbs_grams": 65,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 550,
+          "description": "Smoothie bowl with banana, spinach, and oat milk topped with granola and nuts",
+          "ingredients": ["banana", "spinach", "oat milk", "granola", "nuts"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Sushi Rolls",
+              "calories": 650,
+              "protein_grams": 17,
+              "carbs_grams": 85,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 650,
+          "description": "Vegan sushi rolls with cucumber and avocado",
+          "ingredients": ["sushi rice", "cucumber", "avocado"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Tofu with Roasted Vegetables",
+              "calories": 550,
+              "protein_grams": 27,
+              "carbs_grams": 22,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 550,
+          "description": "Grilled tofu with roasted vegetables and quinoa",
+          "ingredients": ["tofu", "vegetables", "quinoa"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Rice Cakes with Almond Butter and Banana",
+              "calories": 220,
+              "protein_grams": 5,
+              "carbs_grams": 33,
+              "fats_grams": 17
+            }
+          ],
+          "total_calories": 220,
+          "description": "Rice cakes with almond butter and banana slices",
+          "ingredients": ["rice cakes", "almond butter", "banana"]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Whole Wheat Waffles with Fresh Berries",
+              "calories": 450,
+              "protein_grams": 12,
+              "carbs_grams": 65,
+              "fats_grams": 17
+            }
+          ],
+          "total_calories": 450,
+          "description": "Whole wheat waffles with fresh berries and oat milk",
+          "ingredients": ["whole wheat waffles", "fresh berries", "oat milk"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Wrap",
+              "calories": 650,
+              "protein_grams": 22,
+              "carbs_grams": 85,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 650,
+          "description": "Vegan wrap with hummus, cucumber, and bell peppers",
+          "ingredients": ["whole wheat wrap", "hummus", "cucumber", "bell peppers"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Quinoa and Black Bean Bowl",
+              "calories": 750,
+              "protein_grams": 27,
+              "carbs_grams": 105,
+              "fats_grams": 27
+            }
+          ],
+          "total_calories": 750,
+          "description": "Quinoa and black bean bowl with roasted sweet potatoes and avocado",
+          "ingredients": ["quinoa", "black beans", "sweet potatoes", "avocado"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices with Hummus",
+              "calories": 110,
+              "protein_grams": 3,
+              "carbs_grams": 11,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 110,
+          "description": "Cucumber slices with hummus dip",
+          "ingredients": ["cucumber", "hummus"]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Oat Milk",
+              "calories": 450,
+              "protein_grams": 12,
+              "carbs_grams": 65,
+              "fats_grams": 18
+            }
+          ],
+          "total_calories": 450,
+          "description": "Steel-cut oats cooked with oat milk, topped with sliced banana and walnuts",
+          "ingredients": ["oats", "banana", "oat milk", "walnuts"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Sushi Rolls",
+              "calories": 650,
+              "protein_grams": 17,
+              "carbs_grams": 85,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 650,
+          "description": "Vegan sushi rolls with cucumber and avocado",
+          "ingredients": ["sushi rice", "cucumber", "avocado"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Tofu with Roasted Vegetables",
+              "calories": 550,
+              "protein_grams": 27,
+              "carbs_grams": 22,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 550,
+          "description": "Grilled tofu with roasted vegetables and quinoa",
+          "ingredients": ["tofu", "vegetables", "quinoa"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 170,
+              "protein_grams": 4,
+              "carbs_grams": 22,
+              "fats_grams": 9
+            }
+          ],
+          "total_calories": 170,
+          "description": "Sliced apple with almond butter spread",
+          "ingredients": ["apple", "almond butter"]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Tofu Scramble",
+              "calories": 350,
+              "protein_grams": 22,
+              "carbs_grams": 12,
+              "fats_grams": 17
+            },
+            {
+              "name": "Whole Wheat Toast",
+              "calories": 110,
+              "protein_grams": 3,
+              "carbs_grams": 22,
+              "fats_grams": 3
+            }
+          ],
+          "total_calories": 460,
+          "description": "Tofu scramble with sautéed spinach and whole wheat toast",
+          "ingredients": ["tofu", "spinach", "whole wheat bread"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Lentil Soup",
+              "calories": 550,
+              "protein_grams": 22,
+              "carbs_grams": 65,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 550,
+          "description": "Lentil soup with whole wheat bread and a side salad",
+          "ingredients": ["lentils", "vegetables", "whole wheat bread"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Quinoa and Black Bean Bowl",
+              "calories": 750,
+              "protein_grams": 27,
+              "carbs_grams": 105,
+              "fats_grams": 27
+            }
+          ],
+          "total_calories": 750,
+          "description": "Quinoa and black bean bowl with roasted sweet potatoes and avocado",
+          "ingredients": ["quinoa", "black beans", "sweet potatoes", "avocado"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks with Hummus",
+              "calories": 110,
+              "protein_grams": 3,
+              "carbs_grams": 11,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 110,
+          "description": "Carrot sticks with hummus dip",
+          "ingredients": ["carrots", "hummus"]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl",
+              "calories": 550,
+              "protein_grams": 22,
+              "carbs_grams": 65,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 550,
+          "description": "Smoothie bowl with banana, spinach, and oat milk topped with granola and nuts",
+          "ingredients": ["banana", "spinach", "oat milk", "granola", "nuts"]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Wrap",
+              "calories": 650,
+              "protein_grams": 22,
+              "carbs_grams": 85,
+              "fats_grams": 22
+            }
+          ],
+          "total_calories": 650,
+          "description": "Vegan wrap with hummus, cucumber, and bell peppers",
+          "ingredients": ["whole wheat wrap", "hummus", "cucumber", "bell peppers"]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Vegetable Skewers",
+              "calories": 450,
+              "protein_grams": 11,
+              "carbs_grams": 22,
+              "fats_grams": 11
+            },
+            {
+              "name": "Quinoa and Black Beans",
+              "calories": 550,
+              "protein_grams": 22,
+              "carbs_grams": 65,
+              "fats_grams": 16
+            }
+          ],
+          "total_calories": 1000,
+          "description": "Grilled vegetable skewers with quinoa and black beans",
+          "ingredients": ["vegetables", "quinoa", "black beans"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Rice Cakes with Almond Butter and Banana",
+              "calories": 220,
+              "protein_grams": 5,
+              "carbs_grams": 33,
+              "fats_grams": 17
+            }
+          ],
+          "total_calories": 220,
+          "description": "Rice cakes with almond butter and banana slices",
+          "ingredients": ["rice cakes", "almond butter", "banana"]
+        }
+      ]
+    }
+  ]
+}

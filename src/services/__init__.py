@@ -4,6 +4,7 @@ Package for service layer implementations.
 from .llm_service import initialize_llm, prepare_llm_messages
 from .meal_service import generate_meal_plan, meal_replacer
 from .chat_service import initialize_chat_chain, get_memory, get_chat_history
+from .reviewer import evaluate_and_modify_meal_plan
 
 __all__ = [
     "initialize_llm",
@@ -12,5 +13,6 @@ __all__ = [
     "meal_replacer",
     "initialize_chat_chain",
     "get_memory",
-    "get_chat_history"
+    "get_chat_history",
+    "evaluate_and_modify_meal_plan"
 ]
