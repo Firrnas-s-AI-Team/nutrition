@@ -1,0 +1,1047 @@
+{
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 3.5,
+  "BMI": 22.3,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grass-fed Beef Sausage",
+              "calories": 250,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 18
+            },
+            {
+              "name": "Organic Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Fresh Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 450,
+          "description": "Start the day with a protein-packed breakfast",
+          "ingredients": [
+            "Grass-fed Beef Sausage",
+            "Organic Scrambled Eggs",
+            "Fresh Berries"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Raw Almonds",
+              "calories": 170,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            },
+            {
+              "name": "Dried Apricots",
+              "calories": 170,
+              "protein_grams": 3,
+              "carbs_grams": 40,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 340,
+          "description": "Healthy snack to keep you going",
+          "ingredients": [
+            "Raw Almonds",
+            "Dried Apricots"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 260,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Roasted Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 6,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 450,
+          "description": "Balanced lunch with protein and healthy fats",
+          "ingredients": [
+            "Grilled Chicken Breast",
+            "Roasted Vegetables",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Healthy snack to curb cravings",
+          "ingredients": [
+            "Apple Slices",
+            "Almond Butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Steamed Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 345,
+          "description": "Nutritious dinner with omega-3 rich salmon",
+          "ingredients": [
+            "Grilled Salmon",
+            "Steamed Broccoli",
+            "Sweet Potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk Smoothie",
+              "calories": 350,
+              "protein_grams": 15,
+              "carbs_grams": 10,
+              "fats_grams": 25
+            },
+            {
+              "name": "Fresh Pineapple",
+              "calories": 80,
+              "protein_grams": 1,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 430,
+          "description": "Creamy and refreshing breakfast",
+          "ingredients": [
+            "Coconut Milk",
+            "Fresh Pineapple"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 98,
+          "description": "Protein-rich snack to keep you full",
+          "ingredients": [
+            "Hard-Boiled Egg",
+            "Cherry Tomatoes"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil and Vinegar Dressing",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Lean protein and healthy fats for lunch",
+          "ingredients": [
+            "Grilled Turkey Breast",
+            "Mixed Greens Salad",
+            "Olive Oil and Vinegar Dressing"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese",
+              "calories": 110,
+              "protein_grams": 15,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Peaches",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 170,
+          "description": "High-protein snack to support muscle growth",
+          "ingredients": [
+            "Cottage Cheese",
+            "Sliced Peaches"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Brown Rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 335,
+          "description": "Hearty dinner with lean protein and complex carbs",
+          "ingredients": [
+            "Grilled Steak",
+            "Roasted Asparagus",
+            "Brown Rice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Omelette",
+              "calories": 220,
+              "protein_grams": 18,
+              "carbs_grams": 2,
+              "fats_grams": 16
+            },
+            {
+              "name": "Fresh Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 240,
+          "description": "Nutritious breakfast with healthy fats",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Fresh Spinach"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Greek Yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Honey",
+              "calories": 64,
+              "protein_grams": 0,
+              "carbs_grams": 17,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 164,
+          "description": "Probiotic-rich snack for gut health",
+          "ingredients": [
+            "Greek Yogurt",
+            "Honey"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil and Vinegar Dressing",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Lean protein and healthy fats for lunch",
+          "ingredients": [
+            "Grilled Chicken Breast",
+            "Mixed Greens Salad",
+            "Olive Oil and Vinegar Dressing"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Healthy snack to curb cravings",
+          "ingredients": [
+            "Apple Slices",
+            "Almond Butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 1
+            },
+            {
+              "name": "Roasted Brussels Sprouts",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 285,
+          "description": "Nutritious dinner with omega-3 rich cod",
+          "ingredients": [
+            "Baked Cod",
+            "Roasted Brussels Sprouts",
+            "Sweet Potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk Smoothie",
+              "calories": 350,
+              "protein_grams": 15,
+              "carbs_grams": 10,
+              "fats_grams": 25
+            },
+            {
+              "name": "Fresh Pineapple",
+              "calories": 80,
+              "protein_grams": 1,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 430,
+          "description": "Creamy and refreshing breakfast",
+          "ingredients": [
+            "Coconut Milk",
+            "Fresh Pineapple"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 98,
+          "description": "Protein-rich snack to keep you full",
+          "ingredients": [
+            "Hard-Boiled Egg",
+            "Cherry Tomatoes"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil and Vinegar Dressing",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Lean protein and healthy fats for lunch",
+          "ingredients": [
+            "Grilled Turkey Breast",
+            "Mixed Greens Salad",
+            "Olive Oil and Vinegar Dressing"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese",
+              "calories": 110,
+              "protein_grams": 15,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Peaches",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 170,
+          "description": "High-protein snack to support muscle growth",
+          "ingredients": [
+            "Cottage Cheese",
+            "Sliced Peaches"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Brown Rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 335,
+          "description": "Hearty dinner with lean protein and complex carbs",
+          "ingredients": [
+            "Grilled Steak",
+            "Roasted Asparagus",
+            "Brown Rice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Omelette",
+              "calories": 220,
+              "protein_grams": 18,
+              "carbs_grams": 2,
+              "fats_grams": 16
+            },
+            {
+              "name": "Fresh Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 240,
+          "description": "Nutritious breakfast with healthy fats",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Fresh Spinach"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Greek Yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Honey",
+              "calories": 64,
+              "protein_grams": 0,
+              "carbs_grams": 17,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 164,
+          "description": "Probiotic-rich snack for gut health",
+          "ingredients": [
+            "Greek Yogurt",
+            "Honey"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil and Vinegar Dressing",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Lean protein and healthy fats for lunch",
+          "ingredients": [
+            "Grilled Chicken Breast",
+            "Mixed Greens Salad",
+            "Olive Oil and Vinegar Dressing"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Healthy snack to curb cravings",
+          "ingredients": [
+            "Apple Slices",
+            "Almond Butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 1
+            },
+            {
+              "name": "Roasted Brussels Sprouts",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 285,
+          "description": "Nutritious dinner with omega-3 rich cod",
+          "ingredients": [
+            "Baked Cod",
+            "Roasted Brussels Sprouts",
+            "Sweet Potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grass-fed Beef Sausage",
+              "calories": 250,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 18
+            },
+            {
+              "name": "Organic Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Fresh Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 450,
+          "description": "Start the day with a protein-packed breakfast",
+          "ingredients": [
+            "Grass-fed Beef Sausage",
+            "Organic Scrambled Eggs",
+            "Fresh Berries"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Raw Almonds",
+              "calories": 170,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            },
+            {
+              "name": "Dried Apricots",
+              "calories": 170,
+              "protein_grams": 3,
+              "carbs_grams": 40,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 340,
+          "description": "Healthy snack to keep you going",
+          "ingredients": [
+            "Raw Almonds",
+            "Dried Apricots"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted Vegetables",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 6,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 330,
+          "description": "Balanced lunch with protein and healthy fats",
+          "ingredients": [
+            "Grilled Chicken Breast",
+            "Roasted Vegetables",
+            "Avocado"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 4,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Healthy snack to curb cravings",
+          "ingredients": [
+            "Apple Slices",
+            "Almond Butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Steamed Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 345,
+          "description": "Nutritious dinner with omega-3 rich salmon",
+          "ingredients": [
+            "Grilled Salmon",
+            "Steamed Broccoli",
+            "Sweet Potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Coconut Milk Smoothie",
+              "calories": 350,
+              "protein_grams": 15,
+              "carbs_grams": 10,
+              "fats_grams": 25
+            },
+            {
+              "name": "Fresh Pineapple",
+              "calories": 80,
+              "protein_grams": 1,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 430,
+          "description": "Creamy and refreshing breakfast",
+          "ingredients": [
+            "Coconut Milk",
+            "Fresh Pineapple"
+          ]
+        },
+        {
+          "meal_name": "Mid-Morning Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 98,
+          "description": "Protein-rich snack to keep you full",
+          "ingredients": [
+            "Hard-Boiled Egg",
+            "Cherry Tomatoes"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Breast",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil and Vinegar Dressing",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 11
+            }
+          ],
+          "total_calories": 260,
+          "description": "Lean protein and healthy fats for lunch",
+          "ingredients": [
+            "Grilled Turkey Breast",
+            "Mixed Greens Salad",
+            "Olive Oil and Vinegar Dressing"
+          ]
+        },
+        {
+          "meal_name": "Mid-Afternoon Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese",
+              "calories": 110,
+              "protein_grams": 15,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Peaches",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 170,
+          "description": "High-protein snack to support muscle growth",
+          "ingredients": [
+            "Cottage Cheese",
+            "Sliced Peaches"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Steak",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Brown Rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 335,
+          "description": "Hearty dinner with lean protein and complex carbs",
+          "ingredients": [
+            "Grilled Steak",
+            "Roasted Asparagus",
+            "Brown Rice"
+          ]
+        }
+      ]
+    }
+  ]
+}

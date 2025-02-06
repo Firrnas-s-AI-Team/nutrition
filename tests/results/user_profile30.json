@@ -1,0 +1,42 @@
+```json
+{
+  "scores": {
+    "Correctness": 1,
+    "Completeness": 1,
+    "Conciseness": 4,
+    "Helpfulness": 4,
+    "Honesty": 5,
+    "Harmlessness": 5
+  },
+  "explanations": {
+    "Correctness": [
+      "The meal plan adheres to the user's dietary preferences, including Halal certification for meat products.",
+      "The plan avoids known allergens as specified in the user profile."
+    ],
+    "Completeness": [
+      "The plan includes four meals per day, as specified by the user.",
+      "Each meal provides a description and ingredient list.",
+      "Macronutrients (protein, carbs, fats) are tracked for each meal."
+    ],
+    "Conciseness": [
+      "The meal descriptions are clear and focused on key information.",
+      "The plan avoids redundant or irrelevant details."
+    ],
+    "Helpfulness": [
+      "The plan supports the user's goal of maintenance by providing a balanced diet.",
+      "The plan incorporates notes to address the user's medical conditions, such as low sodium intake for hypertension and iron-rich foods for anemia.",
+      "The meal alternatives are practical and align with the user's dietary needs."
+    ],
+    "Honesty": [
+      "The calorie and macronutrient values are realistic and verifiable.",
+      "The ingredient lists match the meal descriptions."
+    ],
+    "Harmlessness": [
+      "The plan avoids ingredients that could worsen the user's medical conditions.",
+      "The plan is balanced and medically appropriate.",
+      "The plan does not promote extreme diets or biased language."
+    ]
+  },
+  "violation_table": ""
+}
+```

@@ -1,7 +1,7 @@
 {
-  "target_calories_per_day": 2500,
-  "target_water_intake_liters": 2,
-  "BMI": 22.5,
+  "target_calories_per_day": 2000,
+  "target_water_intake_liters": 3.5,
+  "BMI": 20.2,
   "days": [
     {
       "day": "Monday",
@@ -10,76 +10,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Oatmeal with Banana and Almond Milk",
-              "calories": 400,
-              "protein_grams": 10,
-              "carbs_grams": 60,
-              "fats_grams": 15
+              "name": "Scrambled Eggs",
+              "calories": 180,
+              "protein_grams": 18,
+              "carbs_grams": 1,
+              "fats_grams": 12
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 8,
+              "fats_grams": 12
             }
           ],
-          "total_calories": 400,
-          "description": "Steel-cut oats cooked with almond milk and topped with sliced banana",
+          "total_calories": 340,
+          "description": "Scrambled eggs with spinach and avocado",
           "ingredients": [
-            "oats",
-            "almond milk",
-            "banana"
+            "Eggs",
+            "Spinach",
+            "Avocado"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Vegan Wrap with Avocado and Hummus",
-              "calories": 550,
-              "protein_grams": 15,
-              "carbs_grams": 70,
-              "fats_grams": 20
-            }
-          ],
-          "total_calories": 550,
-          "description": "Whole wheat wrap filled with roasted vegetables, avocado, and hummus",
-          "ingredients": [
-            "whole wheat wrap",
-            "avocado",
-            "hummus",
-            "roasted vegetables"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+              "name": "Grilled Chicken Breast",
+              "calories": 260,
+              "protein_grams": 37,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
             {
-              "name": "Apple Slices with Almond Butter",
-              "calories": 150,
-              "protein_grams": 4,
-              "carbs_grams": 20,
-              "fats_grams": 8
+              "name": "Cauliflower Rice",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 150,
-          "description": "Sliced apple with almond butter",
+          "total_calories": 405,
+          "description": "Grilled chicken breast with cauliflower rice and olive oil",
           "ingredients": [
-            "apple",
-            "almond butter"
+            "Chicken Breast",
+            "Cauliflower",
+            "Olive Oil"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Quinoa and Black Bean Bowl with Roasted Vegetables",
-              "calories": 600,
-              "protein_grams": 20,
-              "carbs_grams": 80,
-              "fats_grams": 20
+              "name": "Grilled Steak",
+              "calories": 360,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 24
+            },
+            {
+              "name": "Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 600,
-          "description": "Quinoa and black bean bowl with roasted vegetables",
+          "total_calories": 535,
+          "description": "Grilled steak with broccoli and coconut oil",
           "ingredients": [
-            "quinoa",
-            "black beans",
-            "roasted vegetables"
+            "Steak",
+            "Broccoli",
+            "Coconut Oil"
           ]
         }
       ]
@@ -91,75 +114,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Smoothie Bowl with Banana and Spinach",
-              "calories": 350,
-              "protein_grams": 15,
-              "carbs_grams": 50,
-              "fats_grams": 15
+              "name": "Keto Smoothie",
+              "calories": 320,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 24
+            },
+            {
+              "name": "Almond Milk",
+              "calories": 30,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 2
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 350,
-          "description": "Smoothie bowl made with banana, spinach, and almond milk",
+          "total_calories": 370,
+          "description": "Keto smoothie with almond milk and spinach",
           "ingredients": [
-            "banana",
-            "spinach",
-            "almond milk"
+            "Almond Milk",
+            "Spinach",
+            "Protein Powder"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Lentil Soup with Whole Wheat Bread",
-              "calories": 500,
-              "protein_grams": 18,
-              "carbs_grams": 70,
-              "fats_grams": 15
-            }
-          ],
-          "total_calories": 500,
-          "description": "Lentil soup with whole wheat bread",
-          "ingredients": [
-            "lentils",
-            "whole wheat bread",
-            "vegetables"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+              "name": "Chicken Breast",
+              "calories": 260,
+              "protein_grams": 37,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
             {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
+              "name": "Zucchini",
+              "calories": 25,
               "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 100,
-          "description": "Carrot sticks with hummus",
+          "total_calories": 405,
+          "description": "Grilled chicken breast with zucchini and olive oil",
           "ingredients": [
-            "carrots",
-            "hummus"
+            "Chicken Breast",
+            "Zucchini",
+            "Olive Oil"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Tofu with Roasted Vegetables and Quinoa",
-              "calories": 550,
-              "protein_grams": 20,
-              "carbs_grams": 60,
-              "fats_grams": 20
+              "name": "Pork Chops",
+              "calories": 360,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 24
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 550,
-          "description": "Grilled tofu with roasted vegetables and quinoa",
+          "total_calories": 535,
+          "description": "Grilled pork chops with green beans and coconut oil",
           "ingredients": [
-            "tofu",
-            "roasted vegetables",
-            "quinoa"
+            "Pork Chops",
+            "Green Beans",
+            "Coconut Oil"
           ]
         }
       ]
@@ -171,76 +218,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Whole Wheat Waffles with Fresh Berries and Almond Butter",
-              "calories": 400,
-              "protein_grams": 10,
-              "carbs_grams": 60,
-              "fats_grams": 20
+              "name": "Avocado Omelette",
+              "calories": 220,
+              "protein_grams": 18,
+              "carbs_grams": 2,
+              "fats_grams": 16
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Tomato",
+              "calories": 22,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 400,
-          "description": "Whole wheat waffles with fresh berries and almond butter",
+          "total_calories": 262,
+          "description": "Avocado omelette with spinach and tomato",
           "ingredients": [
-            "whole wheat waffles",
-            "fresh berries",
-            "almond butter"
+            "Eggs",
+            "Avocado",
+            "Spinach"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Chickpea Salad with Whole Wheat Wrap",
-              "calories": 500,
-              "protein_grams": 15,
-              "carbs_grams": 60,
+              "name": "Turkey Lettuce Wraps",
+              "calories": 300,
+              "protein_grams": 30,
+              "carbs_grams": 5,
               "fats_grams": 20
-            }
-          ],
-          "total_calories": 500,
-          "description": "Chickpea salad with whole wheat wrap",
-          "ingredients": [
-            "chickpeas",
-            "whole wheat wrap",
-            "vegetables"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+            },
             {
-              "name": "Rice Cakes with Almond Butter and Banana Slices",
-              "calories": 150,
-              "protein_grams": 4,
-              "carbs_grams": 30,
-              "fats_grams": 8
+              "name": "Cucumber",
+              "calories": 16,
+              "protein_grams": 1,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 150,
-          "description": "Rice cakes with almond butter and banana slices",
+          "total_calories": 436,
+          "description": "Turkey lettuce wraps with cucumber and olive oil",
           "ingredients": [
-            "rice cakes",
-            "almond butter",
-            "banana"
+            "Turkey Breast",
+            "Lettuce",
+            "Cucumber"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Portobello Mushrooms with Roasted Vegetables and Quinoa",
-              "calories": 500,
-              "protein_grams": 15,
-              "carbs_grams": 60,
-              "fats_grams": 20
+              "name": "Grilled Chicken Breast",
+              "calories": 260,
+              "protein_grams": 37,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
+            {
+              "name": "Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 500,
-          "description": "Grilled portobello mushrooms with roasted vegetables and quinoa",
+          "total_calories": 405,
+          "description": "Grilled chicken breast with asparagus and coconut oil",
           "ingredients": [
-            "portobello mushrooms",
-            "roasted vegetables",
-            "quinoa"
+            "Chicken Breast",
+            "Asparagus",
+            "Coconut Oil"
           ]
         }
       ]
@@ -252,75 +322,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Tofu Scramble with Whole Wheat Toast and Fresh Berries",
-              "calories": 350,
-              "protein_grams": 15,
-              "carbs_grams": 40,
-              "fats_grams": 15
+              "name": "Keto Coffee",
+              "calories": 320,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 32
+            },
+            {
+              "name": "Heavy Cream",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 11
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 350,
-          "description": "Tofu scramble with whole wheat toast and fresh berries",
+          "total_calories": 440,
+          "description": "Keto coffee with heavy cream and spinach",
           "ingredients": [
-            "tofu",
-            "whole wheat toast",
-            "fresh berries"
+            "Coffee",
+            "Heavy Cream",
+            "Spinach"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Vegan Sushi Rolls with Brown Rice and Avocado",
-              "calories": 500,
-              "protein_grams": 10,
-              "carbs_grams": 70,
-              "fats_grams": 20
-            }
-          ],
-          "total_calories": 500,
-          "description": "Vegan sushi rolls with brown rice and avocado",
-          "ingredients": [
-            "brown rice",
-            "avocado",
-            "cucumber"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+              "name": "Grilled Chicken Breast",
+              "calories": 260,
+              "protein_grams": 37,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
             {
-              "name": "Cucumber Slices with Hummus",
-              "calories": 100,
-              "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "name": "Bell Peppers",
+              "calories": 49,
+              "protein_grams": 1,
+              "carbs_grams": 12,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 100,
-          "description": "Cucumber slices with hummus",
+          "total_calories": 429,
+          "description": "Grilled chicken breast with bell peppers and olive oil",
           "ingredients": [
-            "cucumber",
-            "hummus"
+            "Chicken Breast",
+            "Bell Peppers",
+            "Olive Oil"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Lentil and Vegetable Stew with Whole Wheat Bread",
-              "calories": 550,
-              "protein_grams": 18,
-              "carbs_grams": 80,
-              "fats_grams": 20
+              "name": "Grilled Steak",
+              "calories": 360,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 24
+            },
+            {
+              "name": "Mushrooms",
+              "calories": 15,
+              "protein_grams": 1,
+              "carbs_grams": 3,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 550,
-          "description": "Lentil and vegetable stew with whole wheat bread",
+          "total_calories": 495,
+          "description": "Grilled steak with mushrooms and coconut oil",
           "ingredients": [
-            "lentils",
-            "whole wheat bread",
-            "vegetables"
+            "Steak",
+            "Mushrooms",
+            "Coconut Oil"
           ]
         }
       ]
@@ -332,75 +426,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Whole Wheat Pancakes with Fresh Berries and Almond Butter",
-              "calories": 400,
-              "protein_grams": 10,
-              "carbs_grams": 60,
-              "fats_grams": 20
+              "name": "Scrambled Eggs",
+              "calories": 180,
+              "protein_grams": 18,
+              "carbs_grams": 1,
+              "fats_grams": 12
+            },
+            {
+              "name": "Smoked Salmon",
+              "calories": 180,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 12
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 400,
-          "description": "Whole wheat pancakes with fresh berries and almond butter",
+          "total_calories": 380,
+          "description": "Scrambled eggs with smoked salmon and spinach",
           "ingredients": [
-            "whole wheat pancakes",
-            "fresh berries",
-            "almond butter"
+            "Eggs",
+            "Smoked Salmon",
+            "Spinach"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Vegan Wrap with Hummus and Roasted Vegetables",
-              "calories": 500,
-              "protein_grams": 15,
-              "carbs_grams": 60,
+              "name": "Chicken Caesar Salad",
+              "calories": 320,
+              "protein_grams": 30,
+              "carbs_grams": 5,
               "fats_grams": 20
-            }
-          ],
-          "total_calories": 500,
-          "description": "Vegan wrap with hummus and roasted vegetables",
-          "ingredients": [
-            "whole wheat wrap",
-            "hummus",
-            "roasted vegetables"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+            },
             {
-              "name": "Apple Slices with Peanut Butter",
-              "calories": 150,
-              "protein_grams": 4,
-              "carbs_grams": 20,
-              "fats_grams": 8
+              "name": "Romaine Lettuce",
+              "calories": 10,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 150,
-          "description": "Apple slices with peanut butter",
+          "total_calories": 450,
+          "description": "Chicken Caesar salad with romaine lettuce and olive oil",
           "ingredients": [
-            "apple",
-            "peanut butter"
+            "Chicken Breast",
+            "Romaine Lettuce",
+            "Caesar Dressing"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Tofu with Roasted Sweet Potatoes and Green Beans",
-              "calories": 500,
-              "protein_grams": 20,
-              "carbs_grams": 60,
-              "fats_grams": 20
+              "name": "Grilled Pork Chops",
+              "calories": 360,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 24
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 500,
-          "description": "Grilled tofu with roasted sweet potatoes and green beans",
+          "total_calories": 535,
+          "description": "Grilled pork chops with green beans and coconut oil",
           "ingredients": [
-            "tofu",
-            "sweet potatoes",
-            "green beans"
+            "Pork Chops",
+            "Green Beans",
+            "Coconut Oil"
           ]
         }
       ]
@@ -412,75 +530,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Oatmeal with Banana and Almond Milk",
-              "calories": 400,
-              "protein_grams": 10,
-              "carbs_grams": 60,
-              "fats_grams": 15
+              "name": "Avocado Toast",
+              "calories": 220,
+              "protein_grams": 3,
+              "carbs_grams": 6,
+              "fats_grams": 18
+            },
+            {
+              "name": "Poached Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 1,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach",
+              "calories": 20,
+              "protein_grams": 3,
+              "carbs_grams": 3,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 400,
-          "description": "Steel-cut oats cooked with almond milk and topped with sliced banana",
+          "total_calories": 380,
+          "description": "Avocado toast with poached eggs and spinach",
           "ingredients": [
-            "oats",
-            "almond milk",
-            "banana"
+            "Avocado",
+            "Eggs",
+            "Spinach"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Vegan Sushi Rolls with Brown Rice and Avocado",
-              "calories": 500,
-              "protein_grams": 10,
-              "carbs_grams": 70,
-              "fats_grams": 20
-            }
-          ],
-          "total_calories": 500,
-          "description": "Vegan sushi rolls with brown rice and avocado",
-          "ingredients": [
-            "brown rice",
-            "avocado",
-            "cucumber"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+              "name": "Grilled Chicken Breast",
+              "calories": 260,
+              "protein_grams": 37,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
             {
-              "name": "Carrot Sticks with Hummus",
-              "calories": 100,
+              "name": "Cauliflower Rice",
+              "calories": 25,
               "protein_grams": 2,
-              "carbs_grams": 10,
-              "fats_grams": 10
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 100,
-          "description": "Carrot sticks with hummus",
+          "total_calories": 405,
+          "description": "Grilled chicken breast with cauliflower rice and olive oil",
           "ingredients": [
-            "carrots",
-            "hummus"
+            "Chicken Breast",
+            "Cauliflower",
+            "Olive Oil"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Lentil and Vegetable Stew with Whole Wheat Bread",
-              "calories": 550,
-              "protein_grams": 18,
-              "carbs_grams": 80,
-              "fats_grams": 20
+              "name": "Grilled Steak",
+              "calories": 360,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 24
+            },
+            {
+              "name": "Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 550,
-          "description": "Lentil and vegetable stew with whole wheat bread",
+          "total_calories": 535,
+          "description": "Grilled steak with broccoli and coconut oil",
           "ingredients": [
-            "lentils",
-            "whole wheat bread",
-            "vegetables"
+            "Steak",
+            "Broccoli",
+            "Coconut Oil"
           ]
         }
       ]
@@ -492,75 +634,99 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Whole Wheat Waffles with Fresh Berries and Almond Butter",
-              "calories": 400,
+              "name": "Keto Pancakes",
+              "calories": 280,
               "protein_grams": 10,
-              "carbs_grams": 60,
+              "carbs_grams": 5,
               "fats_grams": 20
+            },
+            {
+              "name": "Butter",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 11
+            },
+            {
+              "name": "Sugar-Free Maple Syrup",
+              "calories": 60,
+              "protein_grams": 0,
+              "carbs_grams": 15,
+              "fats_grams": 0
             }
           ],
-          "total_calories": 400,
-          "description": "Whole wheat waffles with fresh berries and almond butter",
+          "total_calories": 440,
+          "description": "Keto pancakes with butter and sugar-free maple syrup",
           "ingredients": [
-            "whole wheat waffles",
-            "fresh berries",
-            "almond butter"
+            "Almond Flour",
+            "Butter",
+            "Sugar-Free Maple Syrup"
           ]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Vegan Wrap with Hummus and Roasted Vegetables",
-              "calories": 500,
-              "protein_grams": 15,
-              "carbs_grams": 60,
-              "fats_grams": 20
-            }
-          ],
-          "total_calories": 500,
-          "description": "Vegan wrap with hummus and roasted vegetables",
-          "ingredients": [
-            "whole wheat wrap",
-            "hummus",
-            "roasted vegetables"
-          ]
-        },
-        {
-          "meal_name": "Snack",
-          "items": [
+              "name": "Chicken Breast",
+              "calories": 260,
+              "protein_grams": 37,
+              "carbs_grams": 0,
+              "fats_grams": 6
+            },
             {
-              "name": "Apple Slices with Peanut Butter",
-              "calories": 150,
-              "protein_grams": 4,
-              "carbs_grams": 20,
-              "fats_grams": 8
+              "name": "Zucchini",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 150,
-          "description": "Apple slices with peanut butter",
+          "total_calories": 405,
+          "description": "Grilled chicken breast with zucchini and olive oil",
           "ingredients": [
-            "apple",
-            "peanut butter"
+            "Chicken Breast",
+            "Zucchini",
+            "Olive Oil"
           ]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Tofu with Roasted Sweet Potatoes and Green Beans",
-              "calories": 500,
-              "protein_grams": 20,
-              "carbs_grams": 60,
-              "fats_grams": 20
+              "name": "Grilled Pork Chops",
+              "calories": 360,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 24
+            },
+            {
+              "name": "Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Coconut Oil",
+              "calories": 120,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 14
             }
           ],
-          "total_calories": 500,
-          "description": "Grilled tofu with roasted sweet potatoes and green beans",
+          "total_calories": 505,
+          "description": "Grilled pork chops with asparagus and coconut oil",
           "ingredients": [
-            "tofu",
-            "sweet potatoes",
-            "green beans"
+            "Pork Chops",
+            "Asparagus",
+            "Coconut Oil"
           ]
         }
       ]

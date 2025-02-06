@@ -1,0 +1,851 @@
+{
+  "target_calories_per_day": 1800,
+  "target_water_intake_liters": 2,
+  "BMI": 22.5,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 7,
+              "fats_grams": 0
+            },
+            {
+              "name": "Honey",
+              "calories": 64,
+              "protein_grams": 0,
+              "carbs_grams": 17,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almonds",
+              "calories": 161,
+              "protein_grams": 6,
+              "carbs_grams": 6,
+              "fats_grams": 14
+            }
+          ],
+          "total_calories": 325,
+          "description": "Greek yogurt with honey and almonds",
+          "ingredients": [
+            "1 cup Greek yogurt",
+            "1 tsp honey",
+            "1 oz almonds"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 165,
+              "protein_grams": 31,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            },
+            {
+              "name": "Steamed Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 370,
+          "description": "Grilled chicken breast with quinoa and steamed broccoli",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "1/2 cup cooked quinoa",
+            "1 cup steamed broccoli"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cheddar Cheese",
+              "calories": 115,
+              "protein_grams": 6,
+              "carbs_grams": 1,
+              "fats_grams": 9
+            }
+          ],
+          "total_calories": 210,
+          "description": "Apple slices with cheddar cheese",
+          "ingredients": [
+            "1 medium apple",
+            "1 oz cheddar cheese"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Sweet Potato",
+              "calories": 105,
+              "protein_grams": 2,
+              "carbs_grams": 24,
+              "fats_grams": 0
+            },
+            {
+              "name": "Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 340,
+          "description": "Grilled salmon with roasted sweet potato and green beans",
+          "ingredients": [
+            "4 oz grilled salmon",
+            "1 medium roasted sweet potato",
+            "1 cup green beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast",
+              "calories": 250,
+              "protein_grams": 3,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            },
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "Avocado toast with scrambled eggs",
+          "ingredients": [
+            "1 slice whole grain bread",
+            "1/2 avocado",
+            "2 scrambled eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Avocado Wrap",
+              "calories": 350,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Turkey and avocado wrap",
+          "ingredients": [
+            "1 whole wheat tortilla",
+            "2 oz sliced turkey breast",
+            "1/2 avocado",
+            "lettuce",
+            "tomato"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Hummus",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 145,
+          "description": "Carrot sticks with hummus",
+          "ingredients": [
+            "4 carrot sticks",
+            "2 tbsp hummus"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 165,
+              "protein_grams": 31,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted Asparagus",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 340,
+          "description": "Grilled chicken breast with roasted asparagus and quinoa",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "1 cup roasted asparagus",
+            "1/2 cup cooked quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal",
+              "calories": 150,
+              "protein_grams": 3,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            },
+            {
+              "name": "Banana",
+              "calories": 105,
+              "protein_grams": 1,
+              "carbs_grams": 26,
+              "fats_grams": 0
+            },
+            {
+              "name": "Almond Milk",
+              "calories": 30,
+              "protein_grams": 1,
+              "carbs_grams": 6,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 285,
+          "description": "Oatmeal with banana and almond milk",
+          "ingredients": [
+            "1 cup cooked oatmeal",
+            "1 medium banana",
+            "1 cup almond milk"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 165,
+              "protein_grams": 31,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic Vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 285,
+          "description": "Grilled chicken breast with mixed greens salad and balsamic vinaigrette",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "2 cups mixed greens",
+            "2 tbsp balsamic vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Rice Cakes",
+              "calories": 80,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Almond Butter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 180,
+          "description": "Rice cakes with almond butter",
+          "ingredients": [
+            "2 rice cakes",
+            "2 tbsp almond butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Zucchini Noodles",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 165,
+          "description": "Grilled shrimp with zucchini noodles and cherry tomatoes",
+          "ingredients": [
+            "4 oz grilled shrimp",
+            "1 cup zucchini noodles",
+            "1 cup cherry tomatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Whole Wheat Toast",
+              "calories": 89,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Avocado",
+              "calories": 140,
+              "protein_grams": 3,
+              "carbs_grams": 6,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 369,
+          "description": "Scrambled eggs with whole wheat toast and avocado",
+          "ingredients": [
+            "2 scrambled eggs",
+            "1 slice whole wheat toast",
+            "1/2 avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 165,
+              "protein_grams": 31,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Brown Rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            },
+            {
+              "name": "Steamed Green Beans",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 330,
+          "description": "Grilled chicken breast with brown rice and steamed green beans",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "1/2 cup cooked brown rice",
+            "1 cup steamed green beans"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese",
+              "calories": 80,
+              "protein_grams": 11,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Cucumber",
+              "calories": 16,
+              "protein_grams": 1,
+              "carbs_grams": 4,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 96,
+          "description": "Cottage cheese with sliced cucumber",
+          "ingredients": [
+            "1/2 cup cottage cheese",
+            "1/2 cup sliced cucumber"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod",
+              "calories": 140,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Roasted Brussels Sprouts",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet Potato",
+              "calories": 105,
+              "protein_grams": 2,
+              "carbs_grams": 24,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 300,
+          "description": "Baked cod with roasted Brussels sprouts and sweet potato",
+          "ingredients": [
+            "4 oz baked cod",
+            "1 cup roasted Brussels sprouts",
+            "1 medium sweet potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 7,
+              "fats_grams": 0
+            },
+            {
+              "name": "Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            },
+            {
+              "name": "Granola",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 20,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 260,
+          "description": "Greek yogurt with berries and granola",
+          "ingredients": [
+            "1 cup Greek yogurt",
+            "1/2 cup berries",
+            "2 tbsp granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Cheese Sandwich",
+              "calories": 350,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Turkey and cheese sandwich",
+          "ingredients": [
+            "2 slices whole wheat bread",
+            "2 oz sliced turkey breast",
+            "1 oz cheddar cheese",
+            "lettuce",
+            "tomato"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 98,
+          "description": "Hard-boiled egg with cherry tomatoes",
+          "ingredients": [
+            "1 hard-boiled egg",
+            "1/2 cup cherry tomatoes"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 165,
+              "protein_grams": 31,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted Carrots",
+              "calories": 45,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 360,
+          "description": "Grilled chicken breast with roasted carrots and quinoa",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "1 cup roasted carrots",
+            "1/2 cup cooked quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast",
+              "calories": 250,
+              "protein_grams": 3,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            },
+            {
+              "name": "Scrambled Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "Avocado toast with scrambled eggs",
+          "ingredients": [
+            "1 slice whole grain bread",
+            "1/2 avocado",
+            "2 scrambled eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "calories": 320,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 320,
+          "description": "Grilled chicken Caesar salad",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "2 cups romaine lettuce",
+            "1/4 cup Caesar dressing",
+            "1 cup croutons"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices",
+              "calories": 95,
+              "protein_grams": 0,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Peanut-Free Alternative: SunButter",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 6,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 195,
+          "description": "Apple slices with sunflower seed butter",
+          "ingredients": [
+            "1 medium apple",
+            "2 tbsp sunflower seed butter"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thighs",
+              "calories": 200,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Broccoli",
+              "calories": 55,
+              "protein_grams": 2,
+              "carbs_grams": 11,
+              "fats_grams": 0
+            },
+            {
+              "name": "Brown Rice",
+              "calories": 110,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 365,
+          "description": "Baked chicken thighs with roasted broccoli and brown rice",
+          "ingredients": [
+            "4 oz baked chicken thighs",
+            "1 cup roasted broccoli",
+            "1/2 cup cooked brown rice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette",
+              "calories": 180,
+              "protein_grams": 14,
+              "carbs_grams": 0,
+              "fats_grams": 12
+            },
+            {
+              "name": "Whole Wheat Toast",
+              "calories": 89,
+              "protein_grams": 2,
+              "carbs_grams": 15,
+              "fats_grams": 1
+            }
+          ],
+          "total_calories": 269,
+          "description": "Omelette with whole wheat toast",
+          "ingredients": [
+            "2 eggs",
+            "1 slice whole wheat toast"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast",
+              "calories": 165,
+              "protein_grams": 31,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed Greens Salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic Vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 6,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 285,
+          "description": "Grilled chicken breast with mixed greens salad and balsamic vinaigrette",
+          "ingredients": [
+            "4 oz grilled chicken breast",
+            "2 cups mixed greens",
+            "2 tbsp balsamic vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese",
+              "calories": 80,
+              "protein_grams": 11,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sliced Peaches",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 140,
+          "description": "Cottage cheese with sliced peaches",
+          "ingredients": [
+            "1/2 cup cottage cheese",
+            "1/2 cup sliced peaches"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp",
+              "calories": 120,
+              "protein_grams": 20,
+              "carbs_grams": 0,
+              "fats_grams": 2
+            },
+            {
+              "name": "Zucchini Noodles",
+              "calories": 25,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Cherry Tomatoes",
+              "calories": 20,
+              "protein_grams": 1,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 165,
+          "description": "Grilled shrimp with zucchini noodles and cherry tomatoes",
+          "ingredients": [
+            "4 oz grilled shrimp",
+            "1 cup zucchini noodles",
+            "1 cup cherry tomatoes"
+          ]
+        }
+      ]
+    }
+  ]
+}

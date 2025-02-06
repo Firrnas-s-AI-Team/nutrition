@@ -1,0 +1,35 @@
+```json
+{
+  "scores": {
+    "Correctness": 1,
+    "Completeness": 1,
+    "Conciseness": 4,
+    "Helpfulness": 4,
+    "Honesty": 5,
+    "Harmlessness": 5
+  },
+  "explanations": {
+    "Correctness": [
+      "The meal plan adheres to the gluten-free dietary preference.",
+      "The meal plan avoids peanuts, respecting the user's allergy."
+    ],
+    "Completeness": [
+      "The plan includes 3 meals per day, as specified by the user.",
+      "Macronutrients are tracked for each meal.",
+      "Descriptions and ingredient lists are provided for all meals.",
+      "The plan does not provide alternative options for each meal."
+    ],
+    "Conciseness": "The meal descriptions are clear and focused. There are some repetitions of meals across days (e.g., Grilled chicken breast with mixed greens salad), but this doesn't significantly detract from conciseness.",
+    "Helpfulness": "The plan supports the user's goal of weight loss by providing meals within the target calorie range. The meals are generally healthy and balanced. The plan could be more helpful by providing more variety and specific guidance on portion sizes.",
+    "Honesty": [
+      "The calorie and macronutrient values appear realistic and consistent with the ingredients listed."
+    ],
+    "Harmlessness": [
+      "The plan avoids ingredients that could worsen common medical conditions.",
+      "The plan does not promote extreme diets or biased language.",
+      "The plan appears safe and medically appropriate for the user's profile."
+    ]
+  },
+  "violation_table": "N/A"
+}
+```

@@ -1,0 +1,42 @@
+```json
+{
+  "scores": {
+    "Correctness": 1,
+    "Completeness": 1,
+    "Conciseness": 4,
+    "Helpfulness": 4,
+    "Honesty": 5,
+    "Harmlessness": 5
+  },
+  "explanations": {
+    "Correctness": [
+      "The meal plan adheres to the user's dietary preferences (Gluten-free, Kosher).",
+      "The meal plan avoids the user's allergens (Gluten)."
+    ],
+    "Completeness": [
+      "The plan includes 5 meals per day as specified by the user.",
+      "All macronutrients (protein, carbs, fats) are tracked for each meal.",
+      "Descriptions and ingredient lists are provided for all meals."
+    ],
+    "Conciseness": [
+      "The plan is generally well-structured and avoids unnecessary details.",
+      "Meal descriptions are clear and focused."
+    ],
+    "Helpfulness": [
+      "The plan supports the user's goal of muscle gain by including high-protein options.",
+      "The plan is tailored to the user's activity level by providing a sufficient number of calories.",
+      "The plan considers the user's medical conditions (GERD) by avoiding trigger foods."
+    ],
+    "Honesty": [
+      "Calorie and macronutrient values are realistic and verifiable.",
+      "Ingredient lists match meal descriptions."
+    ],
+    "Harmlessness": [
+      "The plan avoids ingredients that could worsen medical conditions.",
+      "The plan is balanced and medically appropriate.",
+      "The plan does not promote extreme diets or biased language."
+    ]
+  },
+  "violation_table": "No violations found."
+}
+```

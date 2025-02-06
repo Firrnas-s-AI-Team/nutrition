@@ -1,0 +1,472 @@
+{
+  "target_calories_per_day": "2500",
+  "target_water_intake_liters": "2.5",
+  "BMI": "21.3",
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Almond Milk",
+              "calories": "350",
+              "protein_grams": "5",
+              "carbs_grams": "60",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Walnuts",
+              "calories": "100",
+              "protein_grams": "2",
+              "carbs_grams": "5",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "450",
+          "description": "Steel-cut oats cooked with almond milk, topped with sliced banana and a sprinkle of cinnamon. Side of walnuts for added crunch.",
+          "ingredients": [
+            "oats",
+            "banana",
+            "almond milk",
+            "walnuts"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Salmon with Quinoa and Steamed Vegetables",
+              "calories": "500",
+              "protein_grams": "40",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "500",
+          "description": "Grilled salmon fillet served with cooked quinoa and a variety of steamed vegetables, including broccoli, carrots, and green beans.",
+          "ingredients": [
+            "salmon",
+            "quinoa",
+            "broccoli",
+            "carrots",
+            "green beans"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and Vegetable Stir-Fry with Brown Rice",
+              "calories": "550",
+              "protein_grams": "30",
+              "carbs_grams": "60",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "550",
+          "description": "Stir-fry made with shrimp, brown rice, and a variety of colorful vegetables, including bell peppers, onions, and snow peas. Cooked with a small amount of olive oil and soy sauce.",
+          "ingredients": [
+            "shrimp",
+            "brown rice",
+            "bell peppers",
+            "onions",
+            "snow peas"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt with Berries and Granola",
+              "calories": "300",
+              "protein_grams": "20",
+              "carbs_grams": "40",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "300",
+          "description": "Bowl of Greek yogurt topped with mixed berries and a sprinkle of granola.",
+          "ingredients": [
+            "Greek yogurt",
+            "berries",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Tuna Salad Sandwich on Whole Grain Bread",
+              "calories": "450",
+              "protein_grams": "35",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "450",
+          "description": "Tuna salad made with canned tuna, mayonnaise, and chopped onions, served on whole grain bread with a side of mixed greens.",
+          "ingredients": [
+            "canned tuna",
+            "mayonnaise",
+            "onions",
+            "whole grain bread"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Salmon with Roasted Sweet Potatoes and Green Beans",
+              "calories": "500",
+              "protein_grams": "40",
+              "carbs_grams": "60",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "500",
+          "description": "Grilled salmon served with roasted sweet potatoes and steamed green beans.",
+          "ingredients": [
+            "salmon",
+            "sweet potatoes",
+            "green beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast on Whole Grain Bread",
+              "calories": "300",
+              "protein_grams": "3",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            },
+            {
+              "name": "Poached Eggs",
+              "calories": "140",
+              "protein_grams": "12",
+              "carbs_grams": "0",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "440",
+          "description": " Toasted whole grain bread topped with mashed avocado and a poached egg.",
+          "ingredients": [
+            "avocado",
+            "whole grain bread",
+            "eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Lentil Soup with Whole Grain Bread",
+              "calories": "450",
+              "protein_grams": "20",
+              "carbs_grams": "60",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "450",
+          "description": "Bowl of lentil soup served with a side of whole grain bread.",
+          "ingredients": [
+            "lentils",
+            "vegetables",
+            "whole grain bread"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp with Quinoa and Steamed Asparagus",
+              "calories": "500",
+              "protein_grams": "30",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "500",
+          "description": "Grilled shrimp served with cooked quinoa and steamed asparagus.",
+          "ingredients": [
+            "shrimp",
+            "quinoa",
+            "asparagus"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl with Banana and Almond Milk",
+              "calories": "350",
+              "protein_grams": "5",
+              "carbs_grams": "60",
+              "fats_grams": "10"
+            },
+            {
+              "name": "Almond Butter",
+              "calories": "100",
+              "protein_grams": "2",
+              "carbs_grams": "6",
+              "fats_grams": "8"
+            }
+          ],
+          "total_calories": "450",
+          "description": "Smoothie bowl made with banana, almond milk, and topped with almond butter and sliced fruit.",
+          "ingredients": [
+            "banana",
+            "almond milk",
+            "almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Tuna with Mixed Greens and Whole Grain Wrap",
+              "calories": "450",
+              "protein_grams": "35",
+              "carbs_grams": "30",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "450",
+          "description": "Grilled tuna wrapped in a whole grain wrap with mixed greens and a variety of vegetables.",
+          "ingredients": [
+            "tuna",
+            "mixed greens",
+            "whole grain wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Roasted Brussels Sprouts and Sweet Potatoes",
+              "calories": "500",
+              "protein_grams": "40",
+              "carbs_grams": "60",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "500",
+          "description": "Baked cod served with roasted Brussels sprouts and sweet potatoes.",
+          "ingredients": [
+            "cod",
+            "Brussels sprouts",
+            "sweet potatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs with Whole Grain Toast and Mixed Berries",
+              "calories": "250",
+              "protein_grams": "20",
+              "carbs_grams": "20",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "250",
+          "description": "Scrambled eggs served with whole grain toast and a side of mixed berries.",
+          "ingredients": [
+            "eggs",
+            "whole grain toast",
+            "mixed berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Tuna Salad on Top of Mixed Greens",
+              "calories": "400",
+              "protein_grams": "35",
+              "carbs_grams": "10",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "400",
+          "description": "Tuna salad made with canned tuna, mayonnaise, and chopped onions, served on top of mixed greens.",
+          "ingredients": [
+            "canned tuna",
+            "mayonnaise",
+            "onions",
+            "mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Shrimp with Quinoa and Steamed Broccoli",
+              "calories": "500",
+              "protein_grams": "30",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "500",
+          "description": "Grilled shrimp served with cooked quinoa and steamed broccoli.",
+          "ingredients": [
+            "shrimp",
+            "quinoa",
+            "broccoli"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette with Mushrooms and Whole Grain Toast",
+              "calories": "250",
+              "protein_grams": "20",
+              "carbs_grams": "20",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "250",
+          "description": "Omelette made with eggs, mushrooms, and served with whole grain toast.",
+          "ingredients": [
+            "eggs",
+            "mushrooms",
+            "whole grain toast"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Tuna with Mixed Greens and Whole Grain Wrap",
+              "calories": "450",
+              "protein_grams": "35",
+              "carbs_grams": "30",
+              "fats_grams": "10"
+            }
+          ],
+          "total_calories": "450",
+          "description": "Grilled tuna wrapped in a whole grain wrap with mixed greens and a variety of vegetables.",
+          "ingredients": [
+            "tuna",
+            "mixed greens",
+            "whole grain wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Roasted Asparagus and Quinoa",
+              "calories": "500",
+              "protein_grams": "40",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "500",
+          "description": "Baked cod served with roasted asparagus and cooked quinoa.",
+          "ingredients": [
+            "cod",
+            "asparagus",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Breakfast Burrito with Scrambled Eggs and Avocado",
+              "calories": "350",
+              "protein_grams": "20",
+              "carbs_grams": "30",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "350",
+          "description": "Breakfast burrito made with scrambled eggs, avocado, and wrapped in a whole grain tortilla.",
+          "ingredients": [
+            "eggs",
+            "avocado",
+            "whole grain tortilla"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Salmon Caesar Salad",
+              "calories": "400",
+              "protein_grams": "35",
+              "carbs_grams": "10",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "400",
+          "description": "Grilled salmon served on top of a Caesar salad made with romaine lettuce, croutons, and parmesan cheese.",
+          "ingredients": [
+            "salmon",
+            "romaine lettuce",
+            "croutons",
+            "parmesan cheese"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and Vegetable Stir-Fry with Brown Rice",
+              "calories": "550",
+              "protein_grams": "30",
+              "carbs_grams": "60",
+              "fats_grams": "20"
+            }
+          ],
+          "total_calories": "550",
+          "description": "Stir-fry made with shrimp, brown rice, and a variety of colorful vegetables, including bell peppers, onions, and snow peas. Cooked with a small amount of olive oil and soy sauce.",
+          "ingredients": [
+            "shrimp",
+            "brown rice",
+            "bell peppers",
+            "onions",
+            "snow peas"
+          ]
+        }
+      ]
+    }
+  ]
+}

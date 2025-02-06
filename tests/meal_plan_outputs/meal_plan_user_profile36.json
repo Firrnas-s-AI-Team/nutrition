@@ -1,0 +1,640 @@
+{
+  "target_calories_per_day": 1500,
+  "target_water_intake_liters": 2,
+  "BMI": 21.8,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free oatmeal",
+              "calories": 250,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 5
+            },
+            {
+              "name": "Banana",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 350,
+          "description": "Gluten-free oatmeal with sliced banana",
+          "ingredients": [
+            "Gluten-free oats",
+            "Banana",
+            "Water"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            },
+            {
+              "name": "Steamed broccoli",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 340,
+          "description": "Grilled chicken breast with quinoa and steamed broccoli",
+          "ingredients": [
+            "Chicken breast",
+            "Quinoa",
+            "Broccoli"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted sweet potato",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            },
+            {
+              "name": "Green beans",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 330,
+          "description": "Baked salmon with roasted sweet potato and green beans",
+          "ingredients": [
+            "Salmon fillet",
+            "Sweet potato",
+            "Green beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Gluten-free toast",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 20,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 240,
+          "description": "Scrambled eggs with gluten-free toast",
+          "ingredients": [
+            "Eggs",
+            "Gluten-free bread",
+            "Salt"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and avocado wrap",
+              "calories": 350,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Turkey and avocado wrap with gluten-free wrap",
+          "ingredients": [
+            "Turkey breast",
+            "Avocado",
+            "Gluten-free wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled turkey breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted carrots",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 340,
+          "description": "Grilled turkey breast with roasted carrots and quinoa",
+          "ingredients": [
+            "Turkey breast",
+            "Carrots",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek yogurt",
+              "calories": 100,
+              "protein_grams": 10,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Berries",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 150,
+          "description": "Greek yogurt with berries",
+          "ingredients": [
+            "Greek yogurt",
+            "Berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and balsamic vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Balsamic vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked chicken thighs",
+              "calories": 200,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted Brussels sprouts",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Sweet potato",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 25,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 350,
+          "description": "Baked chicken thighs with roasted Brussels sprouts and sweet potato",
+          "ingredients": [
+            "Chicken thighs",
+            "Brussels sprouts",
+            "Sweet potato"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado toast",
+              "calories": 250,
+              "protein_grams": 3,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            },
+            {
+              "name": "Scrambled eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "Avocado toast with scrambled eggs",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Gluten-free bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and balsamic vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Balsamic vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked salmon",
+              "calories": 180,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted asparagus",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 380,
+          "description": "Baked salmon with roasted asparagus and quinoa",
+          "ingredients": [
+            "Salmon fillet",
+            "Asparagus",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free pancakes",
+              "calories": 200,
+              "protein_grams": 3,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            },
+            {
+              "name": "Fresh berries",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Gluten-free pancakes with fresh berries",
+          "ingredients": [
+            "Gluten-free pancake mix",
+            "Berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and cheese wrap",
+              "calories": 350,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Turkey and cheese wrap with gluten-free wrap",
+          "ingredients": [
+            "Turkey breast",
+            "Cheese",
+            "Gluten-free wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted bell peppers",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 340,
+          "description": "Grilled chicken breast with roasted bell peppers and quinoa",
+          "ingredients": [
+            "Chicken breast",
+            "Bell peppers",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette",
+              "calories": 180,
+              "protein_grams": 18,
+              "carbs_grams": 0,
+              "fats_grams": 12
+            },
+            {
+              "name": "Gluten-free toast",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 20,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 280,
+          "description": "Omelette with gluten-free toast",
+          "ingredients": [
+            "Eggs",
+            "Gluten-free bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 20,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Balsamic vinaigrette",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 260,
+          "description": "Grilled chicken breast with mixed greens salad and balsamic vinaigrette",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Balsamic vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked chicken thighs",
+              "calories": 200,
+              "protein_grams": 25,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted carrots",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 400,
+          "description": "Baked chicken thighs with roasted carrots and quinoa",
+          "ingredients": [
+            "Chicken thighs",
+            "Carrots",
+            "Quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free waffles",
+              "calories": 200,
+              "protein_grams": 3,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            },
+            {
+              "name": "Fresh berries",
+              "calories": 50,
+              "protein_grams": 1,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Gluten-free waffles with fresh berries",
+          "ingredients": [
+            "Gluten-free waffle mix",
+            "Berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and avocado wrap",
+              "calories": 350,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Turkey and avocado wrap with gluten-free wrap",
+          "ingredients": [
+            "Turkey breast",
+            "Avocado",
+            "Gluten-free wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 140,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 3
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            },
+            {
+              "name": "Quinoa",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 30,
+              "fats_grams": 2
+            }
+          ],
+          "total_calories": 340,
+          "description": "Grilled chicken breast with roasted broccoli and quinoa",
+          "ingredients": [
+            "Chicken breast",
+            "Broccoli",
+            "Quinoa"
+          ]
+        }
+      ]
+    }
+  ]
+}

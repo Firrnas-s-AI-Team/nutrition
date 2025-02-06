@@ -1,0 +1,505 @@
+{
+  "target_calories_per_day": 1900,
+  "target_water_intake_liters": 2.5,
+  "BMI": 22.7,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free oatmeal with almond milk and berries",
+              "calories": 350,
+              "protein_grams": 5,
+              "carbs_grams": 60,
+              "fats_grams": 10
+            },
+            {
+              "name": "Hard-boiled egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0.6,
+              "fats_grams": 5
+            }
+          ],
+          "total_calories": 428,
+          "description": "Start your day with a nutritious and filling breakfast",
+          "ingredients": [
+            "gluten-free oats",
+            "almond milk",
+            "berries",
+            "eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled salmon with quinoa and steamed green beans",
+              "calories": 400,
+              "protein_grams": 35,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "A balanced and protein-rich lunch to keep you going",
+          "ingredients": [
+            "salmon fillet",
+            "quinoa",
+            "green beans"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and vegetable stir-fry with brown rice",
+              "calories": 500,
+              "protein_grams": 20,
+              "carbs_grams": 60,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "A flavorful and nutritious dinner to end your day",
+          "ingredients": [
+            "shrimp",
+            "mixed vegetables",
+            "brown rice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek yogurt with honey and walnuts",
+              "calories": 300,
+              "protein_grams": 15,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            },
+            {
+              "name": "Gluten-free toast with avocado",
+              "calories": 150,
+              "protein_grams": 3,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 450,
+          "description": "A satisfying and healthy breakfast to start your day",
+          "ingredients": [
+            "Greek yogurt",
+            "honey",
+            "walnuts",
+            "gluten-free bread",
+            "avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Tuna salad with mixed greens and gluten-free crackers",
+              "calories": 400,
+              "protein_grams": 30,
+              "carbs_grams": 10,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 400,
+          "description": "A protein-packed lunch to keep you energized",
+          "ingredients": [
+            "canned tuna",
+            "mixed greens",
+            "gluten-free crackers"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled salmon with roasted sweet potatoes and green beans",
+              "calories": 450,
+              "protein_grams": 35,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 450,
+          "description": "A balanced and nutritious dinner to support your weight loss goals",
+          "ingredients": [
+            "salmon fillet",
+            "sweet potatoes",
+            "green beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie bowl with almond milk, banana, and almond butter topping",
+              "calories": 350,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            },
+            {
+              "name": "Hard-boiled egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0.6,
+              "fats_grams": 5
+            }
+          ],
+          "total_calories": 428,
+          "description": "A delicious and nutritious breakfast to start your day",
+          "ingredients": [
+            "almond milk",
+            "banana",
+            "almond butter",
+            "eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Salmon burger on a gluten-free bun with avocado and tomato",
+              "calories": 500,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 500,
+          "description": "A satisfying and healthy lunch to keep you going",
+          "ingredients": [
+            "salmon patty",
+            "gluten-free bun",
+            "avocado",
+            "tomato"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked cod with quinoa and steamed broccoli",
+              "calories": 400,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "A balanced and nutritious dinner to support your weight loss goals",
+          "ingredients": [
+            "cod fillet",
+            "quinoa",
+            "broccoli"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free pancakes with almond butter and banana slices",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            },
+            {
+              "name": "Greek yogurt with honey",
+              "calories": 150,
+              "protein_grams": 10,
+              "carbs_grams": 30,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 450,
+          "description": "A delicious and healthy breakfast to start your day",
+          "ingredients": [
+            "gluten-free pancake mix",
+            "almond butter",
+            "banana",
+            "Greek yogurt",
+            "honey"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Shrimp Caesar salad with gluten-free croutons",
+              "calories": 400,
+              "protein_grams": 30,
+              "carbs_grams": 10,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 400,
+          "description": "A protein-packed lunch to keep you energized",
+          "ingredients": [
+            "shrimp",
+            "romaine lettuce",
+            "gluten-free croutons",
+            "Caesar dressing"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and vegetable skewers with quinoa",
+              "calories": 450,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 450,
+          "description": "A balanced and nutritious dinner to support your weight loss goals",
+          "ingredients": [
+            "shrimp",
+            "mixed vegetables",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado toast on gluten-free bread with scrambled eggs",
+              "calories": 300,
+              "protein_grams": 10,
+              "carbs_grams": 20,
+              "fats_grams": 20
+            },
+            {
+              "name": "Greek yogurt with berries",
+              "calories": 150,
+              "protein_grams": 10,
+              "carbs_grams": 30,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 450,
+          "description": "A nutritious and filling breakfast to start your day",
+          "ingredients": [
+            "avocado",
+            "gluten-free bread",
+            "eggs",
+            "Greek yogurt",
+            "berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled shrimp with mixed greens and gluten-free wrap",
+              "calories": 400,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "A protein-packed lunch to keep you energized",
+          "ingredients": [
+            "shrimp",
+            "mixed greens",
+            "gluten-free wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked salmon with roasted asparagus and quinoa",
+              "calories": 450,
+              "protein_grams": 35,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 450,
+          "description": "A balanced and nutritious dinner to support your weight loss goals",
+          "ingredients": [
+            "salmon fillet",
+            "asparagus",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Gluten-free waffles with almond butter and banana slices",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            },
+            {
+              "name": "Greek yogurt with honey",
+              "calories": 150,
+              "protein_grams": 10,
+              "carbs_grams": 30,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 450,
+          "description": "A delicious and healthy breakfast to start your day",
+          "ingredients": [
+            "gluten-free waffle mix",
+            "almond butter",
+            "banana",
+            "Greek yogurt",
+            "honey"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Tuna and avocado wrap with mixed greens",
+              "calories": 500,
+              "protein_grams": 25,
+              "carbs_grams": 30,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 500,
+          "description": "A satisfying and healthy lunch to keep you going",
+          "ingredients": [
+            "canned tuna",
+            "avocado",
+            "mixed greens",
+            "gluten-free wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled shrimp with roasted bell peppers and quinoa",
+              "calories": 450,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 450,
+          "description": "A balanced and nutritious dinner to support your weight loss goals",
+          "ingredients": [
+            "shrimp",
+            "bell peppers",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Breakfast burrito with scrambled eggs, black beans, and avocado",
+              "calories": 350,
+              "protein_grams": 15,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            },
+            {
+              "name": "Greek yogurt with berries",
+              "calories": 150,
+              "protein_grams": 10,
+              "carbs_grams": 30,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 500,
+          "description": "A nutritious and filling breakfast to start your day",
+          "ingredients": [
+            "eggs",
+            "black beans",
+            "avocado",
+            "Greek yogurt",
+            "berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled shrimp with mixed greens and gluten-free wrap",
+              "calories": 400,
+              "protein_grams": 35,
+              "carbs_grams": 10,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "A protein-packed lunch to keep you energized",
+          "ingredients": [
+            "shrimp",
+            "mixed greens",
+            "gluten-free wrap"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked cod with roasted carrots and quinoa",
+              "calories": 450,
+              "protein_grams": 30,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 450,
+          "description": "A balanced and nutritious dinner to support your weight loss goals",
+          "ingredients": [
+            "cod fillet",
+            "carrots",
+            "quinoa"
+          ]
+        }
+      ]
+    }
+  ]
+}

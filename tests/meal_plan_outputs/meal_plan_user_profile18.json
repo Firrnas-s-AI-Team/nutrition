@@ -1,0 +1,462 @@
+{
+  "target_calories_per_day": 1900,
+  "target_water_intake_liters": 2.5,
+  "BMI": 22.2,
+  "notes": {
+    "gerd_friendly": "Avoid trigger foods such as citrus, tomatoes, chocolate, caffeine, alcohol, and spicy foods.",
+    "anemia_management": "Incorporate iron-rich foods and pair with vitamin C sources for better absorption.",
+    "high_cholesterol": "Focus on lean proteins, soluble fiber, and healthy fats.",
+    "halal_certification": "All animal products must be Halal-certified."
+  },
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Almond Milk",
+              "calories": 350,
+              "protein_grams": 5,
+              "carbs_grams": 60,
+              "fats_grams": 10
+            },
+            {
+              "name": "Hard-Boiled Egg",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0.5,
+              "fats_grams": 5
+            }
+          ],
+          "total_calories": 428,
+          "description": "Steel-cut oats cooked with almond milk, topped with sliced banana and cinnamon. Paired with a hard-boiled egg.",
+          "ingredients": [
+            "oats",
+            "almond milk",
+            "banana",
+            "egg"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Quinoa and Steamed Vegetables",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled Halal chicken breast with quinoa and steamed vegetables.",
+          "ingredients": [
+            "chicken breast",
+            "quinoa",
+            "broccoli",
+            "carrots",
+            "green beans"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Salmon with Sweet Potato and Green Beans",
+              "calories": 500,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "Baked Halal salmon with roasted sweet potato and steamed green beans.",
+          "ingredients": [
+            "salmon fillet",
+            "sweet potato",
+            "green beans"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt with Berries and Granola",
+              "calories": 300,
+              "protein_grams": 20,
+              "carbs_grams": 40,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 300,
+          "description": "Greek yogurt topped with mixed berries and granola.",
+          "ingredients": [
+            "yogurt",
+            "berries",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Avocado Wrap",
+              "calories": 450,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 450,
+          "description": "Sliced Halal turkey breast and avocado in a whole wheat tortilla with mixed greens.",
+          "ingredients": [
+            "turkey breast",
+            "avocado",
+            "whole wheat tortilla",
+            "mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Vegetables",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 20,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled Halal chicken breast with roasted vegetables.",
+          "ingredients": [
+            "chicken breast",
+            "Brussels sprouts",
+            "carrots",
+            "red bell peppers"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl with Banana and Almond Milk",
+              "calories": 350,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Blend of frozen banana, almond milk, and spinach, topped with fruit and granola.",
+          "ingredients": [
+            "banana",
+            "almond milk",
+            "spinach",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Brown Rice and Steamed Asparagus",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 40,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled Halal chicken breast with brown rice and asparagus.",
+          "ingredients": [
+            "chicken breast",
+            "brown rice",
+            "asparagus"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thigh with Roasted Carrots and Quinoa",
+              "calories": 500,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "Baked Halal chicken thigh with roasted carrots and quinoa.",
+          "ingredients": [
+            "chicken thigh",
+            "carrots",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast with Scrambled Eggs",
+              "calories": 300,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 300,
+          "description": "Scrambled eggs with avocado on whole wheat bread.",
+          "ingredients": [
+            "eggs",
+            "whole wheat bread",
+            "avocado"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey Burger with Sweet Potato Fries",
+              "calories": 500,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled Halal turkey burger with sweet potato fries.",
+          "ingredients": [
+            "turkey burger",
+            "sweet potato",
+            "whole wheat bun"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and Vegetable Stir-Fry with Brown Rice",
+              "calories": 450,
+              "protein_grams": 30,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 450,
+          "description": "Stir-fry with Halal shrimp, mixed vegetables, and brown rice.",
+          "ingredients": [
+            "shrimp",
+            "mixed vegetables",
+            "brown rice"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette with Vegetables and Whole Wheat Toast",
+              "calories": 250,
+              "protein_grams": 20,
+              "carbs_grams": 20,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 250,
+          "description": "Omelette with mixed vegetables and whole wheat toast.",
+          "ingredients": [
+            "eggs",
+            "mixed vegetables",
+            "whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Caesar Salad with Vinaigrette",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 20,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled Halal chicken breast on romaine lettuce with vinaigrette.",
+          "ingredients": [
+            "chicken breast",
+            "romaine lettuce",
+            "croutons",
+            "vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Roasted Asparagus and Quinoa",
+              "calories": 450,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 450,
+          "description": "Baked Halal cod with asparagus and quinoa.",
+          "ingredients": [
+            "cod fillet",
+            "asparagus",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt with Honey and Almonds",
+              "calories": 300,
+              "protein_grams": 20,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 300,
+          "description": "Greek yogurt with honey and almonds.",
+          "ingredients": [
+            "yogurt",
+            "honey",
+            "almonds"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Wrap",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled Halal chicken in a whole wheat wrap with greens.",
+          "ingredients": [
+            "chicken breast",
+            "mixed greens",
+            "whole wheat tortilla"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and Vegetable Skewers with Quinoa",
+              "calories": 500,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "Halal shrimp and vegetable skewers with quinoa.",
+          "ingredients": [
+            "shrimp",
+            "mixed vegetables",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Breakfast Burrito with Scrambled Eggs and Avocado",
+              "calories": 350,
+              "protein_grams": 20,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 350,
+          "description": "Scrambled eggs, avocado, and salsa in a whole wheat tortilla.",
+          "ingredients": [
+            "eggs",
+            "avocado",
+            "salsa",
+            "whole wheat tortilla"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Bread",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled Halal chicken with greens and whole wheat bread.",
+          "ingredients": [
+            "chicken breast",
+            "mixed greens",
+            "whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thigh with Roasted Broccoli and Brown Rice",
+              "calories": 500,
+              "protein_grams": 35,
+              "carbs_grams": 60,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "Baked Halal chicken thigh with broccoli and brown rice.",
+          "ingredients": [
+            "chicken thigh",
+            "broccoli",
+            "brown rice"
+          ]
+        }
+      ]
+    }
+  ]
+}

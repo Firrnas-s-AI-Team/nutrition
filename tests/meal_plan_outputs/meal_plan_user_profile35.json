@@ -1,0 +1,462 @@
+{
+  "target_calories_per_day": 1800,
+  "target_water_intake_liters": 2.5,
+  "BMI": 20.8,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Almond Milk",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 50,
+              "fats_grams": 10
+            },
+            {
+              "name": "Walnuts",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 400,
+          "description": "Steel-cut oats cooked with almond milk and topped with sliced banana and walnuts",
+          "ingredients": [
+            "oats",
+            "banana",
+            "almond milk",
+            "walnuts"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Black Bean and Sweet Potato Wrap",
+              "calories": 500,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Whole wheat wrap filled with black beans, roasted sweet potato, and avocado",
+          "ingredients": [
+            "whole wheat wrap",
+            "black beans",
+            "sweet potato",
+            "avocado"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Quinoa and Vegetable Stir-Fry",
+              "calories": 500,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Quinoa cooked with a variety of vegetables, including broccoli, bell peppers, and carrots, and seasoned with low-sodium soy sauce",
+          "ingredients": [
+            "quinoa",
+            "broccoli",
+            "bell peppers",
+            "carrots",
+            "low-sodium soy sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Tofu Scramble with Spinach and Whole Wheat Toast",
+              "calories": 300,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 300,
+          "description": "Tofu scramble cooked with spinach and served with whole wheat toast",
+          "ingredients": [
+            "tofu",
+            "spinach",
+            "whole wheat bread"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Lentil Soup with Whole Grain Bread",
+              "calories": 500,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 500,
+          "description": "Lentil soup cooked with a variety of vegetables and served with whole grain bread",
+          "ingredients": [
+            "lentils",
+            "vegetables",
+            "whole grain bread"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Vegetable Skewers with Quinoa",
+              "calories": 500,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled vegetable skewers served with quinoa and a side of steamed broccoli",
+          "ingredients": [
+            "vegetables",
+            "quinoa",
+            "broccoli"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl with Banana and Almond Milk",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 50,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 300,
+          "description": "Smoothie made with banana, almond milk, and spinach, topped with granola and sliced fruit",
+          "ingredients": [
+            "banana",
+            "almond milk",
+            "spinach",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Chickpea Salad",
+              "calories": 500,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Chickpea salad made with a variety of vegetables and a citrus vinaigrette dressing",
+          "ingredients": [
+            "chickpeas",
+            "vegetables",
+            "citrus vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Stuffed Bell Peppers with Quinoa and Black Beans",
+              "calories": 500,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Bell peppers stuffed with quinoa, black beans, and a variety of vegetables, baked until tender",
+          "ingredients": [
+            "bell peppers",
+            "quinoa",
+            "black beans",
+            "vegetables"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Whole Grain Waffles with Fresh Fruit and Almond Butter",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 50,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 300,
+          "description": "Whole grain waffles topped with fresh fruit and almond butter",
+          "ingredients": [
+            "whole grain waffles",
+            "fresh fruit",
+            "almond butter"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Wrap with Hummus and Vegetables",
+              "calories": 500,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Whole wheat wrap filled with hummus, cucumber, bell peppers, and sprouts",
+          "ingredients": [
+            "whole wheat wrap",
+            "hummus",
+            "cucumber",
+            "bell peppers",
+            "sprouts"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Tofu with Roasted Vegetables and Quinoa",
+              "calories": 500,
+              "protein_grams": 20,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled tofu served with roasted vegetables and quinoa",
+          "ingredients": [
+            "tofu",
+            "vegetables",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Maple Syrup",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 50,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 300,
+          "description": "Steel-cut oats cooked with almond milk and topped with sliced banana and maple syrup",
+          "ingredients": [
+            "oats",
+            "banana",
+            "almond milk",
+            "maple syrup"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Black Bean and Corn Tacos",
+              "calories": 500,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Whole wheat tacos filled with black beans, corn, and a variety of vegetables, topped with avocado salsa",
+          "ingredients": [
+            "whole wheat tacos",
+            "black beans",
+            "corn",
+            "vegetables",
+            "avocado salsa"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Stuffed Acorn Squash with Quinoa and Black Beans",
+              "calories": 500,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Acorn squash stuffed with quinoa, black beans, and a variety of vegetables, baked until tender",
+          "ingredients": [
+            "acorn squash",
+            "quinoa",
+            "black beans",
+            "vegetables"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie with Banana and Spinach",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 50,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 300,
+          "description": "Smoothie made with banana, spinach, and almond milk, topped with granola and sliced fruit",
+          "ingredients": [
+            "banana",
+            "spinach",
+            "almond milk",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Chickpea and Avocado Salad",
+              "calories": 500,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Chickpea and avocado salad made with a variety of vegetables and a citrus vinaigrette dressing",
+          "ingredients": [
+            "chickpeas",
+            "avocado",
+            "vegetables",
+            "citrus vinaigrette"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Portobello Mushrooms with Roasted Vegetables and Quinoa",
+              "calories": 500,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled portobello mushrooms served with roasted vegetables and quinoa",
+          "ingredients": [
+            "portobello mushrooms",
+            "vegetables",
+            "quinoa"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Whole Grain Pancakes with Fresh Fruit and Maple Syrup",
+              "calories": 300,
+              "protein_grams": 5,
+              "carbs_grams": 50,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 300,
+          "description": "Whole grain pancakes topped with fresh fruit and maple syrup",
+          "ingredients": [
+            "whole grain pancakes",
+            "fresh fruit",
+            "maple syrup"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Vegan Lentil and Vegetable Stew",
+              "calories": 500,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Lentil and vegetable stew made with a variety of vegetables and a side of whole grain bread",
+          "ingredients": [
+            "lentils",
+            "vegetables",
+            "whole grain bread"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Tofu with Roasted Sweet Potatoes and Broccoli",
+              "calories": 500,
+              "protein_grams": 20,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled tofu served with roasted sweet potatoes and broccoli",
+          "ingredients": [
+            "tofu",
+            "sweet potatoes",
+            "broccoli"
+          ]
+        }
+      ]
+    }
+  ]
+}

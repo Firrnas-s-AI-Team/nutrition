@@ -1,0 +1,130 @@
+{
+  "target_calories_per_day": 1900,
+  "target_water_intake_liters": 2.5,
+  "BMI": 21.1,
+  "days": [
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast",
+              "calories": 250,
+              "protein_grams": 4,
+              "carbs_grams": 10,
+              "fats_grams": 20
+            },
+            {
+              "name": "Poached Eggs",
+              "calories": 140,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 390,
+          "description": "Avocado toast with poached eggs",
+          "ingredients": [
+            "Avocado",
+            "Eggs",
+            "Almond Flour Bread"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Homemade Ranch Dressing",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 110,
+          "description": "Cucumber slices with homemade ranch dressing",
+          "ingredients": [
+            "Cucumber",
+            "Mayonnaise",
+            "Herbs"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices",
+              "calories": 10,
+              "protein_grams": 0,
+              "carbs_grams": 2,
+              "fats_grams": 0
+            },
+            {
+              "name": "Homemade Ranch Dressing",
+              "calories": 100,
+              "protein_grams": 1,
+              "carbs_grams": 2,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 110,
+          "description": "Cucumber slices with homemade ranch dressing",
+          "ingredients": [
+            "Cucumber",
+            "Mayonnaise",
+            "Herbs"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese",
+              "calories": 100,
+              "protein_grams": 11,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Berries",
+              "calories": 60,
+              "protein_grams": 1,
+              "carbs_grams": 15,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 160,
+          "description": "Cottage cheese with berries",
+          "ingredients": [
+            "Cottage Cheese",
+            "Berries"
+          ]
+        }
+      ]
+    }
+  ]
+}

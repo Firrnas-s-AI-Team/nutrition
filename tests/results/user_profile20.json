@@ -1,0 +1,56 @@
+```json
+{
+  "scores": {
+    "Correctness": 0,
+    "Completeness": 1,
+    "Conciseness": 4,
+    "Helpfulness": 3,
+    "Honesty": 5,
+    "Harmlessness": 5
+  },
+  "explanations": {
+    "Correctness": [
+      "The user has 'Kosher' and 'Paleo' dietary preferences.",
+      "The plan includes several meals that are not Kosher, such as meals containing both meat and dairy (e.g., cottage cheese and peaches).",
+      "The plan includes non-Paleo items like brown rice and cottage cheese."
+    ],
+    "Completeness": [
+      "The plan includes 5 meals per day, as specified by the user.",
+      "Macronutrients are tracked for each meal.",
+      "Descriptions and ingredient lists are provided for all meals.",
+      "However, the plan does not provide alternative options for each meal."
+    ],
+    "Conciseness": [
+      "The meal descriptions are generally clear and focused.",
+      "There are no obvious redundancies in the ingredient lists."
+    ],
+    "Helpfulness": [
+      "The plan aims to support muscle gain with high-protein meals, which aligns with the user's goal.",
+      "Some meal descriptions provide actionable guidance (e.g., 'Nutritious dinner with omega-3 rich salmon').",
+      "However, the plan could be more tailored to the user's specific needs and preferences, such as providing more variety or addressing potential sleep apnea concerns through dietary choices."
+    ],
+    "Honesty": [
+      "The calorie and macronutrient values appear to be realistic and consistent with standard nutritional data.",
+      "Ingredient lists generally match the meal descriptions."
+    ],
+    "Harmlessness": [
+      "The plan does not include any ingredients that are obviously harmful or contraindicated for the user's medical conditions (sleep apnea).",
+      "The plan appears to be balanced and does not promote any extreme or biased dietary approaches."
+    ]
+  },
+  "violation_table": """
+| Meal                       | Day       | Issue                               |
+|----------------------------|-----------|-------------------------------------|
+| Coconut Milk Smoothie      | Tuesday   | May not be Kosher (mixing meat and dairy) |
+| Hard-Boiled Egg            | Tuesday   | May not be Kosher (mixing meat and dairy) |
+| Cottage Cheese             | Tuesday   | Not Paleo                           |
+| Brown Rice                 | Tuesday   | Not Paleo                           |
+| Greek Yogurt               | Wednesday | May not be Kosher (mixing meat and dairy) |
+| Coconut Milk Smoothie      | Thursday  | May not be Kosher (mixing meat and dairy) |
+| Hard-Boiled Egg            | Thursday  | May not be Kosher (mixing meat and dairy) |
+| Greek Yogurt               | Friday    | May not be Kosher (mixing meat and dairy) |
+| Coconut Milk Smoothie      | Sunday    | May not be Kosher (mixing meat and dairy) |
+| Hard-Boiled Egg            | Sunday    | May not be Kosher (mixing meat and dairy) |
+"""
+}
+```

@@ -1,0 +1,588 @@
+{
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 3.5,
+  "BMI": 24.3,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Oatmeal with Banana and Almond Milk",
+              "calories": 400,
+              "protein_grams": 10,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            },
+            {
+              "name": "Hard-Boiled Egg (Halal-certified)",
+              "calories": 78,
+              "protein_grams": 6,
+              "carbs_grams": 0.6,
+              "fats_grams": 5
+            }
+          ],
+          "total_calories": 478,
+          "description": "Steel-cut oats cooked with almond milk, topped with sliced banana and a sprinkle of cinnamon. Paired with a hard-boiled egg.",
+          "ingredients": [
+            "oats",
+            "almond milk",
+            "banana",
+            "egg"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Quinoa and Steamed Vegetables",
+              "calories": 500,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled chicken breast served with cooked quinoa and a variety of steamed vegetables.",
+          "ingredients": [
+            "chicken breast",
+            "quinoa",
+            "mixed vegetables"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Salmon with Brown Rice and Sauteed Spinach",
+              "calories": 550,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 550,
+          "description": "Baked salmon fillet served with brown rice and sauteed spinach.",
+          "ingredients": [
+            "salmon fillet",
+            "brown rice",
+            "spinach"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "Sliced apple paired with almond butter for a satisfying snack.",
+          "ingredients": [
+            "apple",
+            "almond butter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Greek Yogurt with Berries and Granola",
+              "calories": 350,
+              "protein_grams": 20,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 350,
+          "description": "Greek yogurt topped with mixed berries and a sprinkle of granola.",
+          "ingredients": [
+            "greek yogurt",
+            "mixed berries",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Turkey and Avocado Wrap",
+              "calories": 600,
+              "protein_grams": 30,
+              "carbs_grams": 40,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 600,
+          "description": "Whole wheat wrap filled with sliced turkey breast, avocado, lettuce, and tomato.",
+          "ingredients": [
+            "whole wheat wrap",
+            "turkey breast",
+            "avocado",
+            "lettuce",
+            "tomato"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Roasted Sweet Potatoes and Green Beans",
+              "calories": 500,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled chicken breast served with roasted sweet potatoes and steamed green beans.",
+          "ingredients": [
+            "chicken breast",
+            "sweet potatoes",
+            "green beans"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein_grams": 5,
+              "carbs_grams": 10,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "Carrot sticks paired with a side of hummus for a healthy snack.",
+          "ingredients": [
+            "carrots",
+            "hummus"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoothie Bowl with Banana, Spinach, and Almond Milk",
+              "calories": 400,
+              "protein_grams": 15,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 400,
+          "description": "Smoothie bowl made with banana, spinach, and almond milk, topped with sliced fruit and granola.",
+          "ingredients": [
+            "banana",
+            "spinach",
+            "almond milk",
+            "granola"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens Salad",
+              "calories": 400,
+              "protein_grams": 40,
+              "carbs_grams": 10,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled chicken breast served on top of a mixed greens salad with a variety of vegetables.",
+          "ingredients": [
+            "chicken breast",
+            "mixed greens",
+            "vegetables"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thighs with Quinoa and Steamed Broccoli",
+              "calories": 550,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 550,
+          "description": "Baked chicken thighs served with cooked quinoa and steamed broccoli.",
+          "ingredients": [
+            "chicken thighs",
+            "quinoa",
+            "broccoli"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Rice Cakes with Almond Butter and Banana Slices",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 20,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "Rice cakes topped with almond butter and banana slices.",
+          "ingredients": [
+            "rice cakes",
+            "almond butter",
+            "banana"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled Eggs with Whole Wheat Toast and Mixed Berries",
+              "calories": 300,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 300,
+          "description": "Scrambled eggs served with whole wheat toast and a side of mixed berries.",
+          "ingredients": [
+            "eggs",
+            "whole wheat toast",
+            "mixed berries"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Turkey and Cheese Sandwich on Whole Wheat Bread",
+              "calories": 600,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 25
+            }
+          ],
+          "total_calories": 600,
+          "description": "Grilled turkey and cheese sandwich made with whole wheat bread and served with a side of carrot sticks.",
+          "ingredients": [
+            "turkey breast",
+            "cheese",
+            "whole wheat bread",
+            "carrots"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and Vegetable Stir-Fry with Brown Rice",
+              "calories": 500,
+              "protein_grams": 30,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Shrimp and vegetable stir-fry served with a side of brown rice.",
+          "ingredients": [
+            "shrimp",
+            "mixed vegetables",
+            "brown rice"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cottage Cheese with Cucumber Slices",
+              "calories": 150,
+              "protein_grams": 20,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 150,
+          "description": "Cottage cheese paired with sliced cucumber.",
+          "ingredients": [
+            "cottage cheese",
+            "cucumber"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado Toast with Poached Eggs",
+              "calories": 350,
+              "protein_grams": 15,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 350,
+          "description": "Avocado toast topped with poached eggs and a sprinkle of salt and pepper.",
+          "ingredients": [
+            "avocado",
+            "whole wheat bread",
+            "eggs"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Caesar Salad",
+              "calories": 500,
+              "protein_grams": 40,
+              "carbs_grams": 10,
+              "fats_grams": 30
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled chicken breast served on top of a Caesar salad.",
+          "ingredients": [
+            "chicken breast",
+            "romaine lettuce",
+            "croutons",
+            "parmesan cheese"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Cod with Quinoa and Steamed Asparagus",
+              "calories": 500,
+              "protein_grams": 35,
+              "carbs_grams": 40,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Baked cod served with cooked quinoa and steamed asparagus.",
+          "ingredients": [
+            "cod fillet",
+            "quinoa",
+            "asparagus"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Protein Bar (Halal-certified)",
+              "calories": 200,
+              "protein_grams": 20,
+              "carbs_grams": 20,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 200,
+          "description": "Protein bar made with wholesome ingredients.",
+          "ingredients": [
+            "protein powder",
+            "nuts",
+            "dried fruit"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Omelette with Mushrooms and Whole Wheat Toast",
+              "calories": 300,
+              "protein_grams": 20,
+              "carbs_grams": 30,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 300,
+          "description": "Omelette made with eggs, mushrooms, and served with whole wheat toast.",
+          "ingredients": [
+            "eggs",
+            "mushrooms",
+            "whole wheat toast"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Wrap",
+              "calories": 500,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled chicken breast served in a whole wheat wrap with mixed greens.",
+          "ingredients": [
+            "chicken breast",
+            "whole wheat wrap",
+            "mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Shrimp and Vegetable Skewers with Quinoa",
+              "calories": 500,
+              "protein_grams": 30,
+              "carbs_grams": 60,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 500,
+          "description": "Shrimp and vegetable skewers served with a side of quinoa.",
+          "ingredients": [
+            "shrimp",
+            "mixed vegetables",
+            "quinoa"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Peanut Butter",
+              "calories": 150,
+              "protein_grams": 4,
+              "carbs_grams": 15,
+              "fats_grams": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "Apple slices paired with peanut butter.",
+          "ingredients": [
+            "apple",
+            "peanut butter"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Breakfast Burrito with Scrambled Eggs and Black Beans",
+              "calories": 400,
+              "protein_grams": 20,
+              "carbs_grams": 40,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 400,
+          "description": "Breakfast burrito filled with scrambled eggs, black beans, and wrapped in a whole wheat tortilla.",
+          "ingredients": [
+            "eggs",
+            "black beans",
+            "whole wheat tortilla"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled Chicken Breast with Mixed Greens and Whole Wheat Wrap",
+              "calories": 500,
+              "protein_grams": 40,
+              "carbs_grams": 30,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 500,
+          "description": "Grilled chicken breast served in a whole wheat wrap with mixed greens.",
+          "ingredients": [
+            "chicken breast",
+            "whole wheat wrap",
+            "mixed greens"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked Chicken Thighs with Roasted Carrots and Brown Rice",
+              "calories": 550,
+              "protein_grams": 35,
+              "carbs_grams": 60,
+              "fats_grams": 20
+            }
+          ],
+          "total_calories": 550,
+          "description": "Baked chicken thighs served with roasted carrots and brown rice.",
+          "ingredients": [
+            "chicken thighs",
+            "carrots",
+            "brown rice"
+          ]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Greek Yogurt with Honey and Almonds",
+              "calories": 200,
+              "protein_grams": 15,
+              "carbs_grams": 30,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 200,
+          "description": "Greek yogurt topped with honey and almonds.",
+          "ingredients": [
+            "greek yogurt",
+            "honey",
+            "almonds"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "All meat and animal products are Halal-certified.",
+    "Ensure low sodium intake to manage Hypertension.",
+    "Incorporate iron-rich foods to help with Anemia."
+  ]
+}

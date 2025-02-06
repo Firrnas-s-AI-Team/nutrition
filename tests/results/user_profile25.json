@@ -1,0 +1,40 @@
+```json
+{
+  "scores": {
+    "Correctness": 1,
+    "Completeness": 1,
+    "Conciseness": 4,
+    "Helpfulness": 3,
+    "Honesty": 5,
+    "Harmlessness": 5
+  },
+  "explanations": {
+    "Correctness": [
+      "The meal plan adheres to the user's dietary preferences (Gluten-free, Vegetarian) and avoids the specified allergen (Shellfish)."
+    ],
+    "Completeness": [
+      "The plan includes 5 meals per day as specified by the user.",
+      "Each meal provides a description and ingredient list.",
+      "Macronutrients (protein, carbs, fats) are tracked for each meal."
+    ],
+    "Conciseness": [
+      "The plan is generally well-structured and avoids unnecessary details.",
+      "Meal descriptions are clear and focused."
+    ],
+    "Helpfulness": [
+      "The plan supports the user's goal of muscle gain by including protein sources like tofu, lentils, and quinoa.",
+      "The plan could be more helpful by providing more high-protein vegetarian options to better support muscle gain.",
+      "The plan could benefit from more variety in meals."
+    ],
+    "Honesty": [
+      "Calorie and macronutrient values appear realistic and consistent with the ingredients listed.",
+      "Ingredient lists match the meal descriptions."
+    ],
+    "Harmlessness": [
+      "The plan avoids ingredients that could worsen medical conditions, as the user has no specified medical conditions.",
+      "The plan does not promote extreme diets and appears balanced."
+    ]
+  },
+  "violation_table": ""
+}
+```

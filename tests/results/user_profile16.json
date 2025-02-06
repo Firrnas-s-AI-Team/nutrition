@@ -1,0 +1,44 @@
+```json
+{
+  "scores": {
+    "Correctness": 1,
+    "Completeness": 1,
+    "Conciseness": 4,
+    "Helpfulness": 4,
+    "Honesty": 5,
+    "Harmlessness": 5
+  },
+  "explanations": {
+    "Correctness": [
+      "The meal plan adheres to the Paleo dietary preference by focusing on lean meats, vegetables, and healthy fats.",
+      "Allergies and medical conditions are not specified, so the plan is assumed to be safe in those aspects."
+    ],
+    "Completeness": [
+      "The plan includes 3 meals per day, as specified by the user.",
+      "Each meal provides a description and ingredient list.",
+      "Macronutrients (protein, carbs, fats) are tracked for each meal.",
+      "The plan does not provide alternative options for each meal."
+    ],
+    "Conciseness": [
+      "The meal descriptions are clear and focused.",
+      "The plan avoids redundant details and repetitive ingredients.",
+      "The plan is well-organized and easy to parse."
+    ],
+    "Helpfulness": [
+      "The plan supports the user's goal of muscle gain by providing high-protein meals.",
+      "The meals are practical and easy to prepare.",
+      "The descriptions provide actionable guidance."
+    ],
+    "Honesty": [
+      "The calorie and macronutrient values are realistic and verifiable.",
+      "The ingredient lists match the meal descriptions."
+    ],
+    "Harmlessness": [
+      "The plan avoids ingredients that could worsen medical conditions.",
+      "The plan is balanced and medically appropriate.",
+      "The plan does not promote extreme diets or biased language."
+    ]
+  },
+  "violation_table": ""
+}
+```

@@ -1,0 +1,599 @@
+{
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 3.5,
+  "BMI": 23.5,
+  "days": [
+    {
+      "day": "Monday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grass-fed beef patty",
+              "calories": 250,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Avocado",
+              "calories": 150,
+              "protein_grams": 3,
+              "carbs_grams": 6,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled beef patty with sliced avocado",
+          "ingredients": [
+            "Grass-fed beef",
+            "Avocado",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            },
+            {
+              "name": "Olive oil and vinegar dressing",
+              "calories": 100,
+              "protein_grams": 0,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 350,
+          "description": "Grilled chicken breast with mixed greens salad and olive oil dressing",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Olive oil",
+            "Vinegar"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked salmon",
+              "calories": 250,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted vegetables",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 10,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 350,
+          "description": "Baked salmon with roasted vegetables",
+          "ingredients": [
+            "Salmon fillet",
+            "Mixed vegetables",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled eggs",
+              "calories": 150,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach and mushrooms",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 200,
+          "description": "Scrambled eggs with spinach and mushrooms",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Mushrooms",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled turkey breast",
+              "calories": 200,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cucumber and tomato slices",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Grilled turkey breast with cucumber and tomato slices",
+          "ingredients": [
+            "Turkey breast",
+            "Cucumber",
+            "Tomato",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled steak",
+              "calories": 300,
+              "protein_grams": 40,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Roasted sweet potatoes",
+              "calories": 150,
+              "protein_grams": 2,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 450,
+          "description": "Grilled steak with roasted sweet potatoes",
+          "ingredients": [
+            "Steak",
+            "Sweet potatoes",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado and prosciutto omelette",
+              "calories": 250,
+              "protein_grams": 15,
+              "carbs_grams": 5,
+              "fats_grams": 15
+            }
+          ],
+          "total_calories": 250,
+          "description": "Avocado and prosciutto omelette",
+          "ingredients": [
+            "Eggs",
+            "Avocado",
+            "Prosciutto",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Grilled chicken breast with mixed greens salad",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Olive oil",
+            "Vinegar"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked chicken thighs",
+              "calories": 250,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 350,
+          "description": "Baked chicken thighs with roasted broccoli",
+          "ingredients": [
+            "Chicken thighs",
+            "Broccoli",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Smoked salmon",
+              "calories": 200,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Scrambled eggs",
+              "calories": 150,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 350,
+          "description": "Smoked salmon with scrambled eggs",
+          "ingredients": [
+            "Smoked salmon",
+            "Eggs",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled turkey breast",
+              "calories": 200,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cucumber and tomato slices",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Grilled turkey breast with cucumber and tomato slices",
+          "ingredients": [
+            "Turkey breast",
+            "Cucumber",
+            "Tomato",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled pork chop",
+              "calories": 300,
+              "protein_grams": 40,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Roasted Brussels sprouts",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled pork chop with roasted Brussels sprouts",
+          "ingredients": [
+            "Pork chop",
+            "Brussels sprouts",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Friday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Avocado and spinach omelette",
+              "calories": 200,
+              "protein_grams": 15,
+              "carbs_grams": 5,
+              "fats_grams": 10
+            }
+          ],
+          "total_calories": 200,
+          "description": "Avocado and spinach omelette",
+          "ingredients": [
+            "Eggs",
+            "Avocado",
+            "Spinach",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Grilled chicken breast with mixed greens salad",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Olive oil",
+            "Vinegar"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked salmon",
+              "calories": 250,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted asparagus",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 350,
+          "description": "Baked salmon with roasted asparagus",
+          "ingredients": [
+            "Salmon fillet",
+            "Asparagus",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Saturday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Grass-fed beef patty",
+              "calories": 250,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Avocado",
+              "calories": 150,
+              "protein_grams": 3,
+              "carbs_grams": 6,
+              "fats_grams": 12
+            }
+          ],
+          "total_calories": 400,
+          "description": "Grilled beef patty with sliced avocado",
+          "ingredients": [
+            "Grass-fed beef",
+            "Avocado",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled chicken breast",
+              "calories": 200,
+              "protein_grams": 35,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Mixed greens salad",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Grilled chicken breast with mixed greens salad",
+          "ingredients": [
+            "Chicken breast",
+            "Mixed greens",
+            "Olive oil",
+            "Vinegar"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Grilled steak",
+              "calories": 300,
+              "protein_grams": 40,
+              "carbs_grams": 0,
+              "fats_grams": 15
+            },
+            {
+              "name": "Roasted sweet potatoes",
+              "calories": 150,
+              "protein_grams": 2,
+              "carbs_grams": 20,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 450,
+          "description": "Grilled steak with roasted sweet potatoes",
+          "ingredients": [
+            "Steak",
+            "Sweet potatoes",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    },
+    {
+      "day": "Sunday",
+      "meals": [
+        {
+          "meal_name": "Breakfast",
+          "items": [
+            {
+              "name": "Scrambled eggs",
+              "calories": 150,
+              "protein_grams": 12,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Spinach and mushrooms",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 200,
+          "description": "Scrambled eggs with spinach and mushrooms",
+          "ingredients": [
+            "Eggs",
+            "Spinach",
+            "Mushrooms",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Lunch",
+          "items": [
+            {
+              "name": "Grilled turkey breast",
+              "calories": 200,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 5
+            },
+            {
+              "name": "Cucumber and tomato slices",
+              "calories": 50,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 250,
+          "description": "Grilled turkey breast with cucumber and tomato slices",
+          "ingredients": [
+            "Turkey breast",
+            "Cucumber",
+            "Tomato",
+            "Salt and pepper"
+          ]
+        },
+        {
+          "meal_name": "Dinner",
+          "items": [
+            {
+              "name": "Baked chicken thighs",
+              "calories": 250,
+              "protein_grams": 30,
+              "carbs_grams": 0,
+              "fats_grams": 10
+            },
+            {
+              "name": "Roasted broccoli",
+              "calories": 100,
+              "protein_grams": 2,
+              "carbs_grams": 5,
+              "fats_grams": 0
+            }
+          ],
+          "total_calories": 350,
+          "description": "Baked chicken thighs with roasted broccoli",
+          "ingredients": [
+            "Chicken thighs",
+            "Broccoli",
+            "Olive oil",
+            "Salt and pepper"
+          ]
+        }
+      ]
+    }
+  ]
+}
