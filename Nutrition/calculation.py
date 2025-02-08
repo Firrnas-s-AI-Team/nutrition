@@ -28,7 +28,7 @@ def calculate_tdee(bmr, activity_level):
     
     Parameters:
         bmr (float): Basal Metabolic Rate.
-        activity_level (str): One of "sedentary", "lightly active", "moderately active", "very active", "super active".
+        activity_level (str): One of "sedentary", "lightly active", "moderately active", "very active", "super active", or "extremely_active".
     
     Returns:
         float: Calculated TDEE.
@@ -38,18 +38,19 @@ def calculate_tdee(bmr, activity_level):
         "lightly active": 1.375,
         "moderately active": 1.55,
         "very active": 1.725,
-        "super active": 1.9
+        "super active": 1.9,
+        "extremely_active": 2.0
     }
     if activity_level not in activity_multipliers:
         raise ValueError("Invalid activity level")
     return bmr * activity_multipliers[activity_level]
 
-def compose_balanced_meal(meal_calories, target_protein, target_carb, target_fat, food_df, food_exclusions):
+def compose_balanced_meal(meal_calories, target_protein, target_carb, target_fat, food_df, food_exclusions, user_preferences=None):
     """
     Compose a balanced meal by selecting one lean protein, one carbohydrate, and one healthy fat.
     
     For each food item, an initial portion is calculated so that its primary nutrient meets
-    the per-meal target. All portions are then scaled so that the sum of their calories matches meal_calories.
+    the per-meal target. All portions are then scaled so that the total meal calories equal meal_calories.
     
     Parameters:
         meal_calories (float): Desired total calories for the meal.
@@ -57,45 +58,63 @@ def compose_balanced_meal(meal_calories, target_protein, target_carb, target_fat
         target_carb (float): Target grams of carbohydrates for the meal.
         target_fat (float): Target grams of fat for the meal.
         food_df (DataFrame): DataFrame containing food items with nutritional information.
-        food_exclusions (list): List of food items already used (to promote variety).
+        food_exclusions (set): Set of food items already used (to promote variety).
+        user_preferences (dict, optional): Contains keys like 'dislikes', 'allergies', and 'dietary_restrictions'.
     
     Returns:
-        tuple: (list of food items for the meal, updated food_exclusions list)
+        tuple: (list of food items for the meal, updated food_exclusions set)
+    
+    Raises:
+        ValueError: If no candidate is found for any of the required food categories.
     """
-    # --- Select lean protein (low fat content, ≤ 5 g per 100g) ---
+    if user_preferences is None:
+        user_preferences = {}
+        
+    # Convert preferences to sets for easy exclusion.
+    disliked = set(user_preferences.get("dislikes", []))
+    allergies = set(user_preferences.get("allergies", []))
+    restrictions = set(user_preferences.get("dietary_restrictions", []))
+    
+    # --- Choose a lean protein ---
     protein_candidates = food_df[
         (food_df["type_category"] == "protein") &
         (food_df["fats_per_100_gm"] <= 5) &
-        (~food_df["food_item"].isin(food_exclusions))
+        (~food_df["food_item"].isin(food_exclusions.union(disliked)))
     ]
     if protein_candidates.empty:
         protein_candidates = food_df[
             (food_df["type_category"] == "protein") &
-            (~food_df["food_item"].isin(food_exclusions))
+            (~food_df["food_item"].isin(food_exclusions.union(disliked)))
         ]
+    if protein_candidates.empty:
+        raise ValueError("No available protein candidates. Check your food database, exclusions, and user preferences.")
     protein_item = protein_candidates.sample().iloc[0]
 
-    # --- Select a carbohydrate source ---
+    # --- Choose a carbohydrate source ---
     carb_candidates = food_df[
         (food_df["type_category"] == "carb") &
-        (~food_df["food_item"].isin(food_exclusions))
+        (~food_df["food_item"].isin(food_exclusions.union(disliked)))
     ]
     if carb_candidates.empty:
         carb_candidates = food_df[food_df["type_category"] == "carb"]
+    if carb_candidates.empty:
+        raise ValueError("No available carbohydrate candidates. Check your food database and exclusions.")
     carb_item = carb_candidates.sample().iloc[0]
 
-    # --- Select a healthy fat (prefer moderate fat content: 5 to 20 g per 100g) ---
+    # --- Choose a healthy fat ---
     fat_candidates = food_df[
         (food_df["type_category"] == "fats") &
         (food_df["fats_per_100_gm"] >= 5) &
         (food_df["fats_per_100_gm"] <= 20) &
-        (~food_df["food_item"].isin(food_exclusions))
+        (~food_df["food_item"].isin(food_exclusions.union(disliked)))
     ]
     if fat_candidates.empty:
         fat_candidates = food_df[
             (food_df["type_category"] == "fats") &
-            (~food_df["food_item"].isin(food_exclusions))
+            (~food_df["food_item"].isin(food_exclusions.union(disliked)))
         ]
+    if fat_candidates.empty:
+        raise ValueError("No available fat candidates. Check your food database and exclusions.")
     fat_item = fat_candidates.sample().iloc[0]
 
     # --- Compute initial portion sizes based on target macronutrient content ---
@@ -152,68 +171,67 @@ def compose_balanced_meal(meal_calories, target_protein, target_carb, target_fat
         }
     ]
 
-    # Update the exclusion list to avoid reusing the same food items in subsequent meals.
-    food_exclusions.extend([
+    # Update the exclusion set to avoid reusing the same food items in subsequent meals.
+    food_exclusions.update([
         protein_item["food_item"],
         carb_item["food_item"],
         fat_item["food_item"]
     ])
     return meal_items, food_exclusions
 
-def generate_daily_meal_plan(tdee, goal, food_df, meals_per_day, gender, food_exclusions=None):
+
+def generate_daily_meal_plan(tdee, goal, food_df, meals_per_day, gender, food_exclusions=None, user_preferences=None):
     """
-    Generate a daily meal plan that meets target calories and macronutrient goals.
-    
     For a weight loss goal, a modest calorie deficit is applied to the TDEE.
     Daily macronutrient targets are computed as percentages of the adjusted target calories,
     then divided evenly across meals.
     
     Parameters:
         tdee (float): Total Daily Energy Expenditure.
-        goal (str): One of "lose weight", "gain weight", or "gain muscles".
+        goal (str): One of "weight_loss", "gain_weight", or "gain_muscles".
         food_df (DataFrame): DataFrame with food nutritional information.
         meals_per_day (int): Number of meals to generate.
-        gender (str): User gender (used if further adjustments are needed).
-        food_exclusions (list, optional): List of already-used food items.
+        gender (str): User gender.
+        food_exclusions (set, optional): Set of already-used food items.
+        user_preferences (dict, optional): Contains user preferences/dietary restrictions.
     
     Returns:
-        dict: Daily meal plan with each meal's items and macronutrient breakdown.
+        dict: Daily meal plan with each meal's items and nutritional breakdown.
     """
     if food_exclusions is None:
-        food_exclusions = []
+        food_exclusions = set()
+    if user_preferences is None:
+        user_preferences = {}
         
     # Define target calories and daily macronutrient targets based on the goal.
-    if goal == "lose weight":
+    if goal == "weight_loss":
         deficit = 250
         target_calories = tdee - deficit
         # Percentages: 30% protein, 40% carbohydrates, 30% fat.
-        daily_protein_grams = (0.30 * target_calories) / 4  # grams protein per day
-        daily_carb_grams = (0.40 * target_calories) / 4     # grams carbs per day
-        daily_fat_grams = (0.30 * target_calories) / 9      # grams fat per day
-    elif goal == "gain weight":
+        daily_protein_grams = (0.30 * target_calories) / 4
+        daily_carb_grams = (0.40 * target_calories) / 4
+        daily_fat_grams = (0.30 * target_calories) / 9
+    elif goal == "gain_weight":
         surplus = 250
         target_calories = tdee + surplus
         daily_protein_grams = (0.25 * target_calories) / 4
         daily_carb_grams = (0.50 * target_calories) / 4
         daily_fat_grams = (0.25 * target_calories) / 9
-    elif goal == "gain muscles":
+    elif goal == "gain_muscles":
         surplus = 250
         target_calories = tdee + surplus
         daily_protein_grams = (0.35 * target_calories) / 4
         daily_carb_grams = (0.45 * target_calories) / 4
         daily_fat_grams = (0.20 * target_calories) / 9
     else:
-        raise ValueError("Invalid goal. Choose 'lose weight', 'gain weight', or 'gain muscles'.")
+        raise ValueError("Invalid goal. Choose 'weight_loss', 'gain_weight', or 'gain_muscles'.")
 
-    # Calculate per-meal targets.
     meal_calories = target_calories / meals_per_day
     protein_per_meal = daily_protein_grams / meals_per_day
     carb_per_meal = daily_carb_grams / meals_per_day
     fat_per_meal = daily_fat_grams / meals_per_day
 
     daily_meal_plan = {}
-    total_calories_generated = 0
-
     for i in range(meals_per_day):
         meal_name = f"Meal_{i+1}"
         meal_items, food_exclusions = compose_balanced_meal(
@@ -222,22 +240,46 @@ def generate_daily_meal_plan(tdee, goal, food_df, meals_per_day, gender, food_ex
             carb_per_meal,
             fat_per_meal,
             food_df,
-            food_exclusions
+            food_exclusions,
+            user_preferences=user_preferences
         )
-
-        meal_total_calories = sum(item["calories"] for item in meal_items)
-        meal_total_protein = sum(item["protein"] for item in meal_items)
-        meal_total_carb = sum(item["carb"] for item in meal_items)
-        meal_total_fat = sum(item["fats"] for item in meal_items)
-
+        total_calories = sum(item["calories"] for item in meal_items)
+        total_protein = sum(item["protein"] for item in meal_items)
+        total_carb = sum(item["carb"] for item in meal_items)
+        total_fat = sum(item["fats"] for item in meal_items)
         daily_meal_plan[meal_name] = {
             "items": meal_items,
-            "total_calories": meal_total_calories,
-            "total_protein": meal_total_protein,
-            "total_carb": meal_total_carb,
-            "total_fats": meal_total_fat
+            "total_calories": total_calories,
+            "total_protein": total_protein,
+            "total_carb": total_carb,
+            "total_fats": total_fat
         }
-        total_calories_generated += meal_total_calories
-
-    print(f"Total Generated Calories: {total_calories_generated:.2f} vs Target Calories: {target_calories:.2f}")
     return daily_meal_plan
+
+def generate_meal_plans_for_days(num_days, tdee, goal, food_df, meals_per_day, gender, user_preferences=None, vary_across_days=False):
+    """
+    Parameters:
+        num_days (int): Number of days for which to generate meal plans.
+        tdee (float): Total Daily Energy Expenditure.
+        goal (str): User's nutritional goal (e.g., "weight_loss", "gain_weight", "gain_muscles").
+        food_df (DataFrame): DataFrame containing food nutritional data.
+        meals_per_day (int): Number of meals per day.
+        gender (str): User's gender.
+        user_preferences (dict, optional): Additional user preferences or dietary restrictions.
+        vary_across_days (bool, optional): If True, maintain a cumulative food exclusion set across days; 
+                                           if False, each day starts with a fresh exclusion set.
+    
+    Returns:
+        dict: A dictionary with keys "Day_1", "Day_2", ... and values as the daily meal plans.
+    """
+    multi_day_plan = {}
+    if vary_across_days:
+        food_exclusions = set()
+        for day in range(1, num_days + 1):
+            daily_plan = generate_daily_meal_plan(tdee, goal, food_df, meals_per_day, gender, food_exclusions=food_exclusions, user_preferences=user_preferences)
+            multi_day_plan[f"Day_{day}"] = daily_plan
+    else:
+        for day in range(1, num_days + 1):
+            daily_plan = generate_daily_meal_plan(tdee, goal, food_df, meals_per_day, gender, food_exclusions=set(), user_preferences=user_preferences)
+            multi_day_plan[f"Day_{day}"] = daily_plan
+    return multi_day_plan
