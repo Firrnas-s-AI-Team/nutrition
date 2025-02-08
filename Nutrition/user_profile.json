@@ -1,40 +1,20 @@
 {
-    "name": "Salma",
-    "age": 22,
-    "gender": "female",
-    "weight": 68,
-    "height": 165,
-    "activity_level": "lightly active",
-    "goal": "lose weight",
-    "target_weight": 60,
-    "meals_per_day": 5,
-    "medical_conditions": [
-        "eggs allergy"
-    ],
-    "food_preferences": {
-        "liked_foods": [
-            "chicken",
-            "salad",
-            "grilled vegetables",
-            "smoothies"
-        ],
-        "disliked_foods": [
-            "fish",
-            "spinach",
-            "tofu"
-        ],
-        "allergies": [
-            "eggs",
-            "nuts"
-        ]
-    },
-    "dietary_restrictions": {
-        "avoid": [],
-        "must_include": []
-    },
-    "flavor_preferences": {
-        "spicy": false,
-        "sweet": true,
-        "savory": true
+    "user_profile": {
+      "name": "Henry",
+      "age": 19,
+      "gender": "male",
+      "weight": 70.8,
+      "height": 170.8,
+      "activity_level": "extremely_active",
+      "goal": "weight_loss",
+      "target_weight": 65.2,
+      "meals_per_day": 4,
+      "medical_conditions": [],
+      "allergies": [
+        "Gluten"
+      ],
+      "dietary_preferences": [
+        "Mediterranean"
+      ]
     }
-}
+  }
