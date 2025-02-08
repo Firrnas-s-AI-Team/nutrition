@@ -1,0 +1,44 @@
+BMR = 1440.25 calories
+Total Daily Calories (TDEE) = 1980.34 calories
+Goal: lose weight
+Meals per Day: 5
+
+Recommended Meal Plan (please space out your meals evenly throughout the day):
+
+Meal_1:
+  - Tofu: 213.52 g (162.27 cal, 17.29 g protein, 4.06 g carbs, 10.25 g fats)
+  - Mulberries: 235.31 g (101.18 cal, 3.29 g protein, 23.06 g carbs, 0.94 g fats)
+  - Olives: 71.84 g (82.61 cal, 0.57 g protein, 4.53 g carbs, 7.69 g fats)
+  Meal Totals: 346.07 cal, 21.16 g protein, 31.64 g carbs, 18.88 g fats
+
+Meal_2:
+  - Chicken Breast: 60.44 g (99.73 cal, 18.74 g protein, 0.00 g carbs, 2.18 g fats)
+  - Raspberries: 209.95 g (109.17 cal, 2.52 g protein, 24.98 g carbs, 1.47 g fats)
+  - Mozzarella Cheese: 48.99 g (137.16 cal, 13.72 g protein, 1.52 g carbs, 8.33 g fats)
+  Meal Totals: 346.07 cal, 34.97 g protein, 26.50 g carbs, 11.97 g fats
+
+Meal_3:
+  - Tuna: 84.21 g (111.16 cal, 23.58 g protein, 0.00 g carbs, 0.84 g fats)
+  - Oranges: 261.98 g (123.13 cal, 2.36 g protein, 31.44 g carbs, 0.26 g fats)
+  - Avocado: 69.86 g (111.78 cal, 1.40 g protein, 6.29 g carbs, 10.48 g fats)
+  Meal Totals: 346.07 cal, 27.33 g protein, 37.73 g carbs, 11.58 g fats
+
+Meal_4:
+  - Cottage Cheese: 164.64 g (161.35 cal, 18.28 g protein, 5.60 g carbs, 7.08 g fats)
+  - Eggplant: 413.00 g (103.25 cal, 4.13 g protein, 24.37 g carbs, 0.83 g fats)
+  - Walnuts: 12.46 g (81.47 cal, 1.89 g protein, 1.71 g carbs, 8.12 g fats)
+  Meal Totals: 346.07 cal, 24.30 g protein, 31.67 g carbs, 16.03 g fats
+
+Meal_5:
+  - Greek Yogurt: 205.73 g (121.38 cal, 20.57 g protein, 7.41 g carbs, 0.82 g fats)
+  - Prickly Pear: 285.74 g (117.15 cal, 2.00 g protein, 27.43 g carbs, 1.43 g fats)
+  - Peanut Butter: 18.29 g (107.53 cal, 4.57 g protein, 3.66 g carbs, 9.14 g fats)
+  Meal Totals: 346.07 cal, 27.15 g protein, 38.50 g carbs, 11.40 g fats
+
+Daily Totals:
+  Calories: 1730.34
+  Protein: 134.92 g
+  Carbs: 166.04 g
+  Fats: 69.86 g
+
+Note: For optimal energy levels, space your meals evenly throughout the day.
