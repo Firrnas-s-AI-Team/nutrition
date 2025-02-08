@@ -1,44 +1,178 @@
-BMR = 1440.25 calories
-Total Daily Calories (TDEE) = 1980.34 calories
-Goal: lose weight
-Meals per Day: 5
+Name: Henry Lee
+BMR: 1685.50 calories
+TDEE: 3371.00 calories
+Goal: weight_loss
+Meals per Day: 4
+Plan Duration: 7 days
 
-Recommended Meal Plan (please space out your meals evenly throughout the day):
+Recommended Multi-Day Meal Plan:
 
-Meal_1:
-  - Tofu: 213.52 g (162.27 cal, 17.29 g protein, 4.06 g carbs, 10.25 g fats)
-  - Mulberries: 235.31 g (101.18 cal, 3.29 g protein, 23.06 g carbs, 0.94 g fats)
-  - Olives: 71.84 g (82.61 cal, 0.57 g protein, 4.53 g carbs, 7.69 g fats)
-  Meal Totals: 346.07 cal, 21.16 g protein, 31.64 g carbs, 18.88 g fats
 
-Meal_2:
-  - Chicken Breast: 60.44 g (99.73 cal, 18.74 g protein, 0.00 g carbs, 2.18 g fats)
-  - Raspberries: 209.95 g (109.17 cal, 2.52 g protein, 24.98 g carbs, 1.47 g fats)
-  - Mozzarella Cheese: 48.99 g (137.16 cal, 13.72 g protein, 1.52 g carbs, 8.33 g fats)
-  Meal Totals: 346.07 cal, 34.97 g protein, 26.50 g carbs, 11.97 g fats
+Day_1:
+  Meal_1:
+    - Tofu: 445.17 g (338.33 cal, 36.06 g protein, 8.46 g carbs, 21.37 g fats)
+    - Sprouted Quinoa: 228.94 g (274.73 cal, 9.16 g protein, 48.08 g carbs, 3.43 g fats)
+    - Sour Cream (Light): 86.63 g (167.19 cal, 2.69 g protein, 3.98 g carbs, 16.03 g fats)
+    Meal Totals: 780.25 cal, 47.90 g protein, 60.52 g carbs, 40.83 g fats
+  Meal_2:
+    - Seitan: 52.55 g (194.43 cal, 39.41 g protein, 7.36 g carbs, 1.00 g fats)
+    - Navy Beans: 202.11 g (282.95 cal, 16.77 g protein, 52.55 g carbs, 1.01 g fats)
+    - Hummus: 182.46 g (302.88 cal, 14.41 g protein, 26.09 g carbs, 17.52 g fats)
+    Meal Totals: 780.25 cal, 70.60 g protein, 86.00 g carbs, 19.52 g fats
+  Meal_3:
+    - Halibut: 188.94 g (264.51 cal, 51.01 g protein, 0.00 g carbs, 5.67 g fats)
+    - Currants (Red): 485.83 g (272.07 cal, 6.80 g protein, 68.02 g carbs, 0.97 g fats)
+    - Olives: 211.89 g (243.67 cal, 1.70 g protein, 13.35 g carbs, 22.67 g fats)
+    Meal Totals: 780.25 cal, 59.51 g protein, 81.37 g carbs, 29.31 g fats
+  Meal_4:
+    - Cashew Milk: 2409.35 g (602.34 cal, 12.05 g protein, 31.32 g carbs, 36.14 g fats)
+    - Green Peas: 110.77 g (89.73 cal, 5.98 g protein, 16.06 g carbs, 0.44 g fats)
+    - Mozzarella Cheese: 31.49 g (88.19 cal, 8.82 g protein, 0.98 g carbs, 5.35 g fats)
+    Meal Totals: 780.25 cal, 26.85 g protein, 48.36 g carbs, 41.94 g fats
+  Day Totals: 3121.00 cal, 204.86 g protein, 276.24 g carbs, 131.60 g fats
 
-Meal_3:
-  - Tuna: 84.21 g (111.16 cal, 23.58 g protein, 0.00 g carbs, 0.84 g fats)
-  - Oranges: 261.98 g (123.13 cal, 2.36 g protein, 31.44 g carbs, 0.26 g fats)
-  - Avocado: 69.86 g (111.78 cal, 1.40 g protein, 6.29 g carbs, 10.48 g fats)
-  Meal Totals: 346.07 cal, 27.33 g protein, 37.73 g carbs, 11.58 g fats
+Day_2:
+  Meal_1:
+    - Pork Tenderloin: 156.88 g (224.33 cal, 40.79 g protein, 0.00 g carbs, 5.49 g fats)
+    - Portobello Mushrooms: 1647.98 g (362.56 cal, 41.20 g protein, 54.38 g carbs, 4.94 g fats)
+    - Avocado: 120.85 g (193.36 cal, 2.42 g protein, 10.88 g carbs, 18.13 g fats)
+    Meal Totals: 780.25 cal, 84.40 g protein, 65.26 g carbs, 28.56 g fats
+  Meal_2:
+    - Okara: 510.62 g (479.98 cal, 25.53 g protein, 30.64 g carbs, 12.77 g fats)
+    - Coconut Water: 851.03 g (161.70 cal, 5.96 g protein, 34.04 g carbs, 1.70 g fats)
+    - Cheddar Cheese: 34.39 g (138.57 cal, 8.60 g protein, 0.45 g carbs, 11.35 g fats)
+    Meal Totals: 780.25 cal, 40.08 g protein, 65.13 g carbs, 25.81 g fats
+  Meal_3:
+    - Milk (Whole): 827.03 g (504.49 cal, 26.46 g protein, 39.70 g carbs, 27.29 g fats)
+    - Cranberries: 289.23 g (133.05 cal, 1.16 g protein, 35.29 g carbs, 0.29 g fats)
+    - Goat Cheese: 39.21 g (142.71 cal, 8.63 g protein, 1.06 g carbs, 11.76 g fats)
+    Meal Totals: 780.25 cal, 36.25 g protein, 76.04 g carbs, 39.34 g fats
+  Meal_4:
+    - Chicken Breast: 156.83 g (258.77 cal, 48.62 g protein, 0.00 g carbs, 5.65 g fats)
+    - Lotus Root: 376.88 g (278.89 cal, 9.80 g protein, 64.82 g carbs, 0.38 g fats)
+    - Tahini: 40.77 g (242.58 cal, 6.93 g protein, 8.56 g carbs, 21.61 g fats)
+    Meal Totals: 780.25 cal, 65.35 g protein, 73.39 g carbs, 27.63 g fats
+  Day Totals: 3121.00 cal, 226.08 g protein, 279.81 g carbs, 121.35 g fats
 
-Meal_4:
-  - Cottage Cheese: 164.64 g (161.35 cal, 18.28 g protein, 5.60 g carbs, 7.08 g fats)
-  - Eggplant: 413.00 g (103.25 cal, 4.13 g protein, 24.37 g carbs, 0.83 g fats)
-  - Walnuts: 12.46 g (81.47 cal, 1.89 g protein, 1.71 g carbs, 8.12 g fats)
-  Meal Totals: 346.07 cal, 24.30 g protein, 31.67 g carbs, 16.03 g fats
+Day_3:
+  Meal_1:
+    - Vanilla Yogurt: 590.79 g (561.25 cal, 23.04 g protein, 100.43 g carbs, 11.23 g fats)
+    - Cranberry Juice: 279.28 g (128.47 cal, 0.28 g protein, 30.72 g carbs, 0.28 g fats)
+    - Chia Oil: 10.24 g (90.53 cal, 0.00 g protein, 0.00 g carbs, 10.24 g fats)
+    Meal Totals: 780.25 cal, 23.32 g protein, 131.16 g carbs, 21.74 g fats
+  Meal_2:
+    - Skim Milk: 1123.87 g (382.11 cal, 38.21 g protein, 56.19 g carbs, 1.12 g fats)
+    - Tomatoes: 1306.37 g (235.15 cal, 11.76 g protein, 50.95 g carbs, 2.61 g fats)
+    - Pecans: 23.59 g (162.99 cal, 2.17 g protein, 3.30 g carbs, 16.98 g fats)
+    Meal Totals: 780.25 cal, 52.14 g protein, 110.44 g carbs, 20.72 g fats
+  Meal_3:
+    - Quail Meat: 198.98 g (266.63 cal, 45.77 g protein, 0.00 g carbs, 7.96 g fats)
+    - Vanilla Bean: 8717.18 g (261.52 cal, 8.72 g protein, 61.02 g carbs, 0.00 g fats)
+    - Feta Cheese: 95.49 g (252.10 cal, 13.56 g protein, 3.92 g carbs, 20.34 g fats)
+    Meal Totals: 780.25 cal, 68.04 g protein, 64.94 g carbs, 28.30 g fats
+  Meal_4:
+    - Yogurt (Low-fat): 611.26 g (385.09 cal, 32.40 g protein, 42.79 g carbs, 9.17 g fats)
+    - Cucumber: 1199.87 g (191.98 cal, 8.40 g protein, 43.20 g carbs, 1.20 g fats)
+    - Black Mustard Seeds: 40.00 g (203.18 cal, 10.40 g protein, 11.20 g carbs, 14.40 g fats)
+    Meal Totals: 780.25 cal, 51.19 g protein, 97.18 g carbs, 24.77 g fats
+  Day Totals: 3121.00 cal, 194.70 g protein, 403.72 g carbs, 95.53 g fats
 
-Meal_5:
-  - Greek Yogurt: 205.73 g (121.38 cal, 20.57 g protein, 7.41 g carbs, 0.82 g fats)
-  - Prickly Pear: 285.74 g (117.15 cal, 2.00 g protein, 27.43 g carbs, 1.43 g fats)
-  - Peanut Butter: 18.29 g (107.53 cal, 4.57 g protein, 3.66 g carbs, 9.14 g fats)
-  Meal Totals: 346.07 cal, 27.15 g protein, 38.50 g carbs, 11.40 g fats
+Day_4:
+  Meal_1:
+    - Vanilla Protein Shake: 221.18 g (331.77 cal, 44.24 g protein, 22.12 g carbs, 6.64 g fats)
+    - Breadfruit: 216.84 g (223.35 cal, 2.39 g protein, 58.98 g carbs, 0.43 g fats)
+    - Sunflower Seeds: 38.55 g (225.13 cal, 8.10 g protein, 7.71 g carbs, 19.66 g fats)
+    Meal Totals: 780.25 cal, 54.72 g protein, 88.81 g carbs, 26.73 g fats
+  Meal_2:
+    - Lamb Liver: 192.32 g (259.63 cal, 39.23 g protein, 7.50 g carbs, 6.92 g fats)
+    - Quinoa Flour: 81.74 g (299.97 cal, 11.44 g protein, 52.31 g carbs, 4.90 g fats)
+    - Flaxseeds: 41.32 g (220.65 cal, 7.56 g protein, 11.94 g carbs, 17.44 g fats)
+    Meal Totals: 780.25 cal, 58.24 g protein, 71.75 g carbs, 29.26 g fats
+  Meal_3:
+    - Tuna: 163.56 g (215.90 cal, 45.80 g protein, 0.00 g carbs, 1.64 g fats)
+    - Broccolini: 925.17 g (323.81 cal, 22.20 g protein, 61.06 g carbs, 4.63 g fats)
+    - Walnut Butter: 37.01 g (240.54 cal, 5.55 g protein, 5.55 g carbs, 20.35 g fats)
+    Meal Totals: 780.25 cal, 73.55 g protein, 66.61 g carbs, 26.62 g fats
+  Meal_4:
+    - Tilapia: 242.97 g (233.25 cal, 51.02 g protein, 0.00 g carbs, 4.13 g fats)
+    - Dandelion Greens: 739.47 g (332.76 cal, 19.97 g protein, 68.03 g carbs, 5.18 g fats)
+    - Macadamia Nuts: 29.84 g (214.24 cal, 2.36 g protein, 4.18 g carbs, 22.68 g fats)
+    Meal Totals: 780.25 cal, 73.35 g protein, 72.21 g carbs, 31.98 g fats
+  Day Totals: 3121.00 cal, 259.85 g protein, 299.38 g carbs, 114.59 g fats
 
-Daily Totals:
-  Calories: 1730.34
-  Protein: 134.92 g
-  Carbs: 166.04 g
-  Fats: 69.86 g
+Day_5:
+  Meal_1:
+    - Soy Milk: 862.60 g (465.81 cal, 28.47 g protein, 54.34 g carbs, 15.53 g fats)
+    - Kiwi Berry: 446.52 g (187.54 cal, 4.47 g protein, 37.95 g carbs, 1.34 g fats)
+    - Walnuts: 19.40 g (126.90 cal, 2.95 g protein, 2.66 g carbs, 12.65 g fats)
+    Meal Totals: 780.25 cal, 35.88 g protein, 94.96 g carbs, 29.52 g fats
+  Meal_2:
+    - Iced Oat Milk: 1341.03 g (603.46 cal, 13.41 g protein, 87.17 g carbs, 13.41 g fats)
+    - Chickpeas: 29.31 g (106.70 cal, 5.57 g protein, 17.88 g carbs, 1.76 g fats)
+    - Peanut Butter: 11.92 g (70.09 cal, 2.98 g protein, 2.38 g carbs, 5.96 g fats)
+    Meal Totals: 780.25 cal, 21.96 g protein, 107.43 g carbs, 21.13 g fats
+  Meal_3:
+    - Hemp Milk: 979.01 g (450.34 cal, 29.37 g protein, 9.79 g carbs, 29.37 g fats)
+    - Beet Greens: 910.70 g (200.36 cal, 20.04 g protein, 39.16 g carbs, 0.91 g fats)
+    - Brazil Nuts: 19.66 g (129.55 cal, 2.81 g protein, 2.42 g carbs, 13.05 g fats)
+    Meal Totals: 780.25 cal, 52.22 g protein, 51.37 g carbs, 43.33 g fats
+  Meal_4:
+    - Egg Whites: 496.24 g (258.04 cal, 54.09 g protein, 3.47 g carbs, 0.99 g fats)
+    - Jerusalem Artichoke: 424.24 g (309.69 cal, 8.48 g protein, 72.12 g carbs, 0.42 g fats)
+    - Olive Oil: 24.04 g (212.51 cal, 0.00 g protein, 0.00 g carbs, 24.04 g fats)
+    Meal Totals: 780.25 cal, 62.57 g protein, 75.59 g carbs, 25.46 g fats
+  Day Totals: 3121.00 cal, 172.63 g protein, 329.35 g carbs, 119.44 g fats
 
-Note: For optimal energy levels, space your meals evenly throughout the day.
+Day_6:
+  Meal_1:
+    - Liver (Beef): 210.07 g (283.60 cal, 42.86 g protein, 8.19 g carbs, 7.56 g fats)
+    - Parsnips: 336.12 g (252.09 cal, 4.03 g protein, 57.14 g carbs, 1.01 g fats)
+    - American Cheese: 76.19 g (244.56 cal, 13.71 g protein, 1.37 g carbs, 19.05 g fats)
+    Meal Totals: 780.25 cal, 60.60 g protein, 66.70 g carbs, 27.62 g fats
+  Meal_2:
+    - Greek Yogurt: 453.93 g (267.82 cal, 45.39 g protein, 16.34 g carbs, 1.82 g fats)
+    - Blackberries: 605.24 g (260.25 cal, 6.05 g protein, 60.52 g carbs, 3.03 g fats)
+    - Camembert Cheese: 84.06 g (252.18 cal, 16.64 g protein, 0.42 g carbs, 20.17 g fats)
+    Meal Totals: 780.25 cal, 68.09 g protein, 77.29 g carbs, 25.02 g fats
+  Meal_3:
+    - Cottage Cheese: 348.26 g (341.29 cal, 38.66 g protein, 11.84 g carbs, 14.98 g fats)
+    - Blue Corn Tortilla: 112.05 g (244.27 cal, 5.60 g protein, 51.54 g carbs, 3.14 g fats)
+    - Hemp Seeds: 35.21 g (194.69 cal, 11.13 g protein, 3.06 g carbs, 17.18 g fats)
+    Meal Totals: 780.25 cal, 55.38 g protein, 66.45 g carbs, 35.29 g fats
+  Meal_4:
+    - Buttermilk: 1006.02 g (412.47 cal, 33.20 g protein, 50.30 g carbs, 10.06 g fats)
+    - Raisins: 56.03 g (167.53 cal, 1.74 g protein, 44.26 g carbs, 0.28 g fats)
+    - Swiss Cheese: 52.70 g (200.25 cal, 14.23 g protein, 0.74 g carbs, 14.75 g fats)
+    Meal Totals: 780.25 cal, 49.16 g protein, 95.30 g carbs, 25.10 g fats
+  Day Totals: 3121.00 cal, 233.24 g protein, 305.74 g carbs, 113.02 g fats
+
+Day_7:
+  Meal_1:
+    - Salmon: 175.95 g (365.97 cal, 35.19 g protein, 0.00 g carbs, 22.87 g fats)
+    - Rhubarb: 1042.65 g (218.96 cal, 9.38 g protein, 46.92 g carbs, 2.09 g fats)
+    - Pistachios: 34.76 g (195.32 cal, 6.95 g protein, 9.73 g carbs, 15.64 g fats)
+    Meal Totals: 780.25 cal, 51.52 g protein, 56.65 g carbs, 40.60 g fats
+  Meal_2:
+    - Pea Protein Powder: 52.42 g (193.94 cal, 41.93 g protein, 4.19 g carbs, 3.14 g fats)
+    - Mushrooms: 1694.25 g (372.73 cal, 52.52 g protein, 55.91 g carbs, 5.08 g fats)
+    - Sesame Seeds: 37.27 g (213.58 cal, 6.34 g protein, 8.57 g carbs, 18.64 g fats)
+    Meal Totals: 780.25 cal, 100.79 g protein, 68.68 g carbs, 26.86 g fats
+  Meal_3:
+    - Tempeh: 190.75 g (371.96 cal, 38.72 g protein, 17.93 g carbs, 21.75 g fats)
+    - Dates: 68.84 g (194.13 cal, 1.72 g protein, 51.63 g carbs, 0.28 g fats)
+    - Pistachio Butter: 38.24 g (214.17 cal, 7.65 g protein, 7.65 g carbs, 17.21 g fats)
+    Meal Totals: 780.25 cal, 48.09 g protein, 77.21 g carbs, 39.23 g fats
+  Meal_4:
+    - Edamame: 323.19 g (391.06 cal, 38.46 g protein, 28.76 g carbs, 16.81 g fats)
+    - Basmati Rice: 183.14 g (238.08 cal, 4.94 g protein, 51.28 g carbs, 0.55 g fats)
+    - Walnut Oil: 17.09 g (151.10 cal, 0.00 g protein, 0.00 g carbs, 17.09 g fats)
+    Meal Totals: 780.25 cal, 43.40 g protein, 80.04 g carbs, 34.45 g fats
+  Day Totals: 3121.00 cal, 243.81 g protein, 282.58 g carbs, 141.14 g fats
+
+Overall Totals for All Days:
+  Calories: 21847.00
+  Protein: 1535.17 g
+  Carbs: 2176.83 g
+  Fats: 836.68 g
+
+Note: For optimal energy levels, space your meals evenly throughout each day.
