@@ -1,4 +1,5 @@
 food_item,calories_per_100_gm,carb_per_100_gm,protein_per_100_gm,fats_per_100_gm,type_category,meal_category
+Pomegranate Seeds,83,18.7,1.7,2.0,carb,snack
 Almonds,576,21.0,21.0,49.0,fats,snack
 Apples,52,14.0,0.3,0.2,carb,snack
 Avocado,160,9.0,2.0,15.0,fats,snack
@@ -63,22 +64,6 @@ Figs,74,19.2,0.8,0.3,carb,snack
 Goji Berries,349,77.1,14.3,0.4,carb,snack
 Grapefruit,42,10.7,0.8,0.1,carb,snack
 Grapes,69,18.1,0.7,0.2,carb,snack
-Acorn Squash,40,10.0,1.0,0.1,carb,lunch
-Artichoke,47,11.0,3.3,0.2,carb,lunch
-Asparagus,20,3.9,2.2,0.1,carb,lunch
-Bok Choy,13,2.2,1.5,0.2,carb,lunch
-Butternut Squash,45,12.0,1.0,0.1,carb,lunch
-Cabbage,25,5.8,1.3,0.1,carb,lunch
-Cauliflower,25,4.9,1.9,0.3,carb,lunch
-Cherries,50,12.0,1.0,0.3,carb,snack
-Collard Greens,32,7.1,3.0,0.6,carb,lunch
-Cranberries,46,12.2,0.4,0.1,carb,snack
-Dates,282,75.0,2.5,0.4,carb,snack
-Edamame,121,8.9,11.9,5.2,protein,lunch
-Figs,74,19.2,0.8,0.3,carb,snack
-Goji Berries,349,77.1,14.3,0.4,carb,snack
-Grapefruit,42,10.7,0.8,0.1,carb,snack
-Grapes,69,18.1,0.7,0.2,carb,snack
 Guava,68,14.3,2.6,0.9,carb,snack
 Honeydew Melon,36,9.1,0.5,0.1,carb,snack
 Jackfruit,95,23.0,1.7,0.6,carb,snack
@@ -124,3 +109,156 @@ Water Chestnuts,97,23.9,1.4,0.1,carb,lunch
 Yam,118,27.9,1.5,0.2,carb,lunch
 Plantains,122,31.9,1.3,0.4,carb,lunch
 Breadfruit,103,27.2,1.1,0.2,carb,lunch
+Whole Wheat Pasta,157,30.0,6.0,1.0,carb,lunch
+Tilapia,96,0.0,21.0,1.7,protein,dinner
+Mackerel,305,0.0,18.6,25.1,protein,dinner
+Egg Whites,52,0.7,10.9,0.2,protein,breakfast
+Barley,354,73.5,12.5,2.3,carb,lunch
+Amaranth,371,65.0,13.6,7.0,carb,lunch
+Nori,35,5.1,5.8,0.3,carb,snack
+Pork Tenderloin,143,0.0,26.0,3.5,protein,dinner
+Skim Milk,34,5.0,3.4,0.1,protein,breakfast
+Soy Milk,54,6.3,3.3,1.8,protein,breakfast
+Oyster Mushrooms,33,6.0,3.3,0.4,carb,lunch
+Brussels Sprouts,43,8.9,3.4,0.3,carb,lunch
+Quail Eggs,158,0.4,13.0,11.0,protein,breakfast
+Wild Rice,101,21.3,4.0,0.3,carb,lunch
+Buckwheat,343,71.5,13.3,3.4,carb,lunch
+Red Bell Pepper,31,6.0,1.0,0.3,carb,snack
+Green Bell Pepper,20,4.6,0.9,0.2,carb,snack
+Cantaloupe,34,8.2,0.8,0.2,carb,snack
+Black Rice,362,76.2,8.5,2.4,carb,lunch
+Seitan,370,14.0,75.0,1.9,protein,dinner
+Tempeh,195,9.4,20.3,11.4,protein,lunch
+Red Kidney Beans,127,22.8,8.7,0.5,carb,lunch
+Hummus,166,14.3,7.9,9.6,fats,snack
+Celeriac,42,9.2,1.5,0.3,carb,lunch
+Acai Berry,70,4.0,2.0,5.0,carb,snack
+Barberries,50,12.0,1.0,0.5,carb,snack
+Blackberries,43,10.0,1.0,0.5,carb,snack
+Boysenberries,50,12.0,1.0,0.5,carb,snack
+Camu Camu,30,7.0,0.6,0.1,carb,snack
+Clementines,47,12.0,0.9,0.1,carb,snack
+Cranberry Beans,127,22.0,8.7,0.5,carb,lunch
+Durian,147,27.0,1.5,5.0,carb,snack
+Kombu,43,9.0,1.7,0.6,carb,snack
+Fenugreek Leaves,49,7.0,4.0,1.0,carb,lunch
+Ginger,80,18.0,1.8,0.8,carb,snack
+Goat Cheese,364,2.7,22.0,30.0,fats,snack
+Hemp Seeds,553,8.7,31.6,48.8,fats,snack
+Hemp Milk,46,1.0,3.0,3.0,protein,breakfast
+Jujube,79,21.0,1.0,0.2,carb,snack
+Kamut,337,70.0,14.0,2.5,carb,lunch
+Liver (Beef),135,3.9,20.4,3.6,protein,dinner
+Mung Beans,105,19.0,7.0,0.5,carb,lunch
+Palm Hearts,36,7.0,2.0,0.4,carb,lunch
+Quail Meat,134,0.0,23.0,4.0,protein,dinner
+Raisins,299,79.0,3.1,0.5,carb,snack
+Soba Noodles,99,21.0,5.0,0.1,carb,lunch
+Spelt,338,70.0,14.0,2.4,carb,lunch
+Sunflower Seeds,584,20.0,21.0,51.0,fats,snack
+Trout,148,0.0,20.0,6.9,protein,dinner
+Vanilla Yogurt,95,17.0,3.9,1.9,protein,snack
+Watermelon,30,7.6,0.6,0.2,carb,snack
+White Rice,130,28.0,2.7,0.3,carb,lunch
+Whole Grain Bread,265,49.0,9.0,3.2,carb,breakfast
+Yogurt (Low-fat),63,7.0,5.3,1.5,protein,breakfast
+Ziti Pasta,157,31.0,6.0,1.0,carb,lunch
+Aronia Berries,50,12.0,1.0,0.5,carb,snack
+Bilberry,57,14.0,0.7,0.3,carb,snack
+Black Garlic,150,33.0,6.0,0.5,carb,snack
+Blood Orange,47,11.0,0.9,0.1,carb,snack
+Buttermilk,41,5.0,3.3,1.0,protein,breakfast
+Camembert Cheese,300,0.5,19.8,24.0,fats,snack
+Carob Powder,222,88.0,5.0,1.2,carb,snack
+Cashew Milk,25,1.3,0.5,1.5,protein,breakfast
+Chanterelle Mushrooms,38,7.0,2.0,0.5,carb,lunch
+Chestnuts (Roasted),131,27.0,2.3,1.4,carb,snack
+Cocoa Powder (Unsweetened),228,58.0,20.0,14.0,carb,snack
+Coconut Water,19,4.0,0.7,0.2,carb,snack
+Couscous,112,23.2,3.8,0.2,carb,lunch
+Duck Breast,140,0.0,23.0,5.3,protein,dinner
+Ezekiel Bread,238,41.0,8.0,1.5,carb,breakfast
+Fava Beans,110,19.0,8.3,0.7,carb,lunch
+Golden Kiwi,61,14.7,1.1,0.5,carb,snack
+Halibut,140,0.0,27.0,3.0,protein,dinner
+Iced Oat Milk,45,6.5,1.0,1.0,protein,breakfast
+Jerusalem Artichoke,73,17.0,2.0,0.1,carb,lunch
+Kiwi Berry,42,8.5,1.0,0.3,carb,snack
+Lamb Liver,135,3.9,20.4,3.6,protein,dinner
+Maca Powder,325,66.0,14.0,2.0,carb,snack
+Milk (Whole),61,4.8,3.2,3.3,protein,breakfast
+Navy Beans,140,26.0,8.3,0.5,carb,lunch
+Okara,94,6.0,5.0,2.5,protein,lunch
+Olive Oil,884,0.0,0.0,100.0,fats,snack
+Pea Protein Powder,370,8.0,80.0,6.0,protein,snack
+Pinto Beans,144,26.0,9.0,0.7,carb,lunch
+Pomegranate Juice,83,19.0,0.2,0.2,carb,snack
+Quince,57,15.0,0.4,0.1,carb,snack
+Ragi (Finger Millet),336,72.0,7.3,1.8,carb,lunch
+Red Cabbage,31,7.4,1.4,0.2,carb,lunch
+Roasted Chickpeas,164,27.0,8.9,2.6,carb,snack
+Sour Cream (Light),193,4.6,3.1,18.5,fats,snack
+Spinach (Frozen),23,3.7,2.9,0.4,carb,lunch
+Sun-Dried Tomatoes,258,55.0,14.0,2.9,carb,snack
+Swiss Cheese,380,1.4,27.0,28.0,fats,snack
+Tahini,595,21.0,17.0,53.0,fats,snack
+Triticale,338,70.0,14.0,2.4,carb,lunch
+Vanilla Protein Shake,150,10.0,20.0,3.0,protein,snack
+Walnut Oil,884,0.0,0.0,100.0,fats,snack
+Yellow Squash,16,3.4,1.0,0.2,carb,lunch
+Adzuki Beans,128,25.0,7.5,0.5,carb,lunch
+American Cheese,321,1.8,18.0,25.0,fats,snack
+Basmati Rice,130,28.0,2.7,0.3,carb,lunch
+Black Lentils,116,20.1,9.0,0.4,carb,lunch
+Black Mustard Seeds,508,28.0,26.0,36.0,fats,snack
+Blue Corn Tortilla,218,46.0,5.0,2.8,carb,lunch
+Chickpea Flour,387,57.0,22.0,6.0,carb,lunch
+Cranberry Juice,46,11.0,0.1,0.1,carb,snack
+Crimini Mushrooms,22,3.3,3.1,0.3,carb,lunch
+Currants (Red),56,14.0,1.4,0.2,carb,snack
+Acorn Mushrooms,28,5.3,3.0,0.3,carb,lunch
+Acerola Cherry,32,7.7,0.6,0.3,carb,snack
+Brazil Nuts,659,12.3,14.3,66.4,fats,snack
+Dragon Fruit,60,13.0,1.1,0.1,carb,snack
+Golden Berry,53,11.0,1.4,0.7,carb,snack
+Hazelnuts,628,16.7,14.1,60.8,fats,snack
+Jasmine Rice,129,28.2,2.7,0.3,carb,lunch
+Long Grain Rice,130,28.0,2.7,0.3,carb,lunch
+Malted Milk Powder,370,57.0,12.0,7.0,protein,breakfast
+Oregano (Fresh),5,1.1,0.3,0.1,carb,snack
+Paprika (Smoked),28,6.0,1.0,0.2,carb,snack
+Parsnips,75,17.0,1.2,0.3,carb,lunch
+Pears,57,15.0,0.4,0.1,carb,snack
+Pistachio Butter,560,20.0,20.0,45.0,fats,snack
+Plum,46,11.4,0.7,0.3,carb,snack
+Portobello Mushrooms,22,3.3,2.5,0.3,carb,lunch
+Quinoa Flour,367,64.0,14.0,6.0,carb,lunch
+Red Lentils,116,20.1,9.0,0.4,carb,lunch
+Rye Bread,259,48.0,9.0,3.3,carb,breakfast
+Sesame Seeds,573,23.0,17.0,50.0,fats,snack
+Sour Cherries,50,12.0,1.0,0.3,carb,snack
+Sprouted Quinoa,120,21.0,4.0,1.5,carb,lunch
+Fresh Turmeric,354,64.0,7.8,3.3,carb,snack
+Vanilla Bean,3,0.7,0.1,0.0,carb,snack
+Vermicelli Rice Noodles,192,42.0,3.0,0.3,carb,lunch
+Wakame,45,9.0,3.0,0.6,carb,snack
+Wild Boar,189,0.0,21.0,10.0,protein,dinner
+Yacon Syrup,60,14.0,0.0,0.0,carb,snack
+Yellow Lentils,116,20.1,9.0,0.4,carb,lunch
+Zest (Orange),1,0.3,0.0,0.0,carb,snack
+Flaxseeds,534,28.9,18.3,42.2,fats,snack
+Chia Oil,884,0.0,0.0,100.0,fats,snack
+Walnut Butter,650,15.0,15.0,55.0,fats,snack
+Pomegranate Seeds,83,18.7,1.7,2.0,carb,snack
+Acai Berry,70,4.0,2.0,5.0,carb,snack
+Acerola Cherry,32,7.7,0.6,0.3,carb,snack
+Brazil Nuts,659,12.3,14.3,66.4,fats,snack
+Dragon Fruit,60,13.0,1.1,0.1,carb,snack
+Golden Berry,53,11.0,1.4,0.7,carb,snack
+Hazelnuts,628,16.7,14.1,60.8,fats,snack
+Jasmine Rice,129,28.2,2.7,0.3,carb,lunch
+Long Grain Rice,130,28.0,2.7,0.3,carb,lunch
+Malted Milk Powder,370,57.0,12.0,7.0,protein,breakfast
+Oregano (Fresh),5,1.1,0.3,0.1,carb,snack
+Pomegranate Seeds,83,18.7,1.7,2.0,carb,snack
