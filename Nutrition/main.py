@@ -37,7 +37,9 @@ def main():
     activity_level = user_profile['user_profile']["activity_level"]
     goal = user_profile['user_profile']["goal"].lower()
     meals_per_day = user_profile['user_profile']["meals_per_day"]
-    num_days = user_profile['user_profile'].get("num_days", 7)
+    dietary_preferences = user_profile['user_profile']["dietary_preferences"]
+    allergies = user_profile['user_profile']["allergies"]
+    num_days = user_profile['user_profile'].get("num_days", 3)
     
     user_preferences = {
         "dislikes": user_profile['user_profile'].get("dislikes", []),
@@ -72,7 +74,6 @@ def main():
         "days": []
     }
 
-    # multi_day_plan is assumed to be a dict with keys like "Day_1", "Day_2", etc.
     for day_key, daily_plan in multi_day_plan.items():
         day_data = {
             "day": day_key,
@@ -108,6 +109,8 @@ def main():
     # Read the saved file and send it to the LLM for further adjustments.
     with open(OUTPUT_FILE, "r") as f:
         meal_plan_content = f.read()
+
+    
     
     messages = [
         {"role": "system", "content": "You are an expert nutrition assistant."},
@@ -125,10 +128,13 @@ def main():
                 f"- Activity Level: {activity_level}\n"
                 f"- Goal: {goal}\n"
                 f"- Meals per Day: {meals_per_day}\n"
-                f"- Plan Duration: {num_days} days\n\n"
+                f"- Plan Duration: {num_days} days\n"
+                f"- dietary_preferences: {dietary_preferences}\n"
+                f"- allergies: {allergies}\n\n"
                 f"Here is the current multi-day meal plan in JSON format:\n\n{meal_plan_content}\n\n"
-                "Please adjust the meal plan to better align with the user's data, ensuring it supports their goal of weight loss while maintaining a balanced nutrient profile. "
-                "Provide a complete adjusted plan with all meals and their nutritional details. Do not replace items that already fit well in the plan."
+                "Please adjust the meal plan to better align with the user's data, ensuring it supports their goal of {goal}, dietary preferences: {dietary_preferences}, and allergies: {allergies} while maintaining a balanced nutrient profile. "
+                "Provide a complete adjusted plan with all meals and their nutritional details. Do not replace items that already fit well in the plan.\n\n"
+                "respnde in json format."
             ),
         },
     ]
