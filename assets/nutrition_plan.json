@@ -1,7 +1,7 @@
 {
-  "target_calories_per_day": 2000,
-  "target_water_intake_liters": 3.5,
-  "BMI": 20.2,
+  "target_calories_per_day": 2500,
+  "target_water_intake_liters": 3.7,
+  "BMI": 22.5,
   "days": [
     {
       "day": "Monday",
@@ -10,100 +10,82 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Scrambled Eggs",
+              "name": "Gluten-Free Oatmeal with Banana and Almond Milk",
+              "calories": 350,
+              "protein": 10,
+              "carbs": 60,
+              "fats": 10
+            },
+            {
+              "name": "Walnuts",
               "calories": 180,
-              "protein_grams": 18,
-              "carbs_grams": 1,
-              "fats_grams": 12
-            },
-            {
-              "name": "Spinach",
-              "calories": 20,
-              "protein_grams": 3,
-              "carbs_grams": 3,
-              "fats_grams": 0
-            },
-            {
-              "name": "Avocado",
-              "calories": 140,
-              "protein_grams": 3,
-              "carbs_grams": 8,
-              "fats_grams": 12
+              "protein": 4,
+              "carbs": 4,
+              "fats": 18
             }
           ],
-          "total_calories": 340,
-          "description": "Scrambled eggs with spinach and avocado",
-          "ingredients": [
-            "Eggs",
-            "Spinach",
-            "Avocado"
-          ]
+          "total_calories": 530,
+          "description": "Start the day with a nutritious breakfast to keep you energized.",
+          "ingredients": ["Gluten-Free Oats", "Banana", "Almond Milk", "Walnuts"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
-              "calories": 260,
-              "protein_grams": 37,
-              "carbs_grams": 0,
-              "fats_grams": 6
+              "name": "Grilled Chicken Breast with Quinoa and Steamed Vegetables",
+              "calories": 400,
+              "protein": 40,
+              "carbs": 20,
+              "fats": 10
             },
             {
-              "name": "Cauliflower Rice",
-              "calories": 25,
-              "protein_grams": 2,
-              "carbs_grams": 5,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Mixed Greens Salad with Mediterranean Dressing",
+              "calories": 150,
+              "protein": 10,
+              "carbs": 10,
+              "fats": 15
             }
           ],
-          "total_calories": 405,
-          "description": "Grilled chicken breast with cauliflower rice and olive oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Cauliflower",
-            "Olive Oil"
-          ]
+          "total_calories": 550,
+          "description": "A balanced lunch to keep you going throughout the day.",
+          "ingredients": ["Grilled Chicken Breast", "Quinoa", "Steamed Vegetables", "Mixed Greens", "Mediterranean Dressing"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Steak",
-              "calories": 360,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 24
+              "name": "Baked Salmon with Sweet Potato and Green Beans",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Broccoli",
-              "calories": 55,
-              "protein_grams": 2,
-              "carbs_grams": 11,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Avocado",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 535,
-          "description": "Grilled steak with broccoli and coconut oil",
-          "ingredients": [
-            "Steak",
-            "Broccoli",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Baked Salmon", "Sweet Potato", "Green Beans", "Gluten-Free Bread", "Avocado"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 150,
+              "protein": 4,
+              "carbs": 15,
+              "fats": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "A healthy snack to curb hunger between meals.",
+          "ingredients": ["Apple", "Almond Butter"]
         }
       ]
     },
@@ -114,100 +96,82 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Keto Smoothie",
-              "calories": 320,
-              "protein_grams": 20,
-              "carbs_grams": 5,
-              "fats_grams": 24
+              "name": "Gluten-Free Pancakes with Fresh Berries and Yogurt",
+              "calories": 300,
+              "protein": 15,
+              "carbs": 40,
+              "fats": 10
             },
             {
-              "name": "Almond Milk",
-              "calories": 30,
-              "protein_grams": 1,
-              "carbs_grams": 6,
-              "fats_grams": 2
-            },
-            {
-              "name": "Spinach",
-              "calories": 20,
-              "protein_grams": 3,
-              "carbs_grams": 3,
-              "fats_grams": 0
+              "name": "Walnuts",
+              "calories": 180,
+              "protein": 4,
+              "carbs": 4,
+              "fats": 18
             }
           ],
-          "total_calories": 370,
-          "description": "Keto smoothie with almond milk and spinach",
-          "ingredients": [
-            "Almond Milk",
-            "Spinach",
-            "Protein Powder"
-          ]
+          "total_calories": 480,
+          "description": "A delicious breakfast to start the day.",
+          "ingredients": ["Gluten-Free Pancakes", "Fresh Berries", "Yogurt", "Walnuts"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Chicken Breast",
-              "calories": 260,
-              "protein_grams": 37,
-              "carbs_grams": 0,
-              "fats_grams": 6
+              "name": "Turkey and Avocado Wrap with Mixed Greens",
+              "calories": 500,
+              "protein": 30,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Zucchini",
-              "calories": 25,
-              "protein_grams": 2,
-              "carbs_grams": 6,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein": 5,
+              "carbs": 10,
+              "fats": 10
             }
           ],
-          "total_calories": 405,
-          "description": "Grilled chicken breast with zucchini and olive oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Zucchini",
-            "Olive Oil"
-          ]
+          "total_calories": 600,
+          "description": "A satisfying lunch to keep you going.",
+          "ingredients": ["Turkey Breast", "Avocado", "Gluten-Free Wrap", "Mixed Greens", "Carrots", "Hummus"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Pork Chops",
-              "calories": 360,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 24
+              "name": "Grilled Chicken Breast with Roasted Vegetables and Quinoa",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 20,
+              "fats": 10
             },
             {
-              "name": "Green Beans",
-              "calories": 55,
-              "protein_grams": 2,
-              "carbs_grams": 11,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Olive Oil",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 535,
-          "description": "Grilled pork chops with green beans and coconut oil",
-          "ingredients": [
-            "Pork Chops",
-            "Green Beans",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Grilled Chicken Breast", "Roasted Vegetables", "Quinoa", "Gluten-Free Bread", "Olive Oil"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices with Hummus",
+              "calories": 100,
+              "protein": 5,
+              "carbs": 10,
+              "fats": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "A refreshing snack to curb hunger.",
+          "ingredients": ["Cucumber", "Hummus"]
         }
       ]
     },
@@ -218,100 +182,82 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Avocado Omelette",
-              "calories": 220,
-              "protein_grams": 18,
-              "carbs_grams": 2,
-              "fats_grams": 16
+              "name": "Gluten-Free Omelette with Spinach and Mushrooms",
+              "calories": 250,
+              "protein": 20,
+              "carbs": 5,
+              "fats": 15
             },
             {
-              "name": "Spinach",
-              "calories": 20,
-              "protein_grams": 3,
-              "carbs_grams": 3,
-              "fats_grams": 0
-            },
-            {
-              "name": "Tomato",
-              "calories": 22,
-              "protein_grams": 1,
-              "carbs_grams": 5,
-              "fats_grams": 0
+              "name": "Whole Grain Toast with Avocado",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 262,
-          "description": "Avocado omelette with spinach and tomato",
-          "ingredients": [
-            "Eggs",
-            "Avocado",
-            "Spinach"
-          ]
+          "total_calories": 450,
+          "description": "A protein-packed breakfast to start the day.",
+          "ingredients": ["Gluten-Free Eggs", "Spinach", "Mushrooms", "Whole Grain Toast", "Avocado"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Turkey Lettuce Wraps",
+              "name": "Grilled Chicken Breast with Mixed Greens and Balsamic Vinaigrette",
+              "calories": 400,
+              "protein": 40,
+              "carbs": 10,
+              "fats": 10
+            },
+            {
+              "name": "Quinoa Salad with Roasted Vegetables",
               "calories": 300,
-              "protein_grams": 30,
-              "carbs_grams": 5,
-              "fats_grams": 20
-            },
-            {
-              "name": "Cucumber",
-              "calories": 16,
-              "protein_grams": 1,
-              "carbs_grams": 4,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "protein": 10,
+              "carbs": 30,
+              "fats": 10
             }
           ],
-          "total_calories": 436,
-          "description": "Turkey lettuce wraps with cucumber and olive oil",
-          "ingredients": [
-            "Turkey Breast",
-            "Lettuce",
-            "Cucumber"
-          ]
+          "total_calories": 700,
+          "description": "A balanced lunch to keep you going.",
+          "ingredients": ["Grilled Chicken Breast", "Mixed Greens", "Balsamic Vinaigrette", "Quinoa", "Roasted Vegetables"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
-              "calories": 260,
-              "protein_grams": 37,
-              "carbs_grams": 0,
-              "fats_grams": 6
+              "name": "Baked Salmon with Sweet Potato and Green Beans",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Asparagus",
-              "calories": 25,
-              "protein_grams": 2,
-              "carbs_grams": 5,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Olive Oil",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 405,
-          "description": "Grilled chicken breast with asparagus and coconut oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Asparagus",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Baked Salmon", "Sweet Potato", "Green Beans", "Gluten-Free Bread", "Olive Oil"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 150,
+              "protein": 4,
+              "carbs": 15,
+              "fats": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "A healthy snack to curb hunger.",
+          "ingredients": ["Apple", "Almond Butter"]
         }
       ]
     },
@@ -322,100 +268,82 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Keto Coffee",
-              "calories": 320,
-              "protein_grams": 2,
-              "carbs_grams": 5,
-              "fats_grams": 32
+              "name": "Gluten-Free Pancakes with Fresh Berries and Yogurt",
+              "calories": 300,
+              "protein": 15,
+              "carbs": 40,
+              "fats": 10
             },
             {
-              "name": "Heavy Cream",
-              "calories": 100,
-              "protein_grams": 1,
-              "carbs_grams": 5,
-              "fats_grams": 11
-            },
-            {
-              "name": "Spinach",
-              "calories": 20,
-              "protein_grams": 3,
-              "carbs_grams": 3,
-              "fats_grams": 0
+              "name": "Walnuts",
+              "calories": 180,
+              "protein": 4,
+              "carbs": 4,
+              "fats": 18
             }
           ],
-          "total_calories": 440,
-          "description": "Keto coffee with heavy cream and spinach",
-          "ingredients": [
-            "Coffee",
-            "Heavy Cream",
-            "Spinach"
-          ]
+          "total_calories": 480,
+          "description": "A delicious breakfast to start the day.",
+          "ingredients": ["Gluten-Free Pancakes", "Fresh Berries", "Yogurt", "Walnuts"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
-              "calories": 260,
-              "protein_grams": 37,
-              "carbs_grams": 0,
-              "fats_grams": 6
+              "name": "Turkey and Avocado Wrap with Mixed Greens",
+              "calories": 500,
+              "protein": 30,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Bell Peppers",
-              "calories": 49,
-              "protein_grams": 1,
-              "carbs_grams": 12,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein": 5,
+              "carbs": 10,
+              "fats": 10
             }
           ],
-          "total_calories": 429,
-          "description": "Grilled chicken breast with bell peppers and olive oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Bell Peppers",
-            "Olive Oil"
-          ]
+          "total_calories": 600,
+          "description": "A satisfying lunch to keep you going.",
+          "ingredients": ["Turkey Breast", "Avocado", "Gluten-Free Wrap", "Mixed Greens", "Carrots", "Hummus"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Steak",
-              "calories": 360,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 24
+              "name": "Grilled Chicken Breast with Roasted Vegetables and Quinoa",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 20,
+              "fats": 10
             },
             {
-              "name": "Mushrooms",
-              "calories": 15,
-              "protein_grams": 1,
-              "carbs_grams": 3,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Olive Oil",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 495,
-          "description": "Grilled steak with mushrooms and coconut oil",
-          "ingredients": [
-            "Steak",
-            "Mushrooms",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Grilled Chicken Breast", "Roasted Vegetables", "Quinoa", "Gluten-Free Bread", "Olive Oil"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices with Hummus",
+              "calories": 100,
+              "protein": 5,
+              "carbs": 10,
+              "fats": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "A refreshing snack to curb hunger.",
+          "ingredients": ["Cucumber", "Hummus"]
         }
       ]
     },
@@ -426,100 +354,82 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Scrambled Eggs",
-              "calories": 180,
-              "protein_grams": 18,
-              "carbs_grams": 1,
-              "fats_grams": 12
+              "name": "Gluten-Free Omelette with Spinach and Mushrooms",
+              "calories": 250,
+              "protein": 20,
+              "carbs": 5,
+              "fats": 15
             },
             {
-              "name": "Smoked Salmon",
-              "calories": 180,
-              "protein_grams": 20,
-              "carbs_grams": 0,
-              "fats_grams": 12
-            },
-            {
-              "name": "Spinach",
-              "calories": 20,
-              "protein_grams": 3,
-              "carbs_grams": 3,
-              "fats_grams": 0
+              "name": "Whole Grain Toast with Avocado",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 380,
-          "description": "Scrambled eggs with smoked salmon and spinach",
-          "ingredients": [
-            "Eggs",
-            "Smoked Salmon",
-            "Spinach"
-          ]
+          "total_calories": 450,
+          "description": "A protein-packed breakfast to start the day.",
+          "ingredients": ["Gluten-Free Eggs", "Spinach", "Mushrooms", "Whole Grain Toast", "Avocado"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Chicken Caesar Salad",
-              "calories": 320,
-              "protein_grams": 30,
-              "carbs_grams": 5,
-              "fats_grams": 20
+              "name": "Grilled Chicken Breast with Mixed Greens and Balsamic Vinaigrette",
+              "calories": 400,
+              "protein": 40,
+              "carbs": 10,
+              "fats": 10
             },
             {
-              "name": "Romaine Lettuce",
-              "calories": 10,
-              "protein_grams": 1,
-              "carbs_grams": 2,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Quinoa Salad with Roasted Vegetables",
+              "calories": 300,
+              "protein": 10,
+              "carbs": 30,
+              "fats": 10
             }
           ],
-          "total_calories": 450,
-          "description": "Chicken Caesar salad with romaine lettuce and olive oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Romaine Lettuce",
-            "Caesar Dressing"
-          ]
+          "total_calories": 700,
+          "description": "A balanced lunch to keep you going.",
+          "ingredients": ["Grilled Chicken Breast", "Mixed Greens", "Balsamic Vinaigrette", "Quinoa", "Roasted Vegetables"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Pork Chops",
-              "calories": 360,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 24
+              "name": "Baked Salmon with Sweet Potato and Green Beans",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Green Beans",
-              "calories": 55,
-              "protein_grams": 2,
-              "carbs_grams": 11,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Olive Oil",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 535,
-          "description": "Grilled pork chops with green beans and coconut oil",
-          "ingredients": [
-            "Pork Chops",
-            "Green Beans",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Baked Salmon", "Sweet Potato", "Green Beans", "Gluten-Free Bread", "Olive Oil"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 150,
+              "protein": 4,
+              "carbs": 15,
+              "fats": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "A healthy snack to curb hunger.",
+          "ingredients": ["Apple", "Almond Butter"]
         }
       ]
     },
@@ -530,100 +440,82 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Avocado Toast",
-              "calories": 220,
-              "protein_grams": 3,
-              "carbs_grams": 6,
-              "fats_grams": 18
+              "name": "Gluten-Free Pancakes with Fresh Berries and Yogurt",
+              "calories": 300,
+              "protein": 15,
+              "carbs": 40,
+              "fats": 10
             },
             {
-              "name": "Poached Eggs",
-              "calories": 140,
-              "protein_grams": 12,
-              "carbs_grams": 1,
-              "fats_grams": 10
-            },
-            {
-              "name": "Spinach",
-              "calories": 20,
-              "protein_grams": 3,
-              "carbs_grams": 3,
-              "fats_grams": 0
+              "name": "Walnuts",
+              "calories": 180,
+              "protein": 4,
+              "carbs": 4,
+              "fats": 18
             }
           ],
-          "total_calories": 380,
-          "description": "Avocado toast with poached eggs and spinach",
-          "ingredients": [
-            "Avocado",
-            "Eggs",
-            "Spinach"
-          ]
+          "total_calories": 480,
+          "description": "A delicious breakfast to start the day.",
+          "ingredients": ["Gluten-Free Pancakes", "Fresh Berries", "Yogurt", "Walnuts"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Grilled Chicken Breast",
-              "calories": 260,
-              "protein_grams": 37,
-              "carbs_grams": 0,
-              "fats_grams": 6
+              "name": "Turkey and Avocado Wrap with Mixed Greens",
+              "calories": 500,
+              "protein": 30,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Cauliflower Rice",
-              "calories": 25,
-              "protein_grams": 2,
-              "carbs_grams": 5,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Carrot Sticks with Hummus",
+              "calories": 100,
+              "protein": 5,
+              "carbs": 10,
+              "fats": 10
             }
           ],
-          "total_calories": 405,
-          "description": "Grilled chicken breast with cauliflower rice and olive oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Cauliflower",
-            "Olive Oil"
-          ]
+          "total_calories": 600,
+          "description": "A satisfying lunch to keep you going.",
+          "ingredients": ["Turkey Breast", "Avocado", "Gluten-Free Wrap", "Mixed Greens", "Carrots", "Hummus"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Steak",
-              "calories": 360,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 24
+              "name": "Grilled Chicken Breast with Roasted Vegetables and Quinoa",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 20,
+              "fats": 10
             },
             {
-              "name": "Broccoli",
-              "calories": 55,
-              "protein_grams": 2,
-              "carbs_grams": 11,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Olive Oil",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 535,
-          "description": "Grilled steak with broccoli and coconut oil",
-          "ingredients": [
-            "Steak",
-            "Broccoli",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Grilled Chicken Breast", "Roasted Vegetables", "Quinoa", "Gluten-Free Bread", "Olive Oil"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Cucumber Slices with Hummus",
+              "calories": 100,
+              "protein": 5,
+              "carbs": 10,
+              "fats": 10
+            }
+          ],
+          "total_calories": 100,
+          "description": "A refreshing snack to curb hunger.",
+          "ingredients": ["Cucumber", "Hummus"]
         }
       ]
     },
@@ -634,102 +526,85 @@
           "meal_name": "Breakfast",
           "items": [
             {
-              "name": "Keto Pancakes",
-              "calories": 280,
-              "protein_grams": 10,
-              "carbs_grams": 5,
-              "fats_grams": 20
+              "name": "Gluten-Free Omelette with Spinach and Mushrooms",
+              "calories": 250,
+              "protein": 20,
+              "carbs": 5,
+              "fats": 15
             },
             {
-              "name": "Butter",
-              "calories": 100,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 11
-            },
-            {
-              "name": "Sugar-Free Maple Syrup",
-              "calories": 60,
-              "protein_grams": 0,
-              "carbs_grams": 15,
-              "fats_grams": 0
+              "name": "Whole Grain Toast with Avocado",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 440,
-          "description": "Keto pancakes with butter and sugar-free maple syrup",
-          "ingredients": [
-            "Almond Flour",
-            "Butter",
-            "Sugar-Free Maple Syrup"
-          ]
+          "total_calories": 450,
+          "description": "A protein-packed breakfast to start the day.",
+          "ingredients": ["Gluten-Free Eggs", "Spinach", "Mushrooms", "Whole Grain Toast", "Avocado"]
         },
         {
           "meal_name": "Lunch",
           "items": [
             {
-              "name": "Chicken Breast",
-              "calories": 260,
-              "protein_grams": 37,
-              "carbs_grams": 0,
-              "fats_grams": 6
+              "name": "Grilled Chicken Breast with Mixed Greens and Balsamic Vinaigrette",
+              "calories": 400,
+              "protein": 40,
+              "carbs": 10,
+              "fats": 10
             },
             {
-              "name": "Zucchini",
-              "calories": 25,
-              "protein_grams": 2,
-              "carbs_grams": 6,
-              "fats_grams": 0
-            },
-            {
-              "name": "Olive Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Quinoa Salad with Roasted Vegetables",
+              "calories": 300,
+              "protein": 10,
+              "carbs": 30,
+              "fats": 10
             }
           ],
-          "total_calories": 405,
-          "description": "Grilled chicken breast with zucchini and olive oil",
-          "ingredients": [
-            "Chicken Breast",
-            "Zucchini",
-            "Olive Oil"
-          ]
+          "total_calories": 700,
+          "description": "A balanced lunch to keep you going.",
+          "ingredients": ["Grilled Chicken Breast", "Mixed Greens", "Balsamic Vinaigrette", "Quinoa", "Roasted Vegetables"]
         },
         {
           "meal_name": "Dinner",
           "items": [
             {
-              "name": "Grilled Pork Chops",
-              "calories": 360,
-              "protein_grams": 35,
-              "carbs_grams": 0,
-              "fats_grams": 24
+              "name": "Baked Salmon with Sweet Potato and Green Beans",
+              "calories": 500,
+              "protein": 40,
+              "carbs": 30,
+              "fats": 20
             },
             {
-              "name": "Asparagus",
-              "calories": 25,
-              "protein_grams": 2,
-              "carbs_grams": 5,
-              "fats_grams": 0
-            },
-            {
-              "name": "Coconut Oil",
-              "calories": 120,
-              "protein_grams": 0,
-              "carbs_grams": 0,
-              "fats_grams": 14
+              "name": "Gluten-Free Bread with Olive Oil",
+              "calories": 200,
+              "protein": 5,
+              "carbs": 20,
+              "fats": 15
             }
           ],
-          "total_calories": 505,
-          "description": "Grilled pork chops with asparagus and coconut oil",
-          "ingredients": [
-            "Pork Chops",
-            "Asparagus",
-            "Coconut Oil"
-          ]
+          "total_calories": 700,
+          "description": "A nutritious dinner to support muscle growth and recovery.",
+          "ingredients": ["Baked Salmon", "Sweet Potato", "Green Beans", "Gluten-Free Bread", "Olive Oil"]
+        },
+        {
+          "meal_name": "Snack",
+          "items": [
+            {
+              "name": "Apple Slices with Almond Butter",
+              "calories": 150,
+              "protein": 4,
+              "carbs": 15,
+              "fats": 8
+            }
+          ],
+          "total_calories": 150,
+          "description": "A healthy snack to curb hunger.",
+          "ingredients": ["Apple", "Almond Butter"]
         }
       ]
     }
-  ]
+  ],
+  "requested_meals_per_day": 4
 }

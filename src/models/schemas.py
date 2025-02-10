@@ -19,20 +19,6 @@ class FlavorPreferences(BaseModel):
     sweet: bool
     savory: bool
 
-class UserProfile(BaseModel):
-    name: str
-    age: int
-    gender: str
-    weight: float
-    height: float
-    activity_level: str
-    goal: str
-    target_weight: float
-    meals_per_day: int
-    medical_conditions: List[str]
-    allergies: List[str]
-    dietary_preferences: List[str]
-
 class MealDetails(BaseModel):
     items: List[str] = []
     total_calories: float = 0
@@ -49,9 +35,22 @@ class PersonalizationGuidelines(BaseModel):
     alternative_meal_strategy: str
     feedback_mechanism: str
 
+class UserProfile(BaseModel):
+    name: str
+    age: int
+    gender: str
+    weight: float
+    height: float
+    activity_level: str
+    goal: str
+    target_weight: float
+    meals_per_day: int
+    medical_conditions: List[str]
+    allergies: List[str]
+    dietary_preferences: List[str]
+
 class DataUser(BaseModel):
     user_profile: UserProfile
-
 
 
 class ReplaceMealRequest(BaseModel):

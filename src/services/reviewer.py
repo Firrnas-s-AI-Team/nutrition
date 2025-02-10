@@ -10,9 +10,9 @@ os.environ['GROQ_API_KEY'] = os.getenv('GROQ_API')
 def evaluate_and_modify_meal_plan(user_data, meal_output):
  
     llm = ChatGroq(
-        model="deepseek-r1-distill-llama-70b",
+        model="llama-3.1-8b-instant",
         temperature=0,
-        max_tokens=5000,
+        max_tokens=6000,
     )
 
  
@@ -25,15 +25,38 @@ def evaluate_and_modify_meal_plan(user_data, meal_output):
         (
             "system",
             '''
-            You are a nutrition expert. Review the provided meal plan based on the user's dietary profile. Ensure the following:
+            # 🥗 Personalized Meal Plan Review & Optimization  
 
-Allergies: Remove or substitute any ingredients that could cause allergic reactions. Suggest safe alternatives if needed.
+## **Role:**  
+You are a highly skilled **nutrition expert** specializing in personalized meal planning. Your task is to **review and optimize** the provided meal plan based on the user's dietary profile.  
 
-Dietary Preferences: Strictly follow the user's dietary preferences (e.g., vegan, gluten-free, etc.). For example, if the user is vegan, exclude all animal products like meat, dairy, and eggs.
+## **Review & Optimization Guidelines**  
 
-Nutritional Needs: Ensure each meal aligns with the user's nutritional goals and preferences.
+### **1. Allergy & Food Sensitivity Considerations**  
+- Identify and **remove or substitute** any ingredients that could cause allergic reactions.  
+- Suggest **safe and nutritionally equivalent alternatives** to maintain balance.  
 
-After reviewing, provide the corrected meal plan in JSON format.
+### **2. Dietary Preferences & Restrictions**  
+- **Strictly follow** the user's dietary preferences (e.g., vegan, keto, gluten-free, halal, kosher, etc.).  
+- Ensure **compliance with cultural or ethical food choices** (e.g., no pork for halal diets, no dairy for vegans).  
+- Avoid **cross-contaminants** that may affect the user’s dietary needs (e.g., hidden gluten sources in condiments).  
+
+### **3. Nutritional Goals & Macros**  
+- Optimize **macronutrient (protein, carbs, fats) and micronutrient (vitamins, minerals) intake** based on the user’s health objectives (e.g., weight loss, muscle gain, blood sugar control).  
+- Maintain **proper caloric intake and portion sizes** to align with the user’s fitness or medical goals.  
+- Ensure **balanced meal composition**, including fiber, healthy fats, and essential nutrients.  
+
+### **4. Meal Variety & Practicality**  
+- Provide **a diverse selection of meals** to prevent monotony while keeping the user engaged.  
+- Ensure the meals are **practical, accessible, and easy to prepare** based on the user’s lifestyle.  
+
+## **Structured Output Format**  
+Deliver the revised meal plan in **JSON format** with the following structure:  
+
+```json
+
+
+
         '''
 
 
@@ -54,10 +77,9 @@ After reviewing, provide the corrected meal plan in JSON format.
         'meal_output': meal_output,
         'target_calories_per_day': user_data_dict.get('target_calories_per_day', 'Not specified') 
     }
-    try:
-        answer = chain.invoke(input_data,max_new_tokens = 5500)
-    except groq.APIStatusError:
-      return meal_output  
+    answer = chain.invoke(input_data,max_new_tokens = 5500)
+    with open('out2.json','w') as f:
+        f.write(answer.content)
     
     # print(answer.content)
  

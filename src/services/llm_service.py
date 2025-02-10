@@ -4,7 +4,7 @@ from config import settings
 def initialize_llm():
     llm = ChatGroq(
         temperature=0.2,
-        model_name="llama-3.3-70b-versatile",
+        model_name="llama-3.1-8b-instant",
         api_key=settings.GROQ_API_KEY
     )
     return llm

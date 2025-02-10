@@ -1,138 +1,30 @@
 {
-    "target_calories_per_day": "",
-    "target_water_intake_liters": "",
-    "BMI": "",
-    "days": [
+  "target_calories_per_day": "",
+  "target_water_intake_liters": "",
+  "BMI": "",
+  "days": [
       {
-        "day": "",
-        "meals": [
-          {
-            "meal_name": "",
-            "items": [
+          "day": "",
+          "meals": [
               {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
+                  "meal_name": "",
+                  "items": [
+                      {"name": "", "calories": "", "protein": "", "carbs": "", "fats": ""},
+                      {"name": "", "calories": "", "protein": "", "carbs": "", "fats": ""}
+                  ],
+                  "total_calories": "",
+                  "description": "",
+                  "ingredients": ["", "", ""]
               },
               {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
+                  "meal_name": "",
+                  "items": [{"name": "", "calories": "", "protein": "", "carbs": "", "fats": ""}],
+                  "total_calories": "",
+                  "description": "",
+                  "ingredients": ["", "", ""]
               }
-            ],
-            "total_calories": "",
-            "description": "",
-            "ingredients": [
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "meal_name": "",
-            "items": [
-              {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
-              }
-            ],
-            "total_calories": "",
-            "description": "",
-            "ingredients": [
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "meal_name": "",
-            "items": [
-              {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
-              }
-            ],
-            "total_calories": "",
-            "description": "",
-            "ingredients": [
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
-      },
-      {
-        "day": "",
-        "meals": [
-          {
-            "meal_name": "",
-            "items": [
-              {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
-              }
-            ],
-            "total_calories": "",
-            "description": "",
-            "ingredients": [
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "meal_name": "",
-            "items": [
-              {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
-              }
-            ],
-            "total_calories": "",
-            "description": "",
-            "ingredients": [
-              "",
-              "",
-              ""
-            ]
-          },
-          {
-            "meal_name": "",
-            "items": [
-              {
-                "name": "",
-                "calories": "",
-                "protein_grams": "",
-                "carbs_grams": "",
-                "fats_grams": ""
-              }
-            ],
-            "total_calories": "",
-            "description": "",
-            "ingredients": [
-              "",
-              "",
-              ""
-            ]
-          }
-        ]
+          ]
       }
-    ]
-  }
+  ],
+  "requested_meals_per_day": ""
+}
